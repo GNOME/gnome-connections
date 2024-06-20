@@ -98,6 +98,9 @@ namespace Connections {
         public override void startup () {
             base.startup ();
 
+            Environment.set_prgname (application_id);
+            Gtk.Window.set_default_icon_name (application_id);
+
             Hdy.init ();
             Hdy.StyleManager.get_default ().color_scheme = PREFER_DARK;
         }
