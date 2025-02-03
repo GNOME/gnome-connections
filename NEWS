@@ -1,3 +1,26 @@
+48.beta - 3 Feb, 2025
+=====================
+
+Changes since 47.0
+
+  - Move GNOME/connections to GNOME/gnome-connections
+  - Start using GNOME Release Service
+  - Fix key events in fullscreen mode
+  - Fix scrolling for VNC connections
+  - Add GIT_SUBMODULE_STRATEGY recursive to bundle subprojects
+  - Update gtk-frdp:
+     - Queue drawing of the area from the main thread
+  - Expand and modernize metainfo
+
+  - Added/Updated translations:
+     - Brazilian-Portuguese
+     - Czech
+     - Dutch
+     - Serbian
+     - Serbian-Latin
+     - Thai
+
+
 47.0 - 13 Sep, 2024
 =====================
 
