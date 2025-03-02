@@ -1,7 +1,7 @@
 # Korean translation for gnome-connections.
 # Copyright (C) 2020 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
-# DaeHyun Sung <sungdh86+git@gmail.com>, 2020, 2022-2024.
+# DaeHyun Sung <sungdh86+git@gmail.com>, 2020, 2022-2025.
 # Changwoo Ryu <cwryu@debian.org>, 2021.
 # Seong-ho Cho <shcho@gnome.org>, 2024. (contributed temporarily)
 #
@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-07-31 16:56+0000\n"
-"PO-Revision-Date: 2024-08-27 15:15+0900\n"
+"POT-Creation-Date: 2025-02-10 19:23+0000\n"
+"PO-Revision-Date: 2025-03-02 04:32+0900\n"
 "Last-Translator: DaeHyun Sung <sungdh86+git@gmail.com>\n"
 "Language-Team: Korean <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -20,17 +20,24 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
+#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "연결"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+# 원문 오류: 세미콜론으로 끝나야 함
+#: data/org.gnome.Connections.desktop.in:8
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"vnc;rdp;remote;원격;desktop;데스크톱;windows;윈도우;support;지원;access;접"
+"근;view;보기"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "다른 데스크톱을 보거나 사용합니다"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -41,7 +48,7 @@ msgstr ""
 "류의 데스크톱 운영 체제에 있는 컨텐트나 소프트웨어를 사용할 때 훌륭한 방식입"
 "니다. 도움이 필요한 다른 사용자를 지원할 때에도 사용할 수 있습니다."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -49,7 +56,7 @@ msgstr ""
 "리눅스와 윈도우 데스크톱 포함, 여러가지 종류의 운영 체제에 연결할 수 있습니"
 "다. 또 가상 머신에 연결할 수도 있습니다."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -58,16 +65,9 @@ msgstr ""
 "스크톱에서 이 중의 하나를 켜야 합니다."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "그놈 프로젝트"
-
-# 원문 오류: 세미콜론으로 끝나야 함
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;원격;desktop;데스크톱;windows;윈도우;support;지원;access;접"
-"근;view;보기"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -77,7 +77,7 @@ msgstr "원격 데스크톱(VNC) 파일"
 msgid "Delete"
 msgstr "삭제"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "속성"
 
@@ -115,7 +115,7 @@ msgstr "주어진 PATH에서 .vnc 또는 .rdp 파일 열기"
 
 #: src/application.vala:233
 msgid "PATH"
-msgstr ""
+msgstr "경로"
 
 #: src/application.vala:234
 msgid "Open in full screen"
@@ -172,7 +172,7 @@ msgid ""
 msgstr "“%s” 원격 서버에 연결을 계속하려면 사용자 이름과 암호가 필요합니다."
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -190,11 +190,11 @@ msgstr "닫기(_C)"
 msgid "Resize desktop"
 msgstr "데스크톱 크기조절"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "스크린샷 찍기"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "전체 화면"
 
@@ -214,7 +214,7 @@ msgstr "RDP (윈도우 연결 표준)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (리눅스 연결 표준)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "도움말"
 
@@ -406,35 +406,35 @@ msgstr "연결 끊기"
 msgid "Keyboard shortcuts"
 msgstr "키보드 바로 가기"
 
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "키보드 바로 가기"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "연결 정보"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + 백스페이스"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
