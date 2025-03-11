@@ -87,8 +87,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://pub.freerdp.com/releases/freerdp-3.6.3.tar.xz",
-                    "sha256" : "6704e9e63fd1823070814ba648c65f591f06468b3b433ea99807bd2dee550b92"
+                    "url" : "https://pub.freerdp.com/releases/freerdp-3.11.0.tar.xz",
+                    "sha256" : "f955b9f284bd67510c931c93a78c0d85aead283afc46399e25cdf13a3f824969"
                 }
             ]
         },
