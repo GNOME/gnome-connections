@@ -1,3 +1,16 @@
+48.0 - 14 Mar, 2025
+=====================
+
+Changes since 48.rc
+
+  - Update gtk-frdp:
+     - Fix keyboard layout in Flatpak
+  - Request FreeRDP 3.11.0 for Flatpak
+
+  - Added/Updated translations:
+     - Korean
+     - Norwegian-Bokmål
+
 48.rc - 28 Feb, 2025
 =====================
 
