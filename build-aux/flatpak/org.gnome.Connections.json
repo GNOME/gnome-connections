@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Connections.Devel",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-connections",
     "finish-args": [
@@ -87,8 +87,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://pub.freerdp.com/releases/freerdp-3.12.0.tar.xz",
-                    "sha256" : "af81a260a0d8fe04c81963c63bb4c2dfbfcd63509a0dd60539e0bb1233041ba8"
+                    "url" : "https://pub.freerdp.com/releases/freerdp-3.14.0.tar.xz",
+                    "sha256" : "d190ffb2b5d1b08e407bc5ac85e76b0a85f0f2e82f9e9f1654ca6d8643be4f64"
                 }
             ]
         },
