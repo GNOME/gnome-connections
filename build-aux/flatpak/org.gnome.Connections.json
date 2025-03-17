@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Connections.Devel",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "master",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-connections",
     "finish-args": [
