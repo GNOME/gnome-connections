@@ -238,7 +238,7 @@ namespace Connections {
             password_row.set_visible (need_password);
             domain_row.set_visible (need_domain);
 
-            authentication_text.label = _("The remote server “%s” requires a username and password to continue to connect.").printf (connection_name);
+            authentication_text.label = _("The remote server “%s” requires the following authentication details to continue to connect:").printf (connection_name);
 
             mutex.unlock ();
 
