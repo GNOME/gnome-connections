@@ -61,6 +61,7 @@ connections_sources += gnome.compile_resources('connections-resources',
 
 c_args = [
     '-DGETTEXT_PACKAGE="gnome-connections"',
+    '-w',
 ]
 
 vala_args = [
