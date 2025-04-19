@@ -106,6 +106,7 @@ namespace Connections {
             base.activate ();
 
             if (main_window != null) {
+                main_window.present ();
                 return;
             }
 
