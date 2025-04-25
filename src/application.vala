@@ -39,6 +39,7 @@ namespace Connections {
         }
 
         construct {
+            application_id = Config.APPLICATION_ID;
             windows = new List<Connections.Window> ();
             model = new GLib.ListStore (typeof (Connections.Connection));
         }
@@ -46,7 +47,6 @@ namespace Connections {
         public Application () {
             application = this;
 
-            application_id = Config.APPLICATION_ID;
             flags |= ApplicationFlags.HANDLES_COMMAND_LINE | ApplicationFlags.HANDLES_OPEN;
 
             settings = new GLib.Settings ("org.gnome.Connections");
