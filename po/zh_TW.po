@@ -7,10 +7,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections gnome-3-38\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-05-19 11:45+0000\n"
-"PO-Revision-Date: 2024-07-27 09:13+0000\n"
-"Last-Translator: Chao-Hsiung Liao <pesder@mail.edu.tw>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-03-28 12:56+0000\n"
+"PO-Revision-Date: 2025-05-13 14:40+0800\n"
+"Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://darkbear.mercusysddns.com/"
 "projects/gnome-45/connections-po-ui-gnome-46/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -18,19 +19,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:112
+#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "連線"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#: data/org.gnome.Connections.desktop.in:8
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"vnc;rdp;remote;desktop;windows;support;access;view;遠端桌面連線;客戶端;"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "檢視和使用其他桌面"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -40,13 +46,13 @@ msgstr ""
 "《連線》讓您能連線並使用其他桌面，可以方便地存取不同桌面作業系統上的內容或軟"
 "體，也能為需要求助的人提供支援。"
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr "除了能連線到 Linux 及 Windows 桌面，也能連線到虛擬主機。"
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -55,14 +61,9 @@ msgstr ""
 "述其中一種通訊協定。"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "GNOME 專案"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;desktop;windows;support;access;view;遠端桌面連線;客戶端;"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -72,7 +73,7 @@ msgstr "遠端桌面 (VNC) 檔案"
 msgid "Delete"
 msgstr "刪除"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:220
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "屬性"
 
@@ -112,6 +113,10 @@ msgstr "要連線的 URL"
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "指定要開啟的 .vnc 或 .rdp 檔路徑 PATH"
 
+#: src/application.vala:233
+msgid "PATH"
+msgstr "路徑"
+
 #: src/application.vala:234
 msgid "Open in full screen"
 msgstr "以全螢幕開啟"
@@ -135,7 +140,7 @@ msgstr "已擷取螢幕快照"
 msgid "Open"
 msgstr "開啟"
 
-#: src/connection.vala:199
+#: src/connection.vala:205
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "核對失敗：%s"
@@ -146,7 +151,8 @@ msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
 "machine it claims to be, please verify the fingerprints match. This process "
 "is only done once."
-msgstr "第一次連接到「%s」。為確保您連接到的機器正確無誤，請驗證指紋是否相符。這個過"
+msgstr ""
+"第一次連接到「%s」。為確保您連接到的機器正確無誤，請驗證指紋是否相符。這個過"
 "程只進行一次。"
 
 #: src/dialogs.vala:201
@@ -164,7 +170,7 @@ msgid ""
 msgstr "遠端伺服器「%s」需要使用者名稱和密碼才能繼續連線。"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:128
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -182,11 +188,11 @@ msgstr "關閉(_C)"
 msgid "Resize desktop"
 msgstr "調整桌面大小"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:212
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "擷取螢幕快照"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:216
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "全螢幕"
 
@@ -206,7 +212,7 @@ msgstr "RDP（連線到 Windows）"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC（連線到 Linux 和 Mac）"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:201
+#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "求助"
 
@@ -235,7 +241,7 @@ msgstr "開啟連線"
 msgid "Verify"
 msgstr "檢驗"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:612
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
 msgid "Cancel"
 msgstr "取消"
 
@@ -252,44 +258,48 @@ msgid ""
 "\"certutil.exe -hashfile file SHA256\".\n"
 "\n"
 "If GNOME is used on the connected endpoint,\n"
-"the fingerprint can be verified in the Settings,\n"
-"<b>Sharing>Remote Desktop>Verify Encryption</b>."
+"the fingerprint can be verified in the <b>Settings>Sharing</b>\n"
+"panel or <b>Settings>System</b> panel under\n"
+"<b>Remote Desktop>Verify Encryption</b>."
 msgstr ""
-"在 Windows 上執行 certlm.msc 或 certmgr.msc\n"
-"並複製憑證\n"
-"<b>遠端桌面>憑證</b>到檔案。\n"
-"然後透過取得其指紋\n"
-"“certutil.exe -hashfile file SHA256”。\n"
+"在 Windows 系統中執行 certlm.msc 或 certmgr.msc，\n"
+"並將位於 <b>遠端桌面>憑證</b> 的憑證\n"
+"複製儲存成檔案。\n"
+"接著使用指令\n"
+"「certutil.exe -hashfile file SHA256」\n"
+"取得其指紋。\n"
 "\n"
-"如果在連接的端點上使用 GNOME，\n"
-"可以在設定中驗證指紋，\n"
-"<b>共用>遠端桌面>驗證加密</b>。"
+"若連線端點使用 GNOME 桌面環境，\n"
+"可以在 <b>設定>分享</b> 面板\n"
+"或 <b>設定>系統</b> 面板中的\n"
+"<b>遠端桌面>驗證加密</b> 項目下\n"
+"驗證指紋。"
 
-#: src/ui/dialog.ui:291
+#: src/ui/dialog.ui:292
 msgid "Unexpected Certificate"
 msgstr "未預期的憑證"
 
-#: src/ui/dialog.ui:333
+#: src/ui/dialog.ui:334
 msgid "Delete Local Certificate"
 msgstr "刪除本機憑證"
 
-#: src/ui/dialog.ui:386
+#: src/ui/dialog.ui:387
 msgid "Authentication Required"
 msgstr "需要核對"
 
-#: src/ui/dialog.ui:437
+#: src/ui/dialog.ui:438
 msgid "Username…"
 msgstr "使用者名稱…"
 
-#: src/ui/dialog.ui:465
+#: src/ui/dialog.ui:466
 msgid "Password…"
 msgstr "密碼…"
 
-#: src/ui/dialog.ui:515
+#: src/ui/dialog.ui:516
 msgid "Domain…"
 msgstr "網域…"
 
-#: src/ui/dialog.ui:536
+#: src/ui/dialog.ui:537
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -297,7 +307,7 @@ msgstr ""
 "網域欄位通常是選擇性的，可以\n"
 "留空。"
 
-#: src/ui/dialog.ui:638
+#: src/ui/dialog.ui:639
 msgid "Authenticate"
 msgstr "核對"
 
@@ -317,7 +327,7 @@ msgstr "存取其他桌面"
 msgid ""
 "Connections allows viewing the screens of other desktops. They can also be "
 "controlled using the pointer and keyboard."
-msgstr "使用《連線》檢視其他桌面螢幕。還能用滑鼠與鍵盤控制它們！"
+msgstr "使用《連線》檢視其他桌面螢幕，還能用滑鼠指標與鍵盤控制它們。"
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -344,7 +354,7 @@ msgstr "首先建立您的第一個連線"
 #: src/ui/onboarding-dialog.ui:75
 msgid ""
 "To begin, you will need the address of the computer you want to connect to."
-msgstr ""
+msgstr "首先，你需要知道欲連線電腦的位址。"
 
 # 備忘錄：
 # 加入備忘錄
@@ -389,7 +399,6 @@ msgid "Go Back"
 msgstr "返回"
 
 #: src/ui/topbar.ui:125
-#, fuzzy
 msgid "Display Menu"
 msgstr "顯示器選單"
 
@@ -401,35 +410,35 @@ msgstr "中斷連線"
 msgid "Keyboard shortcuts"
 msgstr "鍵盤捷徑鍵"
 
-#: src/ui/topbar.ui:197
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤捷徑鍵"
 
-#: src/ui/topbar.ui:205
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "關於連線"
 
-#: src/ui/topbar.ui:234
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:241
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:248
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -442,9 +451,8 @@ msgid "View only"
 msgstr "僅檢視"
 
 #: src/ui/vnc-preferences.ui:66
-#, fuzzy
 msgid "Show local pointer"
-msgstr "顯示本機滑鼠指標"
+msgstr "顯示本機指標"
 
 #: src/ui/vnc-preferences.ui:73
 msgid "Enable audio"
@@ -467,18 +475,16 @@ msgid "Scale mode"
 msgstr "縮放模式"
 
 #: src/ui/window.ui:52
-#, fuzzy
-#| msgid "Just hit the <b>+</b> button to make your first connection."
 msgid "Click the add button to create your first connection"
-msgstr "按下「+」按鈕開始您的首次連線。"
+msgstr "按下加入按鈕建立您的首次連線"
 
-#: src/vnc-connection.vala:149
+#: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
 msgstr "無法解析檔案"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:157 src/vnc-connection.vala:162
-#: src/vnc-connection.vala:167 src/vnc-connection.vala:172
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
+#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "VNC 檔案遺失金鑰「%s」"
