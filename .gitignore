@@ -2,3 +2,4 @@
 *.patch
 *.swp
 _build/
+.vscode
