@@ -19,6 +19,8 @@ connections_sources = [
   'vnc-connection.vala',
   'vnc-preferences-window.vala',
   'window.vala',
+  'spice-connection.vala',
+  'spice-preferences-window.vala',
 ]
 
 cc = meson.get_compiler ('c')
@@ -34,6 +36,8 @@ connections_deps = [
   dependency('libhandy-1', version: '>= 1.6.0'),
   dependency ('libxml-2.0', version: '>= 2.7.8'),
   dependency ('libsecret-1'),
+  dependency ('spice-client-gtk-3.0'),
+  valac.find_library ('spice-client-gtk-3.0'),
 ]
 
 gtk_frdp_dep = dependency('gtk-frdp-0.2', required: false)

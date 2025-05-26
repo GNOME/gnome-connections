@@ -11,6 +11,7 @@
     <file>ui/notification.ui</file>
     <file>ui/rdp-preferences.ui</file>
     <file>ui/vnc-preferences.ui</file>
+    <file>ui/spice-preferences.ui</file>
     <file>ui/style.css</file>
     <file>ui/topbar.ui</file>
     <file>ui/window.ui</file>

@@ -37,6 +37,7 @@
         <item><p>rdp:// to connect to a remote <app>RDP</app> server.</p></item>
         <item><p>vnc:// to connect to a remote <app>vino</app> or <app>VNC</app>
         server.</p></item>
+        <item><p>spice:// to connect to a remote <app>SPICE</app> server.</p></item>
       </list>
       <note style="info">
         <p>The address and port number should be available from the

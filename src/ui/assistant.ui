@@ -73,6 +73,15 @@
                   <signal name="toggled" handler="on_url_entry_changed"/>
                 </object>
               </child>
+
+              <child>
+                <object class="GtkRadioButton" id="spice_radio_button">
+                  <property name="visible">True</property>
+                  <property name="group">rdp_radio_button</property>
+                  <property name="label" translatable="yes">SPICE (for connecting to remote VMs)</property>
+                  <signal name="toggled" handler="on_url_entry_changed"/>
+                </object>
+              </child>
             </object>
           </child>
 

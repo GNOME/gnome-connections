@@ -30,9 +30,11 @@ namespace Connections {
         private unowned Gtk.RadioButton rdp_radio_button;
         [GtkChild]
         private unowned Gtk.RadioButton vnc_radio_button;
+        [GtkChild]
+        private unowned Gtk.RadioButton spice_radio_button;
 
         private bool uri_has_supported_scheme (string uri) {
-            return uri.has_prefix ("rdp://") || uri.has_prefix ("vnc://");
+            return uri.has_prefix ("rdp://") || uri.has_prefix ("vnc://") || uri.has_prefix ("spice://");
         }
 
         [GtkCallback]
@@ -47,6 +49,8 @@ namespace Connections {
             if (!uri_has_supported_scheme (address)) {
                 if (rdp_radio_button.get_active ())
                     address = "rdp://" + address;
+                else if (spice_radio_button.get_active ())
+                    address = "spice://" + address;
                 else
                     address = "vnc://" + address;
             }
@@ -63,6 +67,7 @@ namespace Connections {
 
             rdp_radio_button.set_active (uri.scheme == "rdp");
             vnc_radio_button.set_active (uri.scheme == "vnc");
+            spice_radio_button.set_active (uri.scheme == "spice");
 
             create_button.sensitive = uri.server != null;
         }
@@ -73,7 +78,7 @@ namespace Connections {
 
             // Prefixes the uri string with the selected protocol (when protocol isn't explicit)
             if (!uri_has_supported_scheme (uri)) {
-                var scheme = rdp_radio_button.get_active () ? "rdp://" : "vnc://";
+                var scheme = rdp_radio_button.get_active () ? "rdp://" : spice_radio_button.get_active () ? "spice://" : "vnc://";
                 uri = scheme + uri;
             }
 
