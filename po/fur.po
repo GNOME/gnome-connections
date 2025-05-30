@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-02-09 11:56+0000\n"
-"PO-Revision-Date: 2024-02-11 04:58+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-05-10 15:25+0000\n"
+"PO-Revision-Date: 2025-05-30 09:32+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -16,19 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Editor: HaiPO 1.4 beta\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:112
+#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Conessions"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#: data/org.gnome.Connections.desktop.in:8
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;lontan;esterni;scritori;windows;supuart;acès;visualizâ"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Visualize e dopre i altris scritoris"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -40,7 +45,7 @@ msgstr ""
 "sistemis operatîfs par scrivanie. Al è pussibil doprâlu ancje come mût par "
 "da supuart a utents che a àn bisugne di jutori."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -48,7 +53,7 @@ msgstr ""
 "Al è pussibil conetisi a une rie di diviers sistemis operatîfs, includûts i "
 "scritoris Linux e Windows. Tu puedis ancje conetiti a machinis virtuâls."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -56,13 +61,10 @@ msgstr ""
 "Conessions al dopre i protocoi VNC e RDP, che a son supuartâts in misure "
 "bondante. Si à di abilitâ un di chescj sul scritori dulà che si vûl conetisi."
 
-#: data/org.gnome.Connections.appdata.xml.in:43
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "Il progjet GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr "vnc;rdp;lontan;esterni;scritori;windows;supuart;acès;visualizâ"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -72,13 +74,13 @@ msgstr "File di scritori lontan (VNC)"
 msgid "Delete"
 msgstr "Elimine"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:220
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "Proprietâts"
 
 #: src/application.vala:88
 msgid "translator-credits"
-msgstr "Fabio Tomat, <f.t.public@gmail.com>, 2024"
+msgstr "Fabio Tomat, <f.t.public@gmail.com>, 2025"
 
 #: src/application.vala:89 src/application.vala:242
 msgid "A remote desktop client for the GNOME desktop environment"
@@ -106,6 +108,10 @@ msgstr "URL dulà conetisi"
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Vierç il file .vnc o .rdp al PERCORS indicât"
 
+#: src/application.vala:233
+msgid "PATH"
+msgstr "PERCORS"
+
 #: src/application.vala:234
 msgid "Open in full screen"
 msgstr "Vierç a plen visôr"
@@ -129,7 +135,7 @@ msgstr "Videade caturade"
 msgid "Open"
 msgstr "Vierç"
 
-#: src/connection.vala:199
+#: src/connection.vala:205
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Autenticazion falide: %s"
@@ -157,14 +163,14 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
 msgstr ""
-"Il servidôr lontan “%s” al à bisugne di un non utent e de password par "
-"continuâ la conession."
+"Il servidôr lontan “%s” al à bisugne di chescj detais di autenticazion par "
+"continuâ la conession:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:126
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -182,11 +188,11 @@ msgstr "_Siere"
 msgid "Resize desktop"
 msgstr "Ridimensione scritori"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:212
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "Cature schermade"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:216
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "Plen visôr"
 
@@ -206,7 +212,7 @@ msgstr "RDP (standard par conetisi a Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (standard par conetisi a Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:201
+#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Jutori"
 
@@ -226,6 +232,7 @@ msgstr "_Password"
 msgid "Sign In"
 msgstr "Jentre"
 
+#. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
 msgid "Open Connection"
 msgstr "Vierç conession"
@@ -234,7 +241,7 @@ msgstr "Vierç conession"
 msgid "Verify"
 msgstr "Verifiche"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:612
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
 msgid "Cancel"
 msgstr "Anule"
 
@@ -251,8 +258,9 @@ msgid ""
 "\"certutil.exe -hashfile file SHA256\".\n"
 "\n"
 "If GNOME is used on the connected endpoint,\n"
-"the fingerprint can be verified in the Settings,\n"
-"<b>Sharing>Remote Desktop>Verify Encryption</b>."
+"the fingerprint can be verified in the <b>Settings>Sharing</b>\n"
+"panel or <b>Settings>System</b> panel under\n"
+"<b>Remote Desktop>Verify Encryption</b>."
 msgstr ""
 "Sot Windows eseguìs certlm.msc o certmgr.msc\n"
 "e copie il certificât di\n"
@@ -261,35 +269,34 @@ msgstr ""
 "\"certutil.exe -hashfile file SHA256\".\n"
 "\n"
 "Se GNOME al ven doprât come destinazion finâl de\n"
-"conession, tu puedis verifica l'impornt tes Impostazions,\n"
-"<b>Sharing>Remote Desktop>Verifiche cifradure</b>."
+"conession, tu puedis verifica l'impront in <b>Impostazions>Condivision</b>\n"
+"<b>Scritori lontan>Verifiche cifradure</b>."
 
-#: src/ui/dialog.ui:291
+#: src/ui/dialog.ui:292
 msgid "Unexpected Certificate"
 msgstr "Certificât inspietât"
 
-#: src/ui/dialog.ui:333
+#: src/ui/dialog.ui:334
 msgid "Delete Local Certificate"
 msgstr "Elimine il certificât locâl"
 
-#: src/ui/dialog.ui:386
+#: src/ui/dialog.ui:387
 msgid "Authentication Required"
 msgstr "Autenticazion necessarie"
 
-#: src/ui/dialog.ui:437
+#: src/ui/dialog.ui:438
 msgid "Username…"
 msgstr "Non utent…"
 
-#: src/ui/dialog.ui:465
-#| msgid "_Password"
+#: src/ui/dialog.ui:466
 msgid "Password…"
 msgstr "Password…"
 
-#: src/ui/dialog.ui:515
+#: src/ui/dialog.ui:516
 msgid "Domain…"
 msgstr "Domini…"
 
-#: src/ui/dialog.ui:536
+#: src/ui/dialog.ui:537
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -297,7 +304,7 @@ msgstr ""
 "Il cjamp dal domini di solit al è facoltatîf e tu puedis\n"
 "lassâlu vueit."
 
-#: src/ui/dialog.ui:638
+#: src/ui/dialog.ui:639
 msgid "Authenticate"
 msgstr "Autentichiti"
 
@@ -400,35 +407,35 @@ msgstr "Disconet"
 msgid "Keyboard shortcuts"
 msgstr "Scurtis di tastiere"
 
-#: src/ui/topbar.ui:197
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "Scurtis di tastiere"
 
-#: src/ui/topbar.ui:205
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "Informazions su Conessions"
 
-#: src/ui/topbar.ui:234
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:241
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Canc"
 
-#: src/ui/topbar.ui:248
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -468,13 +475,13 @@ msgstr "Modalitât ridimensionament"
 msgid "Click the add button to create your first connection"
 msgstr "Fâs clic sul boton par zontâ par creâ la tô prime conession"
 
-#: src/vnc-connection.vala:149
+#: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
 msgstr "Impussibil analizâ il file"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:157 src/vnc-connection.vala:162
-#: src/vnc-connection.vala:167 src/vnc-connection.vala:172
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
+#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "Al file VNC al mancje la clâf “%s”"
