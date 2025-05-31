@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-08-19 13:44+0000\n"
-"PO-Revision-Date: 2024-08-21 23:13+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-05-10 15:25+0000\n"
+"PO-Revision-Date: 2025-05-31 03:56+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
@@ -17,19 +18,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
+#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Connections"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#: data/org.gnome.Connections.desktop.in:8
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"vnc;rdp;remote;desktop;windows;support;access;view;аддалены;працоўны;стол;"
+"падтрымка;доступ;прагляд"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Прагляд і выкарыстанне іншых працоўных сталоў"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -42,7 +49,7 @@ msgstr ""
 "выкарыстоўваць для забеспячэння падтрымкі тых карыстальнікаў, якім можа "
 "спатрэбіцца дапамога."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -50,7 +57,7 @@ msgstr ""
 "Шэраг аперацыйных сістэм да якіх магчыма падлучыцца, у іх ліку Linux і "
 "Windows. А таксама можна падлучацца да віртуальных машын."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -59,13 +66,9 @@ msgstr ""
 "іх павінен быць уключаны на камп'ютары, да якога вы збіраецеся далучыцца."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "Праект GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr "vnc;rdp;аддалены;працоўны;стол;windows;падтрымка;доступ;прагляд"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -75,7 +78,7 @@ msgstr "Файл (VNC) аддаленага працоўнага стала"
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "Уласцівасці"
 
@@ -166,14 +169,14 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
 msgstr ""
 "Аддалены сервер «%s» патрабуе імя карыстальніка і пароль, каб працягваць "
-"злучэнне."
+"злучэнне:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -191,11 +194,11 @@ msgstr "_Закрыць"
 msgid "Resize desktop"
 msgstr "Змяніць памер працоўнага стала"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "Зрабіць здымак экрана"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "На ўвесь экран"
 
@@ -216,7 +219,7 @@ msgstr "RDP (стандартнае падлучэнне для Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (стандартнае падлучэнне для Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Даведка"
 
@@ -414,35 +417,35 @@ msgstr "Адлучыцца"
 msgid "Keyboard shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "Пра Connections"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
