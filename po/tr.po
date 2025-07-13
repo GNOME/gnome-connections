@@ -4,14 +4,15 @@
 #
 # Burhan Keleş <klsburhan@hotmail.com>, 2021.
 # Sabri Ünal <yakushabb@gmail.com>, 2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2020-2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2020-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections gnome-3-38\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-08-24 14:59+0000\n"
-"PO-Revision-Date: 2024-08-24 08:00+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-05-10 15:25+0000\n"
+"PO-Revision-Date: 2025-07-13 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -21,17 +22,24 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
+#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Bağlantılar"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+# https://gitlab.gnome.org/GNOME/glib/-/issues/443 hatası sebebiyle uygulama adı dahil ingilizce hallerini de koruyalım.
+#: data/org.gnome.Connections.desktop.in:8
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"connections;vnc;rdp;remote;desktop;windows;support;access;view;uzak;masaüstü;"
+"destek;erişim;görüntüleme"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Diğer masaüstlerini görüntüle ve kullan"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -42,7 +50,7 @@ msgstr ""
 "başka masaüstü işletim sistemindeki içeriğe veya yazılama erişmenin harika "
 "yoludur. Yardım isteyen kullanıcılara destek vermek için de kullanılabilir."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -50,7 +58,7 @@ msgstr ""
 "Linux ve Windows masaüstüleri gibi birçok başka işletim sistemine "
 "bağlanabilirsiniz. Sanal makinelere de bağlanabilirsiniz."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -60,16 +68,9 @@ msgstr ""
 "etkinleştirilmelidir."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
-
-# https://gitlab.gnome.org/GNOME/glib/-/issues/443 hatası sebebiyle uygulama adı dahil ingilizce hallerini de koruyalım.
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"connections;vnc;rdp;remote;desktop;windows;support;access;view;uzak;masaüstü;"
-"destek;erişim;görüntüleme"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -79,15 +80,14 @@ msgstr "Uzak Masaüstü (VNC) dosyası"
 msgid "Delete"
 msgstr "Sil"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "Özellikler"
 
 #: src/application.vala:88
 msgid "translator-credits"
 msgstr ""
-"Emin Tufan Çetin <etcetin@gmail.com>\n"
-"Burhan KELEŞ <klsburhan@hotmail.com>"
+"Emin Tufan Çetin <etcetin@gmail.com>"
 
 #: src/application.vala:89 src/application.vala:242
 msgid "A remote desktop client for the GNOME desktop environment"
@@ -170,21 +170,21 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
 msgstr ""
-"“%s” uzak sunucusu bağlanmaya devam etmek için kullanıcı adı ve parola "
-"gerektirir."
+"“%s” uzak sunucusu bağlanmayı sürdürmek için şu kimlik doğrulama ayrıntılarını "
+"gerektirir:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
 
 #: src/onboarding-dialog.vala:96 src/ui/onboarding-dialog.ui:148
 msgid "_No Thanks"
-msgstr "_Hayır, teşekkürler"
+msgstr "_Hayır, Teşekkürler"
 
 #: src/onboarding-dialog.vala:96
 msgid "_Close"
@@ -195,11 +195,11 @@ msgstr "_Kapat"
 msgid "Resize desktop"
 msgstr "Masaüstünü yeniden boyutlandır"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "Ekran Görüntüsü Çek"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "Tam Ekran"
 
@@ -219,7 +219,7 @@ msgstr "RDP (Windowsʼa bağlantı için standart)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (Linuxʼa bağlantı için standart)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Yardım"
 
@@ -415,35 +415,35 @@ msgstr "Bağlantıyı kes"
 msgid "Keyboard shortcuts"
 msgstr "Klavye kısayolları"
 
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "Bağlantılar Hakkında"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
