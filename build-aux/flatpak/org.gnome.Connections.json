@@ -75,20 +75,21 @@
             "builddir": true,
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                "-DWITH_OPENH264=ON",
+                "-DWITH_OPENH264=OFF",
                 "-DCMAKE_INSTALL_PREFIX=/app",
                 "-DCMAKE_INSTALL_LIBDIR=lib",
                 "-DWITH_WAYLAND:BOOL=ON",
                 "-DCHANNEL_TSMF:BOOL=ON",
                 "-DWITH_FFMPEG:BOOL=OFF",
                 "-DWITH_MANPAGES:BOOL=OFF",
+                "-DWITH_CLIENT_SDL=OFF",
                 "-DWITH_SERVER:BOOL=OFF"
             ],
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://pub.freerdp.com/releases/freerdp-3.11.0.tar.xz",
-                    "sha256" : "f955b9f284bd67510c931c93a78c0d85aead283afc46399e25cdf13a3f824969"
+                    "url" : "https://pub.freerdp.com/releases/freerdp-3.16.0.tar.xz",
+                    "sha256" : "93624312792b18227a0cdab67ace5634edb8bb92e4a9a793cef3b3c142b385cd"
                 }
             ]
         },
