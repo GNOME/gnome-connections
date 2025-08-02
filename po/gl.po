@@ -7,9 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-08-31 14:13+0000\n"
-"PO-Revision-Date: 2024-09-02 19:27+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-08-02 14:57+0000\n"
+"PO-Revision-Date: 2025-08-03 00:05+0200\n"
 "Last-Translator: Fran Dieguez <fran.dieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -17,24 +18,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-DL-Team: gl\n"
 "X-DL-Module: connections\n"
 "X-DL-Branch: master\n"
 "X-DL-Domain: po\n"
 "X-DL-State: Translating\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Conexións"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#: data/org.gnome.Connections.desktop.in:7
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;remoto;escritorio;windows;asistencia;soporte;acceso;ver"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Ver e usar outros escritorios"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -46,7 +51,7 @@ msgstr ""
 "sistemas operativos. Tamén pode usarse como unha forma de fornecer soporte "
 "técnico a quen precise axuda."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -54,7 +59,7 @@ msgstr ""
 "Pode conectarse a distintos sistemas operativos, incluíndo escritorios Linux "
 "e Windows. Tamén pode conectarse a máquinas virtuais."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -63,13 +68,9 @@ msgstr ""
 "destes activados no escritorio ao que quere conectarse."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "O Proxecto de GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr "vnc;rdp;remoto;escritorio;windows;asistencia;soporte;acceso;ver"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -79,49 +80,49 @@ msgstr "Ficheiro de Escritorio Remoto (VNC)"
 msgid "Delete"
 msgstr "Eliminar"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "Propiedades"
 
 #: src/application.vala:88
 msgid "translator-credits"
-msgstr "Fran Diéguez <frandieguez@gnome.org>, 2020-2024"
+msgstr "Fran Diéguez <frandieguez@gnome.org>, 2020-2025"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Un cliente de escritorio remoto para o ambiente de escritorio de GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Non foi posíbel abrir o ficheiro de tipo mime descoñecido %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "A conexión a «%s» foi eliminada"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Desfacer"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "URL á que conectarse"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Abrir ficheiro .vnc ou .rdp no PATH fornecido"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "RUTA"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Abrir a pantalla completa"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Especificou demasiados argumentos de liña de ordes\n"
 
@@ -168,14 +169,14 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
 msgstr ""
-"O servidor remoto «%s» require dun nome de usuario e contrasinal para "
-"continuar a conexión."
+"O servidor remoto «%s» require a seguinte información de autenticación para "
+"continuar coa conexión:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -193,11 +194,11 @@ msgstr "_Pechar"
 msgid "Resize desktop"
 msgstr "Redimensionar o escritorio"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "Tomar captura de pantalla"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
@@ -218,11 +219,15 @@ msgstr "RDP (estándar para conectarse a Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (estándar para conectarse a Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (para conectarse a MV remotas)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Axuda"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Conectar"
 
@@ -414,35 +419,35 @@ msgstr "Desconectarse"
 msgid "Keyboard shortcuts"
 msgstr "Atallos de teclado"
 
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "Atallos de teclado"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "Sobre Conexións"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Retroceso"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Supr"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
