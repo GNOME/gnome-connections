@@ -8,32 +8,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
-"issues\n"
-"POT-Creation-Date: 2025-03-28 12:38+0000\n"
-"PO-Revision-Date: 2025-03-28 16:56+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
+"POT-Creation-Date: 2025-08-01 16:55+0000\n"
+"PO-Revision-Date: 2025-08-02 16:56+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: data/org.gnome.Connections.desktop.in:3
-#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Povezovalnik"
 
-#: data/org.gnome.Connections.desktop.in:8
+#: data/org.gnome.Connections.desktop.in:7
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;desktop;windows;support;access;view;oddaljeno;souporaba;"
-"podpora;okno;namizje;pogled;dostop"
+msgstr "vnc;rdp;remote;desktop;windows;support;access;view;oddaljeno;souporaba;podpora;okno;namizje;pogled;dostop"
 
 #: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
@@ -41,31 +36,29 @@ msgstr "Pregled in upravljanje oddaljenih namizij"
 
 #: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
-"Connections allows you to connect to and use other desktops. This can be a "
-"great way to access content or software on a different desktop operating "
-"system. It can also be used as a way to provide support to users who might "
-"need help."
+"Connections allows you to connect to and use other desktops. This can be a great way to access content or "
+"software on a different desktop operating system. It can also be used as a way to provide support to users who "
+"might need help."
 msgstr ""
-"Program Povezovalnik omogoča povezovanje in upravljanje namizij na daljavo. "
-"Na ta način je mogoč enostaven dostop do vsebine in programske opreme na "
-"drugih operacijskih sistemih. Program je mogoče uporabiti tudi za podporo "
-"uporabnikom, ki potrebujejo pomoč."
+"Program Povezovalnik omogoča povezovanje in upravljanje namizij na daljavo. Na ta način je mogoč enostaven "
+"dostop do vsebine in programske opreme na drugih operacijskih sistemih. Program je mogoče uporabiti tudi za "
+"podporo uporabnikom, ki potrebujejo pomoč."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
-"A range of different operating systems can be connected to, including Linux "
-"and Windows desktops. You can also connect to virtual machines."
+"A range of different operating systems can be connected to, including Linux and Windows desktops. You can also "
+"connect to virtual machines."
 msgstr ""
-"Podprto je povezovanje z različnimi operacijskimi sistemi, na primer namizja "
-"Linux in Windows, mogoče je tudi povezovanje z navideznimi napravami."
+"Podprto je povezovanje z različnimi operacijskimi sistemi, na primer namizja Linux in Windows, mogoče je tudi "
+"povezovanje z navideznimi napravami."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these must be enabled on the desktop "
+"that you want to connect to."
 msgstr ""
-"Program podpira protokola VNC in RDP, katerikoli pa mora biti omogočen tudi "
-"na namizju, s katerim poteka povezovanje."
+"Program podpira protokola VNC in RDP, katerikoli pa mora biti omogočen tudi na namizju, s katerim poteka "
+"povezovanje."
 
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Connections.metainfo.xml.in:41
@@ -90,41 +83,41 @@ msgstr ""
 "Matej Urbančič <mateju@src.gnome.org>\n"
 "Martin Srebotnjak <miles@filmsi.net>"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Program za povezovanje z oddaljenimi namizji v okolju GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Ni mogoče odpreti datoteke neznane vrste MIME %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Povezava z napravo »%s« je bila izbrisana"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Razveljavi"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "Naslov URL za povezavo"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Odpri datoteko .vnc oziroma .rdp na podani POTI"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "POT"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Odpri v celozaslonskem načinu"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Navedenih je preveč argumentov ukazne vrstice.\n"
 
@@ -151,31 +144,24 @@ msgstr "Overitev je spodletela: %s"
 #: src/dialogs.vala:167
 #, c-format
 msgid ""
-"Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process "
-"is only done once."
+"Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims to be, please "
+"verify the fingerprints match. This process is only done once."
 msgstr ""
-"Zaznana je prva povezava s storitvijo »%s«. Če se želite prepričati, da se "
-"res povezujete s pravo napravo, preverite, ali se prstni odtisi ujemajo. To "
-"preverjanje se izvede le enkrat."
+"Zaznana je prva povezava s storitvijo »%s«. Če se želite prepričati, da se res povezujete s pravo napravo, "
+"preverite, ali se prstni odtisi ujemajo. To preverjanje se izvede le enkrat."
 
 #: src/dialogs.vala:201
 #, c-format
 msgid ""
-"The remote server “%s” certificate doesn't match local copy. It may be "
-"someone's pretending to be the server."
+"The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to be the server."
 msgstr ""
-"Potrdilo oddaljenega strežnika »%s« se ne sklada s krajevno kopijo. Morda se "
-"neka druga naprava izdaja za ciljni strežnik.."
+"Potrdilo oddaljenega strežnika »%s« se ne sklada s krajevno kopijo. Morda se neka druga naprava izdaja za "
+"ciljni strežnik.."
 
 #: src/dialogs.vala:241
 #, c-format
-msgid ""
-"The remote server “%s” requires the following authentication details to "
-"continue to connect:"
-msgstr ""
-"Oddaljeni strežnik »%s« za nadaljevanje povezovanja zahteva naslednje "
-"podrobnosti overjanja:"
+msgid "The remote server “%s” requires the following authentication details to continue to connect:"
+msgstr "Oddaljeni strežnik »%s« za nadaljevanje povezovanja zahteva naslednje podrobnosti overjanja:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
 #: src/display-view.vala:156
@@ -220,11 +206,15 @@ msgstr "RDP (standard za povezovanje z napravami Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (standard za povezovanje z napravami Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (za povezovanje z oddaljenimi navideznimi računalniki)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Pomoč"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Poveži"
 
@@ -332,11 +322,9 @@ msgstr "Dostop do oddaljenih namizij"
 
 #: src/ui/onboarding-dialog.ui:51
 msgid ""
-"Connections allows viewing the screens of other desktops. They can also be "
-"controlled using the pointer and keyboard."
-msgstr ""
-"Program omogoča ogled zaslonov na namizjih drugih naprav. Upravljati jih je "
-"mogoče z miško in tipkovnico."
+"Connections allows viewing the screens of other desktops. They can also be controlled using the pointer and "
+"keyboard."
+msgstr "Program omogoča ogled zaslonov na namizjih drugih naprav. Upravljati jih je mogoče z miško in tipkovnico."
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -351,22 +339,16 @@ msgid "Setup is required"
 msgstr "Zahtevana je nastavitev"
 
 #: src/ui/onboarding-dialog.ui:67
-msgid ""
-"Remote desktop typically needs to be enabled on the computer you want to "
-"connect to."
-msgstr ""
-"Oddaljeno namizje mora biti na oddaljeni napravi omogočeno, da se povezava "
-"lahko vzpostavi."
+msgid "Remote desktop typically needs to be enabled on the computer you want to connect to."
+msgstr "Oddaljeno namizje mora biti na oddaljeni napravi omogočeno, da se povezava lahko vzpostavi."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"
 msgstr "Začnite z ustvarjanjem prve povezave"
 
 #: src/ui/onboarding-dialog.ui:75
-msgid ""
-"To begin, you will need the address of the computer you want to connect to."
-msgstr ""
-"Za začetek je treba vpisati naslov računalnika, s katerim se želite povezati."
+msgid "To begin, you will need the address of the computer you want to connect to."
+msgstr "Za začetek je treba vpisati naslov računalnika, s katerim se želite povezati."
 
 #: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
@@ -489,8 +471,7 @@ msgid "Couldn’t parse the file"
 msgstr "Datoteke ni mogoče razčleniti"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
-#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163 src/vnc-connection.vala:168 src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "Datoteka VNC je brez ključa »%s«"
