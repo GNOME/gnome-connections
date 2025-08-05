@@ -32,7 +32,7 @@ namespace Connections {
             get { return (windows.length () > 0) ? windows.data : null; }
         }
 
-        private GLib.Settings settings;
+        public GLib.Settings settings;
         private bool first_run {
             get { return settings.get_boolean ("first-run"); }
             set { settings.set_boolean ("first-run", value); }

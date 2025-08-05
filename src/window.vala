@@ -50,6 +50,8 @@ namespace Connections {
                     unfullscreen ();
             }
         }
+        private uint configure_id;
+        private const uint configure_id_timeout = 100;  // 100ms
 
         public Window (Gtk.Application app) {
             Object (application: app);
@@ -80,6 +82,12 @@ namespace Connections {
 
             if (app.application_id == "org.gnome.Connections.Devel") {
                 get_style_context ().add_class ("devel");
+            }
+
+            /* Restore window size */
+            var size = Application.application.settings.get_value ("window-size");
+            if (size.n_children () == 2) {
+                set_default_size ((int) size.get_child_value (0), (int) size.get_child_value (1));
             }
         }
 
@@ -166,6 +174,36 @@ namespace Connections {
         [GtkCallback]
         private bool on_delete_event () {
             notifications_bar.dismiss ();
+
+            return false;
+        }
+
+        private void save_window_geometry () {
+            int width, height;
+
+            if (is_maximized)
+                return;
+
+            get_size (out width, out height);
+            Application.application.settings.set ("window-size", "(ii)", width, height);
+        }
+
+        [GtkCallback]
+        private bool on_configure_event () {
+            if (fullscreened) {
+                return false;
+            }
+
+            if (configure_id != 0) {
+                GLib.Source.remove (configure_id);
+            }
+
+            configure_id = Timeout.add (configure_id_timeout, () => {
+                configure_id = 0;
+                save_window_geometry ();
+
+                return false;
+            });
 
             return false;
         }
