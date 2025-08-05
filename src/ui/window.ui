@@ -6,6 +6,7 @@
       <property name="resizable">True</property>
       <signal name="key-press-event" after="yes" handler="on_key_pressed"/>
       <signal name="delete-event" handler="on_delete_event"/>
+      <signal name="configure-event" handler="on_configure_event"/>
 
       <child type="titlebar">
         <object class="ConnectionsTopbar" id="topbar">
