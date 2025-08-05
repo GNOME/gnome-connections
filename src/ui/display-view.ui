@@ -65,8 +65,8 @@
               <child>
                 <object class="GtkScrolledWindow">
                   <property name="visible">True</property>
-                  <property name="min-content-width">980</property>
-                  <property name="min-content-height">640</property>
+                  <property name="min-content-width">360</property>
+                  <property name="min-content-height">294</property>
                   <child>
                     <object class="GtkEventBox" id="event_box">
                       <property name="visible">True</property>
