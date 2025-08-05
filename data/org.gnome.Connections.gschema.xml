@@ -8,5 +8,12 @@
           Whether Connections is running for the first time
         </description>
       </key>
+      <key name="window-size" type="(ii)">
+        <default>(1024, 768)</default>
+        <summary>Window size</summary>
+        <description>
+          Preferred window size (widget and height)
+        </description>
+      </key>
 	</schema>
 </schemalist>
