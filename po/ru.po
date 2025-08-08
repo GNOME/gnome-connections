@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-03-28 12:38+0000\n"
-"PO-Revision-Date: 2025-03-28 15:56+0300\n"
+"POT-Creation-Date: 2025-08-04 08:54+0000\n"
+"PO-Revision-Date: 2025-08-05 17:38+0300\n"
 "Last-Translator: Artur So <arturios2005@mail.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Подключения"
 
-#: data/org.gnome.Connections.desktop.in:8
+#: data/org.gnome.Connections.desktop.in:7
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
 msgstr "vnc;rdp;удалённая работа;десктоп;окна;поддержка;доступ;просмотр"
 
@@ -88,41 +88,41 @@ msgstr ""
 "Alexey Rubtsov <rushills@gmail.com>, 2021\n"
 "Aleksandr Melman <Alexmelman88@gmail.com>, 2021-2023"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Клиент удаленного рабочего стола для среды рабочего стола GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Не удалось открыть файл неизвестного mime-типа %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Соединение с «%s» было удалено"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Отменить"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "URL для подключения"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Открыть файл .vnc или .rdp в указанном Пути"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "ПУТЬ"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Открыть в полноэкранном режиме"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Указано слишком много аргументов командной строки.\n"
 
@@ -172,8 +172,8 @@ msgid ""
 "The remote server “%s” requires the following authentication details to "
 "continue to connect:"
 msgstr ""
-"Удаленному серверу “%s” требуются следующие данные аутентификации "
-"для продолжения подключения:"
+"Удаленному серверу “%s” требуются следующие данные аутентификации для "
+"продолжения подключения:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
 #: src/display-view.vala:156
@@ -219,11 +219,15 @@ msgstr "RDP (стандарт для подключения к Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (стандарт для подключения к Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (для подключения к удаленным ВМ)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Справка"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Подключиться"
 
