@@ -16,8 +16,10 @@ src/topbar.vala
 src/ui/assistant.ui
 src/ui/auth-notification.ui
 src/ui/dialog.ui
+src/ui/kbd-shortcuts-window.ui
 src/ui/onboarding-dialog.ui
 src/ui/rdp-preferences.ui
+src/ui/spice-preferences.ui
 src/ui/topbar.ui
 src/ui/vnc-preferences.ui
 src/ui/window.ui
