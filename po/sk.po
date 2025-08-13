@@ -6,67 +6,64 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections gnome-3-38\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-03-14 14:38+0000\n"
-"PO-Revision-Date: 2024-07-17 21:56+0200\n"
-"Last-Translator: Jose Riha <jose1711@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
+"POT-Creation-Date: 2025-08-10 16:43+0000\n"
+"PO-Revision-Date: 2025-08-13 06:56+0200\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:112
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Pripojenia"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#: data/org.gnome.Connections.desktop.in:7
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;vzdialená;plocha;okná;windows;podpora;prístup;zobrazenie;zobraziť;"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Zobrazuje a používa iné pracovné plochy"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
-"Connections allows you to connect to and use other desktops. This can be a "
-"great way to access content or software on a different desktop operating "
-"system. It can also be used as a way to provide support to users who might "
-"need help."
+"Connections allows you to connect to and use other desktops. This can be a great "
+"way to access content or software on a different desktop operating system. It "
+"can also be used as a way to provide support to users who might need help."
 msgstr ""
-"Aplikácia Pripojenia vám umožňuje pripojiť sa a používať iné pracovné "
-"plochy. To môže byť skvelý spôsob ako pristupovať k obsahu alebo softvéru na "
-"pracovných plochách rôznych operačných systémov. Môže byť tiež použitá na "
-"poskytnutie podpory používateľom, ktorí potrebujú pomoc."
+"Aplikácia Pripojenia vám umožňuje pripojiť sa a používať iné pracovné plochy. To "
+"môže byť skvelý spôsob ako pristupovať k obsahu alebo softvéru na pracovných "
+"plochách rôznych operačných systémov. Môže byť tiež použitá na poskytnutie "
+"podpory používateľom, ktorí potrebujú pomoc."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
-"A range of different operating systems can be connected to, including Linux "
-"and Windows desktops. You can also connect to virtual machines."
+"A range of different operating systems can be connected to, including Linux and "
+"Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Môže byť pripojených veľa rôznych operačných systémov, vrátane pracovných "
-"plôch systémov Linux a Windows. Môžete sa tiež pripojiť k virtuálnym "
-"počítačom."
+"Môže byť pripojených veľa rôznych operačných systémov, vrátane pracovných plôch "
+"systémov Linux a Windows. Môžete sa tiež pripojiť k virtuálnym počítačom."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these "
+"must be enabled on the desktop that you want to connect to."
 msgstr ""
-"Aplikácia Pripojenia využíva všeobecne podporované protokoly VNC a RDP. "
-"Jeden z týchto protokolov musí byť povolený na pracovnej ploche, ku ktorej "
-"sa chcete pripojiť."
+"Aplikácia Pripojenia využíva všeobecne podporované protokoly VNC a RDP. Jeden z "
+"týchto protokolov musí byť povolený na pracovnej ploche, ku ktorej sa chcete "
+"pripojiť."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;vzdialená;plocha;okná;windows;podpora;prístup;zobrazenie;zobraziť;"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -76,7 +73,7 @@ msgstr "Súbor vzdialenej pracovnej plochy (VNC)"
 msgid "Delete"
 msgstr "Odstrániť"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:220
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
 msgid "Properties"
 msgstr "Vlastnosti"
 
@@ -110,6 +107,10 @@ msgstr "URL na pripojenie"
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Otvorí súbor .vnc alebo .rdp na zadanej CESTE"
 
+#: src/application.vala:233
+msgid "PATH"
+msgstr "CESTA"
+
 # cmdline desc
 #: src/application.vala:234
 msgid "Open in full screen"
@@ -134,7 +135,7 @@ msgstr "Zachytená snímka obrazovky"
 msgid "Open"
 msgstr "Otvoriť"
 
-#: src/connection.vala:199
+#: src/connection.vala:205
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Overenie totožnosti zlyhalo: %s"
@@ -143,18 +144,18 @@ msgstr "Overenie totožnosti zlyhalo: %s"
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process "
-"is only done once."
+"machine it claims to be, please verify the fingerprints match. This process is "
+"only done once."
 msgstr ""
-"Prvé pripojenie k „%s“. Ak chcete mať istotu, že sa pripájate k počítaču, "
-"za ktorý sa vydáva, overte, či sa zhodujú jeho odtlačky. Tento úkon sa vykonáva "
-"len raz."
+"Prvé pripojenie k „%s“. Ak chcete mať istotu, že sa pripájate k počítaču, za "
+"ktorý sa vydáva, overte, či sa zhodujú jeho odtlačky. Tento úkon sa vykonáva len "
+"raz."
 
 #: src/dialogs.vala:201
 #, c-format
 msgid ""
-"The remote server “%s” certificate doesn't match local copy. It may be "
-"someone's pretending to be the server."
+"The remote server “%s” certificate doesn't match local copy. It may be someone's "
+"pretending to be the server."
 msgstr ""
 "Certifikát „%s“ vzdialeného servera nezodpovedá miestnej kópii. Niekto môže "
 "identitu servera falšovať."
@@ -162,24 +163,22 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires a username and password to continue to connect."
 msgstr ""
-"Vzdialený server „%s“ vyžaduje pred pokračovaním zadanie mena používateľa a hesla."
+"Vzdialený server „%s“ vyžaduje pred pokračovaním zadanie mena používateľa a "
+"hesla."
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:128
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
 
 #: src/onboarding-dialog.vala:96 src/ui/onboarding-dialog.ui:148
-#| msgid "No Thanks"
 msgid "_No Thanks"
 msgstr "_Nie, ďakujem"
 
 #: src/onboarding-dialog.vala:96
-#| msgid "Close"
 msgid "_Close"
 msgstr "_Zavrieť"
 
@@ -188,18 +187,17 @@ msgstr "_Zavrieť"
 msgid "Resize desktop"
 msgstr "Zmeniť veľkosť pracovnej plochy"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:212
+#: src/topbar.vala:58 src/ui/topbar.ui:237
 msgid "Take Screenshot"
 msgstr "Zachytiť snímku obrazovky"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:216
+#: src/topbar.vala:62 src/ui/topbar.ui:199
 msgid "Fullscreen"
 msgstr "Na celú obrazovku"
 
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
-msgstr ""
-"Zadajte identifikátor siete vzdialenej plochy, ku ktorej sa má pripojiť:"
+msgstr "Zadajte identifikátor siete vzdialenej plochy, ku ktorej sa má pripojiť:"
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
@@ -213,7 +211,7 @@ msgstr "RDP (štandard pripojenia k systému Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (štandard pripojenia k systému Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:201
+#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "Pomocník"
 
@@ -235,7 +233,6 @@ msgstr "Prihlásiť sa"
 
 #. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
-#| msgid "Connections"
 msgid "Open Connection"
 msgstr "Otvoriť pripojenie"
 
@@ -243,7 +240,7 @@ msgstr "Otvoriť pripojenie"
 msgid "Verify"
 msgstr "Overiť"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:612
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -260,8 +257,9 @@ msgid ""
 "\"certutil.exe -hashfile file SHA256\".\n"
 "\n"
 "If GNOME is used on the connected endpoint,\n"
-"the fingerprint can be verified in the Settings,\n"
-"<b>Sharing>Remote Desktop>Verify Encryption</b>."
+"the fingerprint can be verified in the <b>Settings>Sharing</b>\n"
+"panel or <b>Settings>System</b> panel under\n"
+"<b>Remote Desktop>Verify Encryption</b>."
 msgstr ""
 "V systéme Windows spustite certlm.msc alebo certmgr.msc\n"
 "a skopírujte certifikát z cesty\n"
@@ -270,37 +268,35 @@ msgstr ""
 "\"certutil.exe -hashfile súbor SHA256\".\n"
 "\n"
 "Ak sa na pripojenom koncovom bode používa GNOME,\n"
-"odtlačok je možné overiť v Nastaveniach,\n"
-"<b>Zdieľanie>Vzdialená plocha>Overiť šifrovanie</b>."
+"odtlačok je možné overiť v paneli <b>Nastavenia>Sprístupnenie</b>\n"
+"alebo v paneli <b>Nastavenia>Systém</b> pomocou položky\n"
+"<b>Vzdialená plocha>Overiť šifrovanie</b>."
 
-#: src/ui/dialog.ui:291
+#: src/ui/dialog.ui:292
 msgid "Unexpected Certificate"
 msgstr "Neočakávaný certifikát"
 
-#: src/ui/dialog.ui:333
+#: src/ui/dialog.ui:334
 msgid "Delete Local Certificate"
 msgstr "Odstrániť lokálny certifikát"
 
-#: src/ui/dialog.ui:386
-#| msgid "Authentication failed: %s"
+#: src/ui/dialog.ui:387
 msgid "Authentication Required"
 msgstr "Vyžaduje overenie"
 
-#: src/ui/dialog.ui:437
-#| msgid "_Username"
+#: src/ui/dialog.ui:438
 msgid "Username…"
 msgstr "Meno používateľa…"
 
-#: src/ui/dialog.ui:465
-#| msgid "_Password"
+#: src/ui/dialog.ui:466
 msgid "Password…"
 msgstr "Heslo…"
 
-#: src/ui/dialog.ui:515
+#: src/ui/dialog.ui:516
 msgid "Domain…"
 msgstr "Doména…"
 
-#: src/ui/dialog.ui:536
+#: src/ui/dialog.ui:537
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -308,8 +304,7 @@ msgstr ""
 "Pole domény je obvykle voliteľné a môžete ho\n"
 "nechať prázdne."
 
-#: src/ui/dialog.ui:638
-#| msgid "Authentication failed: %s"
+#: src/ui/dialog.ui:639
 msgid "Authenticate"
 msgstr "Overiť"
 
@@ -322,14 +317,10 @@ msgid "Click next to learn about remote desktop."
 msgstr "Kliknutím na tlačidlo Ďalší sa dozviete viac o vzdialenej ploche."
 
 #: src/ui/onboarding-dialog.ui:50
-#| msgid "View and use other desktops"
 msgid "Access other desktops"
 msgstr "Pristupujte k iným vzdialeným plochám"
 
 #: src/ui/onboarding-dialog.ui:51
-#| msgid ""
-#| "Use Connections to view the screen of other desktops. You can control "
-#| "them using the pointer and keyboard, too!"
 msgid ""
 "Connections allows viewing the screens of other desktops. They can also be "
 "controlled using the pointer and keyboard."
@@ -342,10 +333,8 @@ msgid "Connect to different operating systems"
 msgstr "Pripojenie k rôznym operačným systémom"
 
 #: src/ui/onboarding-dialog.ui:59
-#| msgid "Access Linux, Mac, and Windows desktops using Connections."
 msgid "You can access Linux, Mac, and Windows desktops."
-msgstr ""
-"Môžete získať prístup k pracovným plochám systémov Linux, Mac a Windows."
+msgstr "Môžete získať prístup k pracovným plochám systémov Linux, Mac a Windows."
 
 #: src/ui/onboarding-dialog.ui:66
 msgid "Setup is required"
@@ -353,8 +342,8 @@ msgstr "Vyžaduje sa nastavenie"
 
 #: src/ui/onboarding-dialog.ui:67
 msgid ""
-"Remote desktop typically needs to be enabled on the computer you want to "
-"connect to."
+"Remote desktop typically needs to be enabled on the computer you want to connect "
+"to."
 msgstr ""
 "Vzdialená plocha musí byť obvykle povolená na počítači, ku ktorému sa chcete "
 "pripojiť."
@@ -364,8 +353,7 @@ msgid "Start by creating your first connection"
 msgstr "Začnite tým, že vytvoríte svoje prvé pripojenie"
 
 #: src/ui/onboarding-dialog.ui:75
-msgid ""
-"To begin, you will need the address of the computer you want to connect to."
+msgid "To begin, you will need the address of the computer you want to connect to."
 msgstr ""
 "Pre začiatok budete potrebovať adresu počítača, ku ktorému sa chcete pripojiť."
 
@@ -417,35 +405,35 @@ msgstr "Odpojiť"
 msgid "Keyboard shortcuts"
 msgstr "Klávesové skratky"
 
-#: src/ui/topbar.ui:197
+#: src/ui/topbar.ui:222
 msgid "Keyboard Shortcuts"
 msgstr "Klávesové skratky"
 
-#: src/ui/topbar.ui:205
+#: src/ui/topbar.ui:230
 msgid "About Connections"
 msgstr "O aplikácii Pripojenia"
 
-#: src/ui/topbar.ui:234
+#: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:241
+#: src/ui/topbar.ui:262
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:248
+#: src/ui/topbar.ui:269
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:276
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:283
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:290
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -482,17 +470,16 @@ msgid "Scale mode"
 msgstr "Režim zmeny mierky"
 
 #: src/ui/window.ui:52
-#| msgid "Just hit the <b>+</b> button to make your first connection."
 msgid "Click the add button to create your first connection"
 msgstr "Na vytvorenie vášho prvého pripojenia kliknite na tlačidlo Pridať"
 
-#: src/vnc-connection.vala:149
+#: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
 msgstr "Nepodarilo sa analyzovať súbor"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:157 src/vnc-connection.vala:162
-#: src/vnc-connection.vala:167 src/vnc-connection.vala:172
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
+#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "Súboru VNC chýba kľúč „%s”"
@@ -511,8 +498,7 @@ msgstr "Súboru VNC chýba kľúč „%s”"
 #~ msgstr "Povolenie vzdialenej plochy pred pripojením"
 
 #~ msgid ""
-#~ "Computers need to be set up for remote desktop before you can connect to "
-#~ "them."
+#~ "Computers need to be set up for remote desktop before you can connect to them."
 #~ msgstr ""
 #~ "Predtým, než sa pripojíte k počítačom, musia byť nastavené na použitie "
 #~ "vzdialenej pracovnej plochy."
@@ -536,11 +522,10 @@ msgstr "Súboru VNC chýba kľúč „%s”"
 #~ msgstr "Vytvorenie nového pripojenia"
 
 #~ msgid ""
-#~ "Enter a machine address to connect to. Address can begin with rdp:// or "
-#~ "vnc://"
+#~ "Enter a machine address to connect to. Address can begin with rdp:// or vnc://"
 #~ msgstr ""
-#~ "Zadajte adresu počítača, ku ktorému sa chcete pripojiť. Adresa môže "
-#~ "začínať s rdp:// alebo vnc://"
+#~ "Zadajte adresu počítača, ku ktorému sa chcete pripojiť. Adresa môže začínať s "
+#~ "rdp:// alebo vnc://"
 
 #~ msgid "Server"
 #~ msgstr "Server"
