@@ -1,3 +1,35 @@
+49.beta - 15 Aug, 2025
+=====================
+
+Changes since 48.0
+
+  - Added support for SPICE
+  - Added shortcuts window
+  - Fixed build by temporarily disabling OpenH264
+  - Improved text in authentication dialog
+  - Present main window on activation
+  - Set prgname and icon for-the-window.patch
+  - Ignore vscode settings
+  - Add python six module due to flatpak
+  - Disable C compiler warnings for generated code
+  - Add translator comment for keywords
+  - Update POTFILES.in
+  - Update gtk-frdp
+
+  - Added/Updated translations:
+     - Belarusian
+     - Catalan
+     - Chinese
+     - Friulian
+     - Galician
+     - Japanese
+     - Romanian
+     - Russian
+     - Slovak
+     - Slovenian
+     - Turkish
+     - Uzbek-Latin
+
 48.0 - 14 Mar, 2025
 =====================
 
