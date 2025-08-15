@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2025-08-01 16:55+0000\n"
-"PO-Revision-Date: 2025-08-02 16:56+0200\n"
+"POT-Creation-Date: 2025-08-15 09:55+0000\n"
+"PO-Revision-Date: 2025-08-15 12:10+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -26,7 +26,9 @@ msgstr ""
 msgid "Connections"
 msgstr "Povezovalnik"
 
-#: data/org.gnome.Connections.desktop.in:7
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
 msgstr "vnc;rdp;remote;desktop;windows;support;access;view;oddaljeno;souporaba;podpora;okno;namizje;pogled;dostop"
 
@@ -178,7 +180,7 @@ msgid "_Close"
 msgstr "_Zapri"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67 src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Spremeni velikost namizja"
 
@@ -308,6 +310,41 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Overi"
 
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Pregled"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Pomoč"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Iskanje"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Pokaže tipkovne bližnjice"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Konča program"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Povezani zaslon"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Celozaslonski način"
+
 #: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
 msgid "Welcome to Connections"
 msgstr "Dobrodošli v program Povezovalnik"
@@ -350,25 +387,33 @@ msgstr "Začnite z ustvarjanjem prve povezave"
 msgid "To begin, you will need the address of the computer you want to connect to."
 msgstr "Za začetek je treba vpisati naslov računalnika, s katerim se želite povezati."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9 src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Lastnosti povezave"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22 src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Naslov"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37 src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Ime"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68 src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "Prilagodi oknu"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69 src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Izvorna velikost"
+
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Omogoči zvok"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Način spreminjanja velikosti"
 
 #: src/ui/topbar.ui:21
 msgid "New"
@@ -442,10 +487,6 @@ msgstr "Samo pogled"
 msgid "Show local pointer"
 msgstr "Pokaži kazalnik"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Omogoči zvok"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Pasovna širina"
@@ -457,10 +498,6 @@ msgstr "Visoka kakovost"
 #: src/ui/vnc-preferences.ui:89
 msgid "Fast refresh"
 msgstr "Hitro osveževanje"
-
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Način spreminjanja velikosti"
 
 #: src/ui/window.ui:52
 msgid "Click the add button to create your first connection"
