@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-05-10 15:24+0000\n"
-"PO-Revision-Date: 2025-08-03 19:21+0200\n"
+"POT-Creation-Date: 2025-08-13 04:57+0000\n"
+"PO-Revision-Date: 2025-08-17 17:06+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -21,13 +21,13 @@ msgstr ""
 "20)) ? 1 : 2);\n"
 "X-Generator: Gtranslator 48.0\n"
 
-#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "Conexiuni"
 
-#: data/org.gnome.Connections.desktop.in:8
+#: data/org.gnome.Connections.desktop.in:7
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
 msgstr "vnc;rdp;remote;desktop;windows;support;access;view;vezi;computer;distanță;ferestre;suport;acces;vizualizare;"
 
@@ -52,8 +52,8 @@ msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Se poate conecta la o gamă largă de sisteme de operare, inclusiv computere "
-"Linux și Windows. Este posibilă și conectarea la mașini (aparate) virtuale."
+"Se poate conecta la o gamă largă de sisteme, inclusiv computere GNU/Linux și "
+"Windows. Este posibilă și conectarea la mașini (aparate) virtuale."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
@@ -341,11 +341,11 @@ msgstr ""
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
-msgstr "Conectare la diferite sisteme de operare"
+msgstr "Conectare la sisteme diferite"
 
 #: src/ui/onboarding-dialog.ui:59
 msgid "You can access Linux, Mac, and Windows desktops."
-msgstr "Se poate accesa Linux, Mac și Windows."
+msgstr "Se poate accesa GNU/Linux, Mac și Windows."
 
 #: src/ui/onboarding-dialog.ui:66
 msgid "Setup is required"
@@ -396,7 +396,7 @@ msgstr "Nou"
 
 #: src/ui/topbar.ui:42
 msgid "Application Menu"
-msgstr "Opțiunile aplicației"
+msgstr "Opțiuni Aplicație"
 
 #: src/ui/topbar.ui:70
 msgid "Search"
@@ -408,7 +408,7 @@ msgstr "Înapoi"
 
 #: src/ui/topbar.ui:125
 msgid "Display Menu"
-msgstr "Opțiuni"
+msgstr "Opțiuni Ecran"
 
 #: src/ui/topbar.ui:149
 msgid "Disconnect"
