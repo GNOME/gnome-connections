@@ -23,37 +23,6 @@ connections_sources = [
   'spice-preferences-window.vala',
 ]
 
-cc = meson.get_compiler ('c')
-
-connections_deps = [
-  config_h,
-  valac.find_library ('config', dirs: src_dir),
-  cc.find_library('m'),
-  dependency('gio-2.0', version: '>= 2.50'),
-  dependency('gtk+-3.0', version: '>= 3.22'),
-  dependency('gtk-vnc-2.0', version: '> 0.4.4'),
-  dependency('gvncpulse-1.0'),
-  dependency('libhandy-1', version: '>= 1.6.0'),
-  dependency ('libxml-2.0', version: '>= 2.7.8'),
-  dependency ('libsecret-1'),
-  dependency ('spice-client-gtk-3.0'),
-  valac.find_library ('spice-client-gtk-3.0'),
-]
-
-gtk_frdp_dep = dependency('gtk-frdp-0.2', required: false)
-
-if gtk_frdp_dep.found()
-  connections_deps += gtk_frdp_dep
-else
-  gtk_frdp_dep = subproject('gtk-frdp', default_options: [
-    'package_subdir=' + meson.project_name()
-  ])
-
-  connections_deps += gtk_frdp_dep.get_variable('gtk_frdp_vapi')
-endif
-
-gnome = import('gnome')
-
 connections_sources += gnome.compile_resources('connections-resources',
   'connections.gresource.xml',
   c_name: 'connections'
