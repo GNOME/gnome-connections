@@ -166,9 +166,11 @@ namespace Connections {
                 case "rdp":
                     connection = new RdpConnection (uuid);
                     break;
+                #if HAS_SPICE
                 case "spice":
                     connection = new SpiceConnection (uuid);
                     break;
+                #endif
                 default:
                     debug ("Unknown protocol defined for %s", uuid);
                     break;
@@ -194,9 +196,11 @@ namespace Connections {
                 case "rdp":
                     connection = new RdpConnection.from_uri (_uri);
                     break;
+                #if HAS_SPICE
                 case "spice":
                     connection = new SpiceConnection.from_uri (_uri);
                     break;
+                #endif
                 default:
                     debug ("Failed to add '%s': unknown protocol", _uri);
                     break;

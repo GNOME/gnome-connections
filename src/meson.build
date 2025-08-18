@@ -19,9 +19,16 @@ connections_sources = [
   'vnc-connection.vala',
   'vnc-preferences-window.vala',
   'window.vala',
-  'spice-connection.vala',
-  'spice-preferences-window.vala',
 ]
+
+if spice_dep_found
+  add_project_arguments('-D', 'HAS_SPICE', language: 'vala')
+
+  connections_sources += [
+    'spice-connection.vala',
+    'spice-preferences-window.vala',
+  ]
+endif
 
 connections_sources += gnome.compile_resources('connections-resources',
   'connections.gresource.xml',

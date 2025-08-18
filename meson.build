@@ -39,8 +39,6 @@ connections_deps = [
   dependency('libhandy-1', version: '>= 1.6.0'),
   dependency ('libxml-2.0', version: '>= 2.7.8'),
   dependency ('libsecret-1'),
-  dependency ('spice-client-gtk-3.0'),
-  valac.find_library ('spice-client-gtk-3.0'),
 ]
 
 gtk_frdp_dep = dependency('gtk-frdp-0.2', required: false)
@@ -52,6 +50,17 @@ else
   ])
 
   connections_deps += gtk_frdp_dep.get_variable('gtk_frdp_vapi')
+endif
+
+spice_dep = dependency ('spice-client-gtk-3.0', required: false)
+spice_vala_dep = valac.find_library ('spice-client-gtk-3.0', required: false)
+spice_dep_found = spice_dep.found() and spice_vala_dep.found()
+conf.set10('HAS_SPICE', spice_dep_found)
+if spice_dep_found
+  connections_deps += [
+    spice_dep,
+    spice_vala_dep,
+  ]
 endif
 
 config_h = declare_dependency (

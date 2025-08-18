@@ -33,6 +33,10 @@ namespace Connections {
         [GtkChild]
         private unowned Gtk.RadioButton spice_radio_button;
 
+        construct {
+            spice_radio_button.visible = Config.HAS_SPICE;
+        }
+
         private bool uri_has_supported_scheme (string uri) {
             return uri.has_prefix ("rdp://") || uri.has_prefix ("vnc://") || uri.has_prefix ("spice://");
         }

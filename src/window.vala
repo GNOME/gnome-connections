@@ -120,8 +120,10 @@ namespace Connections {
                 (new VncPreferencesWindow (connection)).present ();
             else if (connection is RdpConnection)
                 (new RdpPreferencesWindow (connection)).present ();
+            #if HAS_SPICE
             else if (connection is SpiceConnection)
                 (new SpicePreferencesWindow (connection)).present ();
+            #endif
             else
                 debug ("Failed to launch preferences window for %s", connection.uri);
         }
