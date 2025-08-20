@@ -1,13 +1,13 @@
 # Swedish translation for gnome-connections.
-# Copyright © 2020, 2021 gnome-connections's COPYRIGHT HOLDER
+# Copyright © 2021-2025 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2021.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2021, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"POT-Creation-Date: 2021-03-19 16:04+0000\n"
-"PO-Revision-Date: 2021-03-19 19:37+0100\n"
+"POT-Creation-Date: 2025-08-04 08:54+0000\n"
+"PO-Revision-Date: 2025-08-07 19:53+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020"
+msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2025"
 
 #. (itstool) path: credit/name
 #: C/connect.page:9 C/index.page:13
@@ -95,8 +95,13 @@ msgstr ""
 "vnc:// för att ansluta till en fjärran <app>vino</app>- eller <app>VNC</app>-"
 "server."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr "spice:// för att ansluta till en fjärran <app>SPICE</app>-server."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -105,12 +110,12 @@ msgstr ""
 "enheten eller tjänsten på fjärrmaskinen."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Klicka på <gui style=\"button\">Skapa</gui>."
 
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "Fjärrmaskinen kommer att öppnas i samlingsvyn."
 
