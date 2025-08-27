@@ -145,7 +145,10 @@ namespace Connections {
 
             List<Connections.Connection >? connections = new List<Connections.Connection> ();
             foreach (var uuid in keyfile.get_groups ()) {
-                connections.append (get_connection (uuid));
+                Connection? connection = get_connection (uuid);
+
+                if (connection != null)
+                    connections.append (connection);
             }
 
             return connections;
