@@ -7,30 +7,39 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-07-31 16:56+0000\n"
-"PO-Revision-Date: 2024-08-22 18:54+0300\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-08-27 16:48+0000\n"
+"PO-Revision-Date: 2025-08-29 17:55+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
-"2 : 3)\n"
-"X-Generator: Gtranslator 46.1\n"
+"2 : 3);\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "חיבורים"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"‫vnc;rdp;מרוחק;רימוט;שולחן "
+"עבודה;מרחוק;רחוק;מכתבה;חלונות;תמיכה;עזרה;סיוע;גישה;תצוגה;צפייה;השגחה"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "הצגה ושימוש בשולחנות עבודה אחרים"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -41,7 +50,7 @@ msgstr ""
 "דרך מצוינת לגשת לתוכן או לתכניות בשולחן עבודה במערכת הפעלה אחרת. ניתן גם "
 "להשתמש בזה כדרך לספק תמיכה למשתמשים שאולי זקוקים לעזרה."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -49,7 +58,7 @@ msgstr ""
 "ניתן להתחבר למגוון רחב של מערכות הפעלה לרבות שולחנות עבודה של לינוקס ושל "
 "Windows. ניתן גם להתחבר למכונות וירטואליות."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -58,15 +67,9 @@ msgstr ""
 "פעילים בשולחן העבודה אליו ברצונך להתחבר."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "מיזם GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"‫vnc;rdp;מרוחק;רימוט;שולחן עבודה;מרחוק;רחוק;מכתבה;חלונות;תמיכה;עזרה;סיוע;גישה;"
-"תצוגה;צפייה;השגחה"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -76,7 +79,7 @@ msgstr "קובץ שולחן עבודה מרוחק (VNC)"
 msgid "Delete"
 msgstr "מחיקה"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "מאפיינים"
 
@@ -87,41 +90,41 @@ msgstr ""
 "\n"
 "<a href=\"https://l10n.gnome.org/teams/he/\">מיזם תרגום GNOME לעברית</a>"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "לקוח שולחן עבודה מרוחק עבור סביבת שולחן העבודה GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "לא ניתן לפתוח קובץ כי סוגו אינו ידוע %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "התחברות אל „%s” נמחקה"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "ביטול"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "כתובת להתחברות"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "פתיחת קובץ .vnc או .rdp בנתיב (PATH) שסופק"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "נתיב"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "פתיחה במסך מלא"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "סופקו יותר מדי ארגומנטים דרך שורת הפקודה.\n"
 
@@ -167,12 +170,12 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
-msgstr "השרת המרוחק „%s” דורש שם משתמש וסיסמה כדי להמשיך בחיבור."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
+msgstr "השרת המרוחק „%s” דורש שם משתמש וססמה כדי להמשיך בחיבור:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "‫‎%d×%d"
@@ -186,15 +189,16 @@ msgid "_Close"
 msgstr "_סגירה"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "שינוי גודל שולחן העבודה"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "צילום מסך"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "מסך מלא"
 
@@ -214,11 +218,16 @@ msgstr "‫RDP (תקן להתחברות אל Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "‫VNC (תקן להתחברות אל Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:81
+#| msgid "RDP (standard for connecting to Windows)"
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (להתחברות למכונות וירטואליות מרוחקות)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "עזרה"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "חיבור"
 
@@ -311,6 +320,41 @@ msgstr ""
 msgid "Authenticate"
 msgstr "אימות"
 
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "סקירה"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "עזרה"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "חיפוש"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "צירופי מקשים"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "יציאה"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "תצוגת חיבור"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "מסך מלא"
+
 #: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
 msgid "Welcome to Connections"
 msgstr "ברוך בואך לחיבורים"
@@ -358,83 +402,96 @@ msgid ""
 "To begin, you will need the address of the computer you want to connect to."
 msgstr "כדי להתחיל, צריך את כתובת המחשב לחיבור."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "העדפות התחברות"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "כתובת"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "שם"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "התאמת החלון"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "גודל מקורי"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "הפעלת שמע"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "מצב שינוי גודל"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "חדש"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "תפריט יישום"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "חיפוש"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "לחזור"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "הצגת תפריט"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "ניתוק"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "צירופי מקשים"
-
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "צירופי מקשים"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "צירופי מקשים"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "על חיבורים"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -450,10 +507,6 @@ msgstr "תצוגה בלבד"
 msgid "Show local pointer"
 msgstr "הצגת הסמן המקומי"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "הפעלת שמע"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "רוחב פס"
@@ -465,10 +518,6 @@ msgstr "איכות גבוהה"
 #: src/ui/vnc-preferences.ui:89
 msgid "Fast refresh"
 msgstr "רענון מהיר"
-
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "מצב שינוי גודל"
 
 #: src/ui/window.ui:52
 msgid "Click the add button to create your first connection"
