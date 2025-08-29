@@ -3,33 +3,37 @@
 # This file is distributed under the same license as the gnome-connections package.
 # sicklylife <translation@sicklylife.jp>, 2020, 2022.
 # Kusano Takayuki <gnome-l10n@tkusano.jp>, 2025.
+# Makoto Sakaguchi <ycco34vx@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-04-17 16:51+0000\n"
-"PO-Revision-Date: 2025-05-09 21:13+0900\n"
-"Last-Translator: Kusano Takayuki <gnome-l10n@tkusano.jp>\n"
+"POT-Creation-Date: 2025-08-15 10:53+0000\n"
+"PO-Revision-Date: 2025-08-16 08:21+0900\n"
+"Last-Translator: Makoto Sakaguchi <ycco34vx@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.desktop.in:3
+#: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
 msgid "Connections"
 msgstr "接続"
 
-#: data/org.gnome.Connections.desktop.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
 msgstr ""
-"vnc;rdp;remote;desktop;windows;support;access;view;リモート;デスクトップ;ウィ"
-"ンドウ;サポート;アクセス;表示;"
+"vnc;rdp;remote;desktop;windows;support;access;view;リモート;デスクトップ;"
+"ウィンドウ;サポート;アクセス;表示;"
 
 #: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
@@ -42,7 +46,7 @@ msgid ""
 "system. It can also be used as a way to provide support to users who might "
 "need help."
 msgstr ""
-"“接続”は他のデスクトップに接続して、そのデスクトップを使用することができま"
+"“接続” は他のデスクトップに接続して、そのデスクトップを使用することができま"
 "す。異なる OS 上のソフトウェアやコンテンツにアクセスするのに便利です。また、"
 "支援が必要なユーザーを遠隔サポートするのにも使用できます。"
 
@@ -51,16 +55,16 @@ msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Linux や Windows を含めた多様な OS に接続することができます。また、仮想マシン"
-"に接続することもできます。"
+"Linux や Windows を含めた多様な OS に接続することができます。また、仮想マシ"
+"ンに接続することもできます。"
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
 msgstr ""
-"“接続”は広くサポートされている VNC と RDP を使用します。接続される側のデスク"
-"トップはいずれかを有効にする必要があります。"
+"“接続” は広くサポートされている VNC と RDP を使用します。接続される側のデス"
+"クトップはいずれかを有効にする必要があります。"
 
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Connections.metainfo.xml.in:41
@@ -84,43 +88,44 @@ msgid "translator-credits"
 msgstr ""
 "sicklylife <translation@sicklylife.jp>\n"
 "Kusano Takayuki <gnome-l10n@tkusano.jp>\n"
-"Japanese Translation Team https://l10n.gnome.org/teams/ja/"
+"Japanese Translation Team <https://l10n.gnome.org/teams/ja/>\n"
+"Makoto Sakaguchi <ycco34vx@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "GNOME デスクトップ環境向けのリモートデスクトップクライアント"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "不明な MIME タイプ %s のファイルを開けませんでした"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
-msgstr "“%s”への接続を削除しました"
+msgstr "“%s” への接続を削除しました"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "元に戻す"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "接続する URL"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "指定した PATH のファイル (.vnc または .rdp) を開く"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "PATH"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "フルスクリーンで開く"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "コマンドラインの引数が多すぎます。\n"
 
@@ -151,7 +156,7 @@ msgid ""
 "machine it claims to be, please verify the fingerprints match. This process "
 "is only done once."
 msgstr ""
-"“%s”への接続は初めてです。接続先のマシンが本物であることを確認するために、"
+"“%s” への接続は初めてです。接続先のマシンが本物であることを確認するために、"
 "フィンガープリントを確認してください。このプロセスは一度だけ行われます。"
 
 #: src/dialogs.vala:201
@@ -160,8 +165,8 @@ msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
 "someone's pretending to be the server."
 msgstr ""
-"リモートサーバー“%s”の証明書がローカルのコピーと一致しません。誰かがサーバー"
-"を偽装している可能性があります。"
+"リモートサーバー “%s” の証明書がローカルのコピーと一致しません。誰かがサー"
+"バーを偽装している可能性があります。"
 
 #: src/dialogs.vala:241
 #, c-format
@@ -169,7 +174,7 @@ msgid ""
 "The remote server “%s” requires the following authentication details to "
 "continue to connect:"
 msgstr ""
-"リモートサーバー“%s”は接続を続けるために以下の認証情報を要求しています:"
+"リモートサーバー “%s” は接続を続けるために、以下の認証情報を要求しています:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
 #: src/display-view.vala:156
@@ -186,7 +191,8 @@ msgid "_Close"
 msgstr "閉じる(_C)"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "デスクトップをリサイズ"
 
@@ -214,11 +220,15 @@ msgstr "RDP (Windows への接続の標準)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (Linux への接続の標準)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (リモート仮想マシン接続用)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
 msgid "Help"
 msgstr "ヘルプ"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "接続"
 
@@ -265,14 +275,14 @@ msgid ""
 "panel or <b>Settings>System</b> panel under\n"
 "<b>Remote Desktop>Verify Encryption</b>."
 msgstr ""
-"Windows上で certlm.msc または certmgr.msc を実行し、<b>リモートデスクトップ "
-"> 証明書</b>から証明書をファイルにコピーします。\n"
-"その後、\"certutil.exe -hashfile ファイル SHA256\" を実行してフィンガープリン"
-"トを取得します。\n"
+"Windowsで certlm.msc または certmgr.msc を実行し、\n"
+"<b>リモートデスクトップ > 証明書</b> から証明書をファイルにコピーします。\n"
+"その後、\"certutil.exe -hashfile ファイル SHA256\" を実行してフィンガープリ"
+"ントを取得します。\n"
 "\n"
-"接続先のエンドポイントで GNOME を使用している場合は、<b>設定 > 共有</b>パネル"
-"または<b>設定 > システム</b>パネルの<b>Remote Desktop > Verify Encryption</b>"
-"でフィンガープリントを確認できます。"
+"接続先のエンドポイントで GNOME を使用している場合は、\n"
+"<b>設定 > 共有</b> パネルまたは<b>設定 > システム</b>パネルの<b>リモートデス"
+"クトップ > 暗号化の検証</b>でフィンガープリントを確認できます。"
 
 #: src/ui/dialog.ui:292
 msgid "Unexpected Certificate"
@@ -310,9 +320,44 @@ msgstr ""
 msgid "Authenticate"
 msgstr "認証"
 
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "概要"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "ヘルプ"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "検索"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "キーボードショートカット"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "終了"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "接続画面"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "フルスクリーン"
+
 #: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
 msgid "Welcome to Connections"
-msgstr "“接続”へようこそ"
+msgstr "“接続” へようこそ"
 
 #: src/ui/onboarding-dialog.ui:43
 msgid "Click next to learn about remote desktop."
@@ -328,8 +373,8 @@ msgid ""
 "Connections allows viewing the screens of other desktops. They can also be "
 "controlled using the pointer and keyboard."
 msgstr ""
-"“接続”を使用して他のデスクトップの画面を表示することができます。（マウスなど"
-"の）ポインターやキーボードでも操作できます。"
+"“接続” を使用して他のデスクトップの画面を表示することができます。（マウスな"
+"どの）ポインターやキーボードでも操作できます。"
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -359,25 +404,38 @@ msgid ""
 "To begin, you will need the address of the computer you want to connect to."
 msgstr "まず、接続したいコンピューターのアドレスが必要です。"
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "接続設定"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "アドレス"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "名前"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "ウィンドウに合わせる"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "オリジナルのサイズ"
+
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "音声を有効にする"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "スケールモード"
 
 #: src/ui/topbar.ui:21
 msgid "New"
@@ -413,7 +471,7 @@ msgstr "キーボードショートカット"
 
 #: src/ui/topbar.ui:230
 msgid "About Connections"
-msgstr "“接続”について"
+msgstr "“接続” について"
 
 #: src/ui/topbar.ui:255
 msgid "Ctrl + Alt + Backspace"
@@ -451,10 +509,6 @@ msgstr "表示専用"
 msgid "Show local pointer"
 msgstr "ローカルポインターを表示する"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "音声を有効にする"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "帯域幅"
@@ -467,13 +521,9 @@ msgstr "高品質"
 msgid "Fast refresh"
 msgstr "高速リフレッシュ"
 
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "スケールモード"
-
 #: src/ui/window.ui:52
 msgid "Click the add button to create your first connection"
-msgstr "追加ボタンを押して接続を開始してください。"
+msgstr "追加ボタンを押して接続を開始してください"
 
 #: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
@@ -484,7 +534,7 @@ msgstr "ファイルを解析できませんでした"
 #: src/vnc-connection.vala:168 src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
-msgstr "VNC ファイルにキー“%s”がありません"
+msgstr "VNC ファイルにキー “%s” がありません"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
@@ -503,8 +553,8 @@ msgstr "VNC ファイルにキー“%s”がありません"
 #~ "Computers need to be set up for remote desktop before you can connect to "
 #~ "them."
 #~ msgstr ""
-#~ "リモート接続する前に、接続される側のコンピューターでリモートデスクトップの"
-#~ "セットアップをする必要があります。"
+#~ "リモート接続する前に、接続される側のコンピューターでリモートデスクトップ"
+#~ "のセットアップをする必要があります。"
 
 #~ msgid "We hope that you enjoy Connections!"
 #~ msgstr "“接続”を楽しんでください!"
