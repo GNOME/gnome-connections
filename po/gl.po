@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-08-02 14:57+0000\n"
-"PO-Revision-Date: 2025-08-03 00:05+0200\n"
+"POT-Creation-Date: 2025-08-29 20:29+0000\n"
+"PO-Revision-Date: 2025-08-30 21:10+0200\n"
 "Last-Translator: Fran Dieguez <fran.dieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 "X-DL-Team: gl\n"
 "X-DL-Module: connections\n"
 "X-DL-Branch: master\n"
@@ -31,7 +31,9 @@ msgstr ""
 msgid "Connections"
 msgstr "Conexións"
 
-#: data/org.gnome.Connections.desktop.in:7
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
 msgstr "vnc;rdp;remoto;escritorio;windows;asistencia;soporte;acceso;ver"
 
@@ -80,7 +82,7 @@ msgstr "Ficheiro de Escritorio Remoto (VNC)"
 msgid "Delete"
 msgstr "Eliminar"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Propiedades"
 
@@ -190,15 +192,16 @@ msgid "_Close"
 msgstr "_Pechar"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Redimensionar o escritorio"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:237
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Tomar captura de pantalla"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:199
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
@@ -223,7 +226,7 @@ msgstr "VNC (estándar para conectarse a Linux)"
 msgid "SPICE (for connecting to remote VMs)"
 msgstr "SPICE (para conectarse a MV remotas)"
 
-#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Axuda"
 
@@ -321,6 +324,41 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Autenticar"
 
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Vista xeral"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Axuda"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Buscar"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Atallos de teclado"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Saír "
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Conexión da pantalla"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
 #: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
 msgid "Welcome to Connections"
 msgstr "Benvida a Conexións"
@@ -371,83 +409,96 @@ msgid ""
 msgstr ""
 "Para comezar, precisa o enderezo do computador ao que se quere conectar."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Propiedades da conexión"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Enderezo"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Nome"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "Axustar á xanela"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Tamaño orixinal"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Activar son"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Modo de escalado"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Nova"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Menú de aplicación"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Buscar"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Ir atrás"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Menú de visualización"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Desconectarse"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Atallos de teclado"
-
-#: src/ui/topbar.ui:222
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Atallos de teclado"
 
-#: src/ui/topbar.ui:230
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Atallos de teclado"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Sobre Conexións"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Retroceso"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Supr"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:276
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:283
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:290
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -463,10 +514,6 @@ msgstr "Só ver"
 msgid "Show local pointer"
 msgstr "Mostrar punteiro local"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Activar son"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Ancho de banda"
@@ -478,10 +525,6 @@ msgstr "Alta calidade"
 #: src/ui/vnc-preferences.ui:89
 msgid "Fast refresh"
 msgstr "Recarga rápida"
-
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Modo de escalado"
 
 #: src/ui/window.ui:52
 msgid "Click the add button to create your first connection"
