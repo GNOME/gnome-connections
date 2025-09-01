@@ -1,14 +1,14 @@
 # Hungarian translation for gnome-connections.
-# Copyright (C) 2021 Free Software Foundation, Inc.
+# Copyright (C) 2021, 2025 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-connections package.
 #
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2021.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2021.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2021, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"POT-Creation-Date: 2021-09-11 09:18+0000\n"
-"PO-Revision-Date: 2021-09-12 21:38+0200\n"
+"POT-Creation-Date: 2025-08-30 19:12+0000\n"
+"PO-Revision-Date: 2025-09-01 17:03+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -96,8 +96,15 @@ msgstr ""
 "vnc:// egy távoli <app>vino</app> vagy <app>VNC</app> kiszolgálóhoz történő "
 "kapcsolódáshoz."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+#| msgid "rdp:// to connect to a remote <app>RDP</app> server."
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr ""
+"spice:// egy távoli <app>SPICE</app> kiszolgálóhoz történő kapcsolódáshoz."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -106,32 +113,29 @@ msgstr ""
 "konfigurációjából vagy a távoli gépen lévő szolgáltatásból."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Kattintson a <gui style=\"button\">Létrehozás</gui> gombra."
 
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "A távoli gép megnyílik a gyűjteménynézetben."
 
 #. (itstool) path: info/title
 #: C/index.page:7
-#| msgid "Connections"
 msgctxt "link:trail"
 msgid "Connections"
 msgstr "Kapcsolatok"
 
 #. (itstool) path: info/title
 #: C/index.page:8
-#| msgid "Connections"
 msgctxt "link"
 msgid "Connections"
 msgstr "Kapcsolatok"
 
 #. (itstool) path: info/title
 #: C/index.page:9
-#| msgid "Connections"
 msgctxt "text"
 msgid "Connections"
 msgstr "Kapcsolatok"
