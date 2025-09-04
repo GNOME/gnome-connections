@@ -1,3 +1,30 @@
+49.rc - 04 Sep, 2025
+=====================
+
+Changes since 49.beta
+
+  - Added button tooltips to the topbar
+  - Added saving of user-preferred window size
+  - Allow shrinking display size down to 360x294
+  - Allow building without spice-gtk3
+  - Handle existing SPICE connections when SPICE is disabled
+
+  - Added/Updated translations:
+     - Basque
+     - Chinese
+     - Czech
+     - Finnish
+     - Galician
+     - Georgian
+     - Hebrew
+     - Hungarian
+     - Japanese
+     - Persian
+     - Polish
+     - Romanian
+     - Russian
+     - Swedish
+
 49.beta - 15 Aug, 2025
 =====================
 
