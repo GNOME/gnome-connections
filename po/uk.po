@@ -2,13 +2,14 @@
 # Copyright (C) 2020 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-07-31 16:56+0000\n"
-"PO-Revision-Date: 2024-08-23 14:00+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues"
+"\n"
+"POT-Creation-Date: 2025-09-06 16:16+0000\n"
+"PO-Revision-Date: 2025-09-06 21:03+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -19,17 +20,25 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 23.04.3\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "З'єднання"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"vnc;rdp;remote;desktop;windows;support;access;view;віенсі;внс;рдп;віддалена;с"
+"тільниця;вікна;віндоус;віндовс;віндовз;підтримка;супровід;доступ;перегляд"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Перегляд і користування іншими стільницями"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -42,7 +51,7 @@ msgstr ""
 "можливістю можна скористатися для надання підтримки користувачам, які "
 "потребують допомоги."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -51,7 +60,7 @@ msgstr ""
 "стільничними середовищами Linux і Windows. Ви також зможете встановлювати "
 "з'єднання із віртуальними машинами."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -61,15 +70,9 @@ msgstr ""
 "з'єднання."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "Проєкт GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;desktop;windows;support;access;view;віенсі;внс;рдп;віддалена;"
-"стільниця;вікна;віндоус;віндовс;віндовз;підтримка;супровід;доступ;перегляд"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -79,7 +82,7 @@ msgstr "Файл віддаленої стільниці (VNC)"
 msgid "Delete"
 msgstr "Вилучити"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Властивості"
 
@@ -87,41 +90,41 @@ msgstr "Властивості"
 msgid "translator-credits"
 msgstr "Юрій Чорноіван <yurchor@ukr.net>, 2020"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Клієнт віддалених стільниць для середовища GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Не вдалося відкрити файл невідомого типу MIME %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "З'єднання із «%s» вилучено"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Скасувати"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "Адреса для з'єднання"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Відкрити файл .vnc або .rdp за вказаним PATH"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "ШЛЯХ"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Відкрити на увесь екран"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Вказано надто багато аргументів командного рядка.\n"
 
@@ -167,15 +170,18 @@ msgstr ""
 
 #: src/dialogs.vala:241
 #, c-format
+#| msgid ""
+#| "The remote server “%s” requires a username and password to continue to "
+#| "connect."
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
 msgstr ""
-"Для продовження з'єднання віддаленому серверу «%s» потрібне ім'я користувача "
-"і пароль."
+"Для продовження з'єднання віддаленому серверу «%s» потрібно вказати такі"
+" параметри розпізнавання:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -189,15 +195,16 @@ msgid "_Close"
 msgstr "З_акрити"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Змінити розміри стільниці"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Зробити знімок"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "На увесь екран"
 
@@ -217,11 +224,16 @@ msgstr "RDP (стандарт для з'єднання із Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (стандарт для з'єднання із Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:81
+#| msgid "RDP (standard for connecting to Windows)"
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (для встановлення з'єднань із віддаленими ВМ)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Довідка"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "З'єднатися"
 
@@ -255,16 +267,6 @@ msgid "Verify Fingerprint"
 msgstr "Перевірити відбиток"
 
 #: src/ui/dialog.ui:211
-#| msgid ""
-#| "On Windows run certlm.msc or certmgr.msc\n"
-#| "and copy the certificate from\n"
-#| "<b>Remote Desktop>Certificates</b> to a file.\n"
-#| "Then obtain its fingerprint via\n"
-#| "\"certutil.exe -hashfile file SHA256\".\n"
-#| "\n"
-#| "If GNOME is used on the connected endpoint,\n"
-#| "the fingerprint can be verified in the Settings,\n"
-#| "<b>Sharing>Remote Desktop>Verify Encryption</b>."
 msgid ""
 "On Windows run certlm.msc or certmgr.msc\n"
 "and copy the certificate from\n"
@@ -324,7 +326,47 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Розпізнавання"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Огляд"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+#| msgid "Help"
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Довідка"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+#| msgid "Search"
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Шукати"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+#| msgid "Keyboard Shortcuts"
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Клавіатурні скорочення"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Вийти"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+#| msgid "Connections"
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Показ з'єднання"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+#| msgid "Fullscreen"
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "На увесь екран"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Вітаємо у «З'єднаннях»"
 
@@ -377,83 +419,96 @@ msgstr ""
 "Для початку, вам потрібна адреса комп'ютера, з яким ви хочете встановити "
 "з'єднання."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Параметри з'єднання"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Адреса"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Назва"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "Вмістити у вікно"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Початковий розмір"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Увімкнути звук"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Режим масштабування"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Створити"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Меню програми"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Шукати"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Перейти назад"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Меню показу"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Від’єднатися"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Клавіатурні скорочення"
-
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Клавіатурні скорочення"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Клавіатурні скорочення"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Про «З'єднання»"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -469,10 +524,6 @@ msgstr "Лише перегляд"
 msgid "Show local pointer"
 msgstr "Показувати локальний вказівник"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Увімкнути звук"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Ширина каналу"
@@ -485,11 +536,7 @@ msgstr "Висока якість"
 msgid "Fast refresh"
 msgstr "Швидке оновлення"
 
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Режим масштабування"
-
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Натисніть кнопку додавання, щоб створити ваше перше з'єднання"
 
