@@ -61,9 +61,9 @@
     <control>pointing</control>
   </supports>
   <releases>
-    <release version="48.0" date="2025-03-14">
+    <release version="49.0" date="2025-09-12">
       <description>
-        <p>GNOME Connections 48.0 culminates six months of feature development, bugfixes, and performance improvements.</p>
+        <p>GNOME Connections 49.0 culminates six months of feature development, bugfixes, and performance improvements.</p>
       </description>
     </release>
   </releases>
