@@ -7,28 +7,35 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: connections\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-07-31 16:56+0000\n"
-"PO-Revision-Date: 2025-06-09 21:28+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-09-13 13:58+0000\n"
+"PO-Revision-Date: 2025-09-17 13:37+0200\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: ca\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Connexions"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;remot;escriptori;windows;suport;accés;visualitza"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Visualitza i utilitza altres escriptoris"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
@@ -40,7 +47,7 @@ msgstr ""
 "operatiu d'escriptori diferent. També es pot utilitzar com a manera de donar "
 "suport als usuaris que puguin necessitar ajuda."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
@@ -48,7 +55,7 @@ msgstr ""
 "Es pot connectar a una sèrie de diferents sistemes operatius, incloent-hi "
 "escriptoris Linux i Windows. També podeu connectar a màquines virtuals."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
@@ -57,13 +64,9 @@ msgstr ""
 "d'aquests ha d'estar habilitat a l'escriptori al qual voleu connectar."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "El projecte GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr "vnc;rdp;remot;escriptori;windows;suport;accés;visualitza"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -73,7 +76,7 @@ msgstr "Fitxer d'escriptori remot (VNC)"
 msgid "Delete"
 msgstr "Suprimeix"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Propietats"
 
@@ -81,43 +84,44 @@ msgstr "Propietats"
 msgid "translator-credits"
 msgstr ""
 "Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
-"Miquel-Àngel Burgos i Fradeja <miquel.angel.burgos@gmail.com>"
+"Miquel-Àngel Burgos i Fradeja <miquel.angel.burgos@gmail.com>\n"
+"Victor Dargallo <victordargallo@disroot.org>"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Un client d'escriptori remot per a l'entorn d'escriptori GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "No s'ha pogut obrir el fitxer de tipus MIME desconegut %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "S'ha eliminat la connexió a «%s»"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Desfés"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "URL a connectar"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Obre el fitxer .vnc o .rdp al CAMÍ indicat"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "CAMÍ"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Obre a pantalla completa"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "S'han especificat massa arguments de línia d'ordres.\n"
 
@@ -164,14 +168,14 @@ msgstr ""
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
 msgstr ""
-"El servidor remot «%s» requereix un nom d'usuari i una clau per procedir a "
-"la connexió."
+"El servidor remot «%s» requereix les següents dades d'autenticació per "
+"continuar la connexió:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -185,15 +189,16 @@ msgid "_Close"
 msgstr "_Tanca"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Redimensiona l'escriptori"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Fes una captura de pantalla"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
@@ -215,11 +220,15 @@ msgstr "RDP (estàndard per a connectar-se a Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (estàndard per a connectar-se a Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (per connectar-se a màquines virtuals remotes)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Ajuda"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Connecta"
 
@@ -313,7 +322,42 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Autentica"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Visió general"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Ajuda"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Cerca"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Dreceres de teclat"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Surt"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Pantalla de connexió"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Us donem la benvinguda al Connexions"
 
@@ -363,83 +407,96 @@ msgid ""
 msgstr ""
 "Per començar, es necessita l'adreça de l'ordinador al que es vol connectar."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Preferències de la connexió"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Adreça"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Nom"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "Ajusta la finestra"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Mida original"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Habilita l'àudio"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Mode d'escala"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Nou"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Menú d'aplicacions"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Cerca"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Ves enrere"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Mostra el menú"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Desconnecta"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Dreceres de teclat"
-
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Dreceres de teclat"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Dreceres de teclat"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Quant al Connexions"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Retrocés"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Supr"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -455,10 +512,6 @@ msgstr "Mostra només"
 msgid "Show local pointer"
 msgstr "Mostra el punter local"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Habilita l'àudio"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Amplada de banda"
@@ -471,11 +524,7 @@ msgstr "Qualitat alta"
 msgid "Fast refresh"
 msgstr "Actualització ràpida"
 
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Mode d'escala"
-
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Cliqueu el botó d'afegir per crear la primera connexió"
 
