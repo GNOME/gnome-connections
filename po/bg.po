@@ -8,66 +8,62 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-09-01 11:11+0000\n"
-"PO-Revision-Date: 2024-09-02 11:40+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
+"POT-Creation-Date: 2025-09-20 02:44+0000\n"
+"PO-Revision-Date: 2025-09-20 16:05+0200\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 46.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7
+#: src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Свързване"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;remote;desktop;windows;support;access;view;отдалечена;графична;среда;достъп;връзка;свързване;"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Достъп и ползване на отдалечени работни среди"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
-"Connections allows you to connect to and use other desktops. This can be a "
-"great way to access content or software on a different desktop operating "
-"system. It can also be used as a way to provide support to users who might "
-"need help."
+"Connections allows you to connect to and use other desktops. This can be a great way to access content or "
+"software on a different desktop operating system. It can also be used as a way to provide support to users "
+"who might need help."
 msgstr ""
-"Чрез „Свързване“ може да установявате връзки към графични среди. Това е "
-"чудесен начин да ползвате различни операционни системи или да помагате на "
-"други потребители."
+"Чрез „Свързване“ може да установявате връзки към графични среди. Това е чудесен начин да ползвате различни "
+"операционни системи или да помагате на други потребители."
 
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
-"A range of different operating systems can be connected to, including Linux "
-"and Windows desktops. You can also connect to virtual machines."
+"A range of different operating systems can be connected to, including Linux and Windows desktops. You can "
+"also connect to virtual machines."
 msgstr ""
-"Може да се свързвате към много видове операционни системи, включително "
-"графичните среди на Linux и Windows. Може да се свързвате и към виртуални "
-"машини."
+"Може да се свързвате към много видове операционни системи, включително графичните среди на Linux и Windows. "
+"Може да се свързвате и към виртуални машини."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these must be enabled on the "
+"desktop that you want to connect to."
 msgstr ""
-"Програмата ползва широко разпространените протоколи VNC и RDP за свързване. "
-"Поне един от тях трябва да е наличен на отдалечената машина."
+"Програмата ползва широко разпространените протоколи VNC и RDP за свързване. Поне един от тях трябва да е "
+"наличен на отдалечената машина."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "Проектът GNOME"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;desktop;windows;support;access;view;отдалечена;графична;среда;"
-"достъп;връзка;свързване;"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
@@ -77,60 +73,56 @@ msgstr "Файл за връзка към графична среда (VNC)"
 msgid "Delete"
 msgstr "Изтриване"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Настройки"
 
 #: src/application.vala:88
 msgid "translator-credits"
 msgstr ""
-"Александър Шопов &lt;<a href='mailto:ash@kambanaria.org'>ash@kambanaria.org</"
-"a>&gt;\n"
-"Twlvnn Kraftwerk &lt;<a href='mailto:kraft_werk@tutanota."
-"com'>kraft_werk@tutanota.com</a>&gt;\n"
+"Александър Шопов &lt;<a href='mailto:ash@kambanaria.org'>ash@kambanaria.org</a>&gt;\n"
+"Twlvnn Kraftwerk &lt;<a href='mailto:kraft_werk@tutanota.com'>kraft_werk@tutanota.com</a>&gt;\n"
 "\n"
 "\n"
 "Проектът за превод на GNOME има нужда от подкрепа.\n"
-"Научете повече за нас на <a href='https://fsa-bg.org/project/gtp'>уеб сайта</"
-"a> ни.\n"
-"Докладвайте за грешки в превода в <a href='https://fsa-bg.org/project/gtp/"
-"newticket'>съответния раздел</a>."
+"Научете повече за нас на <a href='https://fsa-bg.org/project/gtp'>уеб сайта</a> ни.\n"
+"Докладвайте за грешки в превода в <a href='https://fsa-bg.org/project/gtp/newticket'>съответния раздел</a>."
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Клиентска програма за GNOME за свързване с отдалечени графични среди"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Файлът с непознат вид MIME не може да бъде отворен: %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Връзката към „%s“ е изтрита"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Отмяна"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "Адрес за свързване"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Отваряне на файл с разширение „.vnc“ или „.rdp“ от дадения ПЪТ"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "ПЪТ"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "На цял екран"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Твърде много аргументи на командния ред.\n"
 
@@ -157,34 +149,28 @@ msgstr "Неуспешна идентификация: %s"
 #: src/dialogs.vala:167
 #, c-format
 msgid ""
-"Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process "
-"is only done once."
+"Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims to be, please "
+"verify the fingerprints match. This process is only done once."
 msgstr ""
-"Свързване към „%s“ за първи път. За да сте сигурни, че се свързвате с "
-"правилната машина, проверете дали отпечатъците съвпадат. Този процес се "
-"извършва само веднъж."
+"Свързване към „%s“ за първи път. За да сте сигурни, че се свързвате с правилната машина, проверете дали "
+"отпечатъците съвпадат. Този процес се извършва само веднъж."
 
 #: src/dialogs.vala:201
 #, c-format
 msgid ""
-"The remote server “%s” certificate doesn't match local copy. It may be "
-"someone's pretending to be the server."
+"The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to be the "
+"server."
 msgstr ""
-"Сертификатът на отдалечения сървър „%s“ не съвпада с локалното копие. "
-"Възможно е някой да се представя за сървъра."
+"Сертификатът на отдалечения сървър „%s“ не съвпада с локалното копие. Възможно е някой да се представя за "
+"сървъра."
 
 #: src/dialogs.vala:241
 #, c-format
-msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
-msgstr ""
-"Отдалеченият сървър „%s“ изисква потребителско име и парола, за да продължи "
-"свързването."
+msgid "The remote server “%s” requires the following authentication details to continue to connect:"
+msgstr "Отдалеченият сървър „%s“ изисква следните данни за удостоверяване, за да продължи свързването:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -198,15 +184,15 @@ msgid "_Close"
 msgstr "_Затваряне"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67 src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Преоразмеряване на работния плот"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Снимка на екрана"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "Цял екран"
 
@@ -226,11 +212,15 @@ msgstr "RDP (стандартно при свързване към Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (стандартно при свързване към Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (за свързване с отдалечени виртуални машини)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Помощ"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Свързване"
 
@@ -310,7 +300,7 @@ msgstr "Парола…"
 
 #: src/ui/dialog.ui:516
 msgid "Domain…"
-msgstr "Домейн…“"
+msgstr "Домейн…"
 
 #: src/ui/dialog.ui:537
 msgid ""
@@ -324,14 +314,50 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Удостоверяване"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Преглед"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Помощ"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Търсене"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Клавишни комбинации"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Спиране на програмата"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+#, fuzzy
+#| msgid "Connections"
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Свързване"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Цял екран"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Добре дошли в „Свързване“"
 
 #: src/ui/onboarding-dialog.ui:43
 msgid "Click next to learn about remote desktop."
-msgstr ""
-"натиснете върху следващия бутон, за да научите за отдалечена работна среда."
+msgstr "Натиснете върху следващия бутон, за да научите за отдалечена работна среда."
 
 #: src/ui/onboarding-dialog.ui:50
 msgid "Access other desktops"
@@ -339,11 +365,11 @@ msgstr "Достъп до отдалечени работни среди"
 
 #: src/ui/onboarding-dialog.ui:51
 msgid ""
-"Connections allows viewing the screens of other desktops. They can also be "
-"controlled using the pointer and keyboard."
+"Connections allows viewing the screens of other desktops. They can also be controlled using the pointer and "
+"keyboard."
 msgstr ""
-"„Свързване“ ви позволява да виждате екраните на отдалечени работни среди и "
-"да ги управлявате с мишка и клавиатура."
+"„Свързване“ ви позволява да виждате екраните на отдалечени работни среди и да ги управлявате с мишка и "
+"клавиатура."
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -358,101 +384,104 @@ msgid "Setup is required"
 msgstr "Необходимо е настройване"
 
 #: src/ui/onboarding-dialog.ui:67
-msgid ""
-"Remote desktop typically needs to be enabled on the computer you want to "
-"connect to."
+msgid "Remote desktop typically needs to be enabled on the computer you want to connect to."
 msgstr ""
-"Функцията за отдалечена работна среда обикновено трябва да бъде включена на "
-"компютъра, към който искате да се свържете."
+"Функцията за отдалечена работна среда обикновено трябва да бъде включена на компютъра, към който искате да "
+"се свържете."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"
 msgstr "Започнете като създадете първата си връзка"
 
 #: src/ui/onboarding-dialog.ui:75
-msgid ""
-"To begin, you will need the address of the computer you want to connect to."
-msgstr ""
-"За да започнете, ще ви е необходим адресът на компютъра, към който искате да "
-"се свържете."
+msgid "To begin, you will need the address of the computer you want to connect to."
+msgstr "За да започнете, ще ви е необходим адресът на компютъра, към който искате да се свържете."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9 src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Настройки на връзката"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22 src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Адрес"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37 src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Име"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68 src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "Напасване на прозореца"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69 src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Първоначален размер"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Включване на аудио"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Режим на мащабиране"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Нова"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Меню на приложението"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Търсене"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Назад"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Меню за екрана"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Прекъсване"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Клавишни комбинации"
-
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Клавишни комбинации"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Клавишни комбинации"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Относно „Свързване“"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -468,10 +497,6 @@ msgstr "Само разглеждане"
 msgid "Show local pointer"
 msgstr "Локален показалец"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Включване на аудио"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Широчина на канала"
@@ -484,21 +509,17 @@ msgstr "Високо качество"
 msgid "Fast refresh"
 msgstr "Бързо опресняване"
 
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Режим на мащабиране"
-
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
-msgstr "Натиснете бутона за добавяне, за да настроите първата връзка."
+msgstr "Натиснете бутона за добавяне, за да настроите първата връзка"
 
 #: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
 msgstr "Файлът не може да се анализира"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
-#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163 src/vnc-connection.vala:168
+#: src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "Ключът „%s“ липсва във файла за VNC"
@@ -516,11 +537,8 @@ msgstr "Ключът „%s“ липсва във файла за VNC"
 #~ msgid "Enable remote desktop before connecting"
 #~ msgstr "Преди да се свържете, трябва да включите отдалечения достъп"
 
-#~ msgid ""
-#~ "Computers need to be set up for remote desktop before you can connect to "
-#~ "them."
-#~ msgstr ""
-#~ "Компютрите трябва предварително да са настроени за отдалечен достъп."
+#~ msgid "Computers need to be set up for remote desktop before you can connect to them."
+#~ msgstr "Компютрите трябва предварително да са настроени за отдалечен достъп."
 
 #~ msgid "We hope that you enjoy Connections!"
 #~ msgstr "Надяваме се програмата „Свързване“ да ви е харесала"
