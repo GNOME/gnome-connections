@@ -1,13 +1,13 @@
 # Brazilian Portuguese translation for gnome-connections.
 # Copyright (C) 2021 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020-2021.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"POT-Creation-Date: 2021-03-20 14:02+0000\n"
-"PO-Revision-Date: 2021-03-21 17:59-0300\n"
+"POT-Creation-Date: 2025-09-22 22:10+0000\n"
+"PO-Revision-Date: 2025-10-04 21:31-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org\n"
 "Language: pt_BR\n"
@@ -15,12 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Gtranslator 49.0\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021"
+msgstr ""
+"Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021\n"
+"Leônidas Araújo <leorusvellt@hotmail.com>, 2025"
 
 #. (itstool) path: credit/name
 #: C/connect.page:9 C/index.page:13
@@ -93,8 +95,13 @@ msgid "vnc:// to connect to a remote <app>vino</app> or <app>VNC</app> server."
 msgstr ""
 "vnc:// para conectar a um servidor <app>vino</app> ou <app>VNC</app> remoto."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr "spice:// para se conectar a um servidor <app>SPICE</app> remoto."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -103,32 +110,29 @@ msgstr ""
 "dispositivo ou serviço na máquina remota."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Clique em <gui style=\"button\">Criar</gui>."
 
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "A máquina remota será aberta na visualização da coleção."
 
 #. (itstool) path: info/title
 #: C/index.page:7
-#| msgid "Connections"
 msgctxt "link:trail"
 msgid "Connections"
 msgstr "Conexões"
 
 #. (itstool) path: info/title
 #: C/index.page:8
-#| msgid "Connections"
 msgctxt "link"
 msgid "Connections"
 msgstr "Conexões"
 
 #. (itstool) path: info/title
 #: C/index.page:9
-#| msgid "Connections"
 msgctxt "text"
 msgid "Connections"
 msgstr "Conexões"
