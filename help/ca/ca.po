@@ -1,28 +1,31 @@
 # Catalan translation for connections.
-# 
+#
 # Translators:
 # Ma. Teresa Guix <maite.guix@gmail.com>, 2021
 # Benny Beat <bennybeat@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: connections gnome-41\n"
-"POT-Creation-Date: 2021-10-15 12:14+0000\n"
-"PO-Revision-Date: 2021-10-18 13:38+0000\n"
+"POT-Creation-Date: 2025-10-26 15:00+0000\n"
+"PO-Revision-Date: 2025-10-29 13:33+0100\n"
 "Last-Translator: Benny Beat <bennybeat@gmail.com>, 2021\n"
-"Language-Team: Catalan (https://www.transifex.com/softcatala/teams/62837/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/softcatala/teams/62837/"
+"ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Benet (BennyBeat) R. i Camps, benet@softcatala.org, 2021\n"
-"Maite Guix, maite.guix@me.com, 2021"
+"Maite Guix, maite.guix@me.com, 2021\n"
+"Victor Dargallo <victordargallo@disroot.org>, 2025"
 
 #. (itstool) path: credit/name
 #: C/connect.page:9 C/index.page:13
@@ -46,8 +49,7 @@ msgstr "Connecteu a un altre ordinador"
 
 #. (itstool) path: page/p
 #: C/connect.page:22
-msgid ""
-"<app>Connections</app> can be used to view and access a remote machine."
+msgid "<app>Connections</app> can be used to view and access a remote machine."
 msgstr ""
 "Les <app>connexions</app> es poden utilitzar per veure i accedir a una "
 "màquina remota."
@@ -93,13 +95,17 @@ msgstr "rdp:// per a connectar a un servidor remot <app>RDP</app>."
 
 #. (itstool) path: item/p
 #: C/connect.page:38
-msgid ""
-"vnc:// to connect to a remote <app>vino</app> or <app>VNC</app> server."
+msgid "vnc:// to connect to a remote <app>vino</app> or <app>VNC</app> server."
 msgstr ""
 "vnc:// per a connectar a un servidor remot <app>vino</app> o <app>VNC</app>."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr "spice:// per a connectar a un servidor remot <app>SPICE</app>."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -108,12 +114,12 @@ msgstr ""
 "del dispositiu o servei de la màquina remota."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Feu clic a <gui style=\"button\">Crea</gui>."
 
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "La màquina remota s'obrirà a la vista de col·lecció."
 
