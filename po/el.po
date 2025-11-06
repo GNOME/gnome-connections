@@ -233,10 +233,9 @@ msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (πρότυπο για σύνδεση με Linux)"
 
 #: src/ui/assistant.ui:81
-#, fuzzy
 #| msgid "RDP (standard for connecting to Windows)"
 msgid "SPICE (for connecting to remote VMs)"
-msgstr "RDP (πρότυπο για σύνδεση με Windows)"
+msgstr "SPICE (για σύνδεση με απομακρυσμένες εικονικές μηχανές)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
