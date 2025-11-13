@@ -12,70 +12,66 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections gnome-3-38\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/connections/issues\n"
-"POT-Creation-Date: 2024-08-31 14:13+0000\n"
-"PO-Revision-Date: 2024-09-07 07:58+0200\n"
-"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
+"POT-Creation-Date: 2025-10-18 19:23+0000\n"
+"PO-Revision-Date: 2025-10-20 19:49+0200\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Connections.appdata.xml.in:7
-#: data/org.gnome.Connections.desktop.in:3 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7
+#: src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Verbindungen"
 
-#: data/org.gnome.Connections.appdata.xml.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;remote;entfernt;desktop;windows;support;Unterstützung;access;Zugang;view;Ansicht"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
 msgstr "Andere entfernte Bildschirme ansehen und nutzen"
 
-#: data/org.gnome.Connections.appdata.xml.in:10
+#: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
-"Connections allows you to connect to and use other desktops. This can be a "
-"great way to access content or software on a different desktop operating "
-"system. It can also be used as a way to provide support to users who might "
-"need help."
+"Connections allows you to connect to and use other desktops. This can be a great way to access "
+"content or software on a different desktop operating system. It can also be used as a way to "
+"provide support to users who might need help."
 msgstr ""
-"Verbindungen erlaubt Ihnen, zu anderen Rechnern Verbindungen aufzubauen und "
-"diese zu nutzen. Das bietet eine großartige Möglichkeit, Inhalte oder "
-"Software auf einem anderen Rechner zu nutzen. Es bietet auch die "
-"Möglichkeit, Benutzer zu unterstützen, die Hilfe benötigen."
+"Verbindungen erlaubt Ihnen, zu anderen Rechnern Verbindungen aufzubauen und diese zu nutzen. "
+"Das bietet eine großartige Möglichkeit, Inhalte oder Software auf einem anderen Rechner zu "
+"nutzen. Es bietet auch die Möglichkeit, Benutzer zu unterstützen, die Hilfe benötigen."
 
 # Klingt nicht sehr schön - gerne besser machen! - pk
 # --
 # Etwas kürzere Variante. - jb
-#: data/org.gnome.Connections.appdata.xml.in:13
+#: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
-"A range of different operating systems can be connected to, including Linux "
-"and Windows desktops. You can also connect to virtual machines."
+"A range of different operating systems can be connected to, including Linux and Windows "
+"desktops. You can also connect to virtual machines."
 msgstr ""
-"Zu einer Vielzahl an Betriebssystemen lassen sich Verbindungen herstellen, "
-"inklusive Windows- und Linux-Umgebungen. Auch zu virtuellen Maschinen können "
-"Verbindungen aufgebaut werden."
+"Zu einer Vielzahl an Betriebssystemen lassen sich Verbindungen herstellen, inklusive Windows- "
+"und Linux-Umgebungen. Auch zu virtuellen Maschinen können Verbindungen aufgebaut werden."
 
-#: data/org.gnome.Connections.appdata.xml.in:16
+#: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these must be enabled "
+"on the desktop that you want to connect to."
 msgstr ""
-"Verbindungen nutzt die weit verbreiteten Protokolle VNC und RDP. Eines der "
-"beiden muss auf dem Zielrechner aktiviert sein."
+"Verbindungen nutzt die weit verbreiteten Protokolle VNC und RDP. Eines der beiden muss auf dem "
+"Zielrechner aktiviert sein."
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.appdata.xml.in:44
+#: data/org.gnome.Connections.metainfo.xml.in:41
 msgid "The GNOME Project"
 msgstr "Das GNOME-Projekt"
-
-#: data/org.gnome.Connections.desktop.in:8
-msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;entfernt;desktop;windows;support;Unterstützung;access;Zugang;"
-"view;Ansicht"
 
 # Aus Vinagre übernommen
 #: data/org.gnome.Connections.xml:5
@@ -86,7 +82,7 @@ msgstr "»Entfernter Bildschirm (VNC)«-Datei"
 msgid "Delete"
 msgstr "Löschen"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:240
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Eigenschaften"
 
@@ -101,41 +97,41 @@ msgstr ""
 "Jürgen Benvenuti <gastornis@posteo.org>, 2023, 2024"
 
 # Leicht verändert aus Vinagre übernommen
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Ein Betrachter für entfernte Bildschirme für die GNOME Arbeitsumgebung"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Datei des unbekannten MIME-Typs %s konnte nicht geöffnet werden"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Verbindung zu »%s« wurde gelöscht"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Rückgängig machen"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "Adresse des Verbindungsziels"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr ".vnc-Datei oder .rdp-Datei im angegebenen PFAD öffnen"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "PFAD"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Im Vollbildmodus öffnen"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Zu viele Befehlszeilenargumente angegeben.\n"
 
@@ -162,35 +158,32 @@ msgstr "Legitimation gescheitert: %s"
 #: src/dialogs.vala:167
 #, c-format
 msgid ""
-"Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process "
-"is only done once."
+"Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims "
+"to be, please verify the fingerprints match. This process is only done once."
 msgstr ""
-"Mit »%s« wird zum ersten Mal eine Verbindung hergestellt. Um sicherzugehen, "
-"dass Sie sich mit der Maschine verbinden, für die sie sich ausgibt, prüfen "
-"Sie bitte, ob die Fiingerabdrücke übereinstimmen. Dieser Vorgang muss nur "
-"einmal erledigt werden."
+"Mit »%s« wird zum ersten Mal eine Verbindung hergestellt. Um sicherzugehen, dass Sie sich mit "
+"der Maschine verbinden, für die sie sich ausgibt, prüfen Sie bitte, ob die Fiingerabdrücke "
+"übereinstimmen. Dieser Vorgang muss nur einmal erledigt werden."
 
 #: src/dialogs.vala:201
 #, c-format
 msgid ""
-"The remote server “%s” certificate doesn't match local copy. It may be "
-"someone's pretending to be the server."
+"The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to "
+"be the server."
 msgstr ""
-"Das Zertifikat des entfernten Servers »%s« stimmt nicht mit der lokalen "
-"Kopie überein. Möglicherweise täuscht jemand anderes vor, der Server zu sein."
+"Das Zertifikat des entfernten Servers »%s« stimmt nicht mit der lokalen Kopie überein. "
+"Möglicherweise täuscht jemand anderes vor, der Server zu sein."
 
 #: src/dialogs.vala:241
 #, c-format
 msgid ""
-"The remote server “%s” requires a username and password to continue to "
-"connect."
+"The remote server “%s” requires the following authentication details to continue to connect:"
 msgstr ""
-"Der entfernte Servers »%s« erfordert Benutzername und Passwort, um die "
-"Verbindung herzustellen."
+"Der entfernte Servers »%s« erfordert die folgende Legitimierung, um die Verbindung "
+"herzustellen:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:131
+#: src/display-view.vala:156
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -204,23 +197,23 @@ msgid "_Close"
 msgstr "S_chließen"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Bildschirmgröße ändern"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:236
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Bildschirmfoto aufnehmen"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:198
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "Vollbild"
 
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
 msgstr ""
-"Geben Sie die Netzwerk-Kennung des entfernten Bildschirms an, um sich mit "
-"ihm zu verbinden:"
+"Geben Sie die Netzwerk-Kennung des entfernten Bildschirms an, um sich mit ihm zu verbinden:"
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
@@ -234,11 +227,16 @@ msgstr "RDP (Standard bei Verbindungen zu Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (Standard bei Verbindungen zu Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:225
+#: src/ui/assistant.ui:81
+#| msgid "RDP (standard for connecting to Windows)"
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (zur Verbindung mit entfernten virtuellen Maschinen)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Hilfe"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Verbinden"
 
@@ -333,7 +331,42 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Anmelden"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Übersicht"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Suchen"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Tastenkombinationen"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Verbindungsanzeige"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Willkommen zu Verbindungen"
 
@@ -347,11 +380,11 @@ msgstr "Auf andere entfernte Bildschirme zugreifen"
 
 #: src/ui/onboarding-dialog.ui:51
 msgid ""
-"Connections allows viewing the screens of other desktops. They can also be "
-"controlled using the pointer and keyboard."
+"Connections allows viewing the screens of other desktops. They can also be controlled using "
+"the pointer and keyboard."
 msgstr ""
-"Nutzen Sie »Verbindungen«, um den Bildschirm anderer Rechner zu sehen. Sie "
-"können die Rechner auch mit Maus und Tastatur steuern."
+"Nutzen Sie »Verbindungen«, um den Bildschirm anderer Rechner zu sehen. Sie können die Rechner "
+"auch mit Maus und Tastatur steuern."
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -366,101 +399,104 @@ msgid "Setup is required"
 msgstr "Einrichtung erforderlich"
 
 #: src/ui/onboarding-dialog.ui:67
-msgid ""
-"Remote desktop typically needs to be enabled on the computer you want to "
-"connect to."
+msgid "Remote desktop typically needs to be enabled on the computer you want to connect to."
 msgstr ""
-"Die Bildschirmfreigabe muss auf dem Rechner eingeschaltet werden, mit dem "
-"Sie sich verbinden wollen."
+"Die Bildschirmfreigabe muss auf dem Rechner eingeschaltet werden, mit dem Sie sich verbinden "
+"wollen."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"
 msgstr "Legen Sie los und erstellen Sie Ihre erste Verbindung"
 
 #: src/ui/onboarding-dialog.ui:75
-msgid ""
-"To begin, you will need the address of the computer you want to connect to."
-msgstr ""
-"Sie brauchen zunächst die Adresse des Rechners, mit dem Sie sich verbinden "
-"möchten."
+msgid "To begin, you will need the address of the computer you want to connect to."
+msgstr "Sie brauchen zunächst die Adresse des Rechners, mit dem Sie sich verbinden möchten."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9 src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Verbindungseinstellungen"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22 src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Adresse"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37 src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Name"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68 src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "In Fenster einpassen"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69 src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Originalgröße"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Audio aktivieren"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Skalierungsmodus"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Neu"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Anwendungsmenü"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Suchen"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Zurück gehen"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Menü anzeigen"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Verbindung trennen"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Tastenkombinationen"
-
-#: src/ui/topbar.ui:221
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Tastenkombinationen"
 
-#: src/ui/topbar.ui:229
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Tastenkombinationen"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Info zu Verbindungen"
 
-#: src/ui/topbar.ui:254
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Strg + Alt + Rückschritttaste"
 
-#: src/ui/topbar.ui:261
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Strg + Alt + Entf"
 
-#: src/ui/topbar.ui:268
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Strg + Alt + F1"
 
-#: src/ui/topbar.ui:275
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Strg + Alt + F2"
 
-#: src/ui/topbar.ui:282
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Strg + Alt + F3"
 
-#: src/ui/topbar.ui:289
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Strg + Alt + F7"
 
@@ -476,10 +512,6 @@ msgstr "Nur anzeigen"
 msgid "Show local pointer"
 msgstr "Lokalen Zeiger anzeigen"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Audio aktivieren"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Bandbreite"
@@ -492,22 +524,17 @@ msgstr "Hohe Qualität"
 msgid "Fast refresh"
 msgstr "Schnelle Aktualisierung"
 
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Skalierungsmodus"
-
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
-msgstr ""
-"Klicken Sie auf den Hinzufügen-Knopf, um Ihre erste Verbindung zu erstellen"
+msgstr "Klicken Sie auf den Hinzufügen-Knopf, um Ihre erste Verbindung zu erstellen"
 
 #: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
 msgstr "Die Datei konnte nicht analysiert werden"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
-#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163 src/vnc-connection.vala:168
+#: src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "VNC-Datei fehlt Schlüssel »%s«"
@@ -524,12 +551,10 @@ msgstr "VNC-Datei fehlt Schlüssel »%s«"
 #~ msgid "Enable remote desktop before connecting"
 #~ msgstr "Aktivieren Sie »Entfernter Bildschirm« vor dem Verbinden"
 
-#~ msgid ""
-#~ "Computers need to be set up for remote desktop before you can connect to "
-#~ "them."
+#~ msgid "Computers need to be set up for remote desktop before you can connect to them."
 #~ msgstr ""
-#~ "Rechner müssen für die Verwendung als entfernter Bildschirm eingerichtet "
-#~ "werden, bevor Sie sich mit ihnen verbinden können."
+#~ "Rechner müssen für die Verwendung als entfernter Bildschirm eingerichtet werden, bevor Sie "
+#~ "sich mit ihnen verbinden können."
 
 #~ msgid "We hope that you enjoy Connections!"
 #~ msgstr "Wir hoffen, dass Ihnen Verbindungen gefällt!"
@@ -559,34 +584,29 @@ msgstr "VNC-Datei fehlt Schlüssel »%s«"
 #~ msgstr "Mit Linux oder Windows verbinden"
 
 #~ msgid "Remotely access a range of desktop operating systems."
-#~ msgstr ""
-#~ "Auf eine Vielzahl von entfernten graphischen Benutzeroberflächen "
-#~ "zugreifen."
+#~ msgstr "Auf eine Vielzahl von entfernten graphischen Benutzeroberflächen zugreifen."
 
 #~ msgid "Configure for Access"
 #~ msgstr "Für Zugriff einrichten"
 
 #~ msgid "To connect to a desktop, it needs to be setup first."
 #~ msgstr ""
-#~ "Um eine Verbindung mit einem entfernten Bildschirm herzustellen, muss "
-#~ "dieser zuerst eingerichtet werden."
+#~ "Um eine Verbindung mit einem entfernten Bildschirm herzustellen, muss dieser zuerst "
+#~ "eingerichtet werden."
 
 #~ msgid "GNOME Connections"
 #~ msgstr "GNOME Verbindungen"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
-#~ msgstr ""
-#~ "Ein Betrachter für entfernte Bildschirme für die GNOME Arbeitsumgebung."
+#~ msgstr "Ein Betrachter für entfernte Bildschirme für die GNOME Arbeitsumgebung."
 
 #~ msgid "Create a New Connection"
 #~ msgstr "Eine neue Verbindung erstellen"
 
-#~ msgid ""
-#~ "Enter a machine address to connect to. Address can begin with rdp:// or "
-#~ "vnc://"
+#~ msgid "Enter a machine address to connect to. Address can begin with rdp:// or vnc://"
 #~ msgstr ""
-#~ "Geben Sie die Adresse eines Rechners ein, zu dem verbunden werden soll. "
-#~ "Die Adresse kann mit rdp:// oder vnc:// beginnen."
+#~ "Geben Sie die Adresse eines Rechners ein, zu dem verbunden werden soll. Die Adresse kann "
+#~ "mit rdp:// oder vnc:// beginnen."
 
 #~ msgid "Server"
 #~ msgstr "Server"
