@@ -6,23 +6,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"POT-Creation-Date: 2022-03-21 12:15+0000\n"
-"PO-Revision-Date: 2022-03-22 18:20+0100\n"
-"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
+"POT-Creation-Date: 2025-11-13 21:25+0000\n"
+"PO-Revision-Date: 2025-11-15 11:03+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.8\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2021\n"
-"Christian Kirbach <christian.kirbach@googlemail.com>, 2021"
+"Christian Kirbach <christian.kirbach@googlemail.com>, 2021, 2025"
 
 #. (itstool) path: credit/name
 #: C/connect.page:9 C/index.page:13
@@ -98,8 +98,13 @@ msgstr ""
 "vnc:// zum Verbinden mit einem fernen <app>vino</app>- oder <app>VNC</app>-"
 "Server."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr "spice:// zum Verbinden mit einem <app>SPICE</app>-Server."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -108,13 +113,13 @@ msgstr ""
 "oder Dienstes auf dem fernen Rechner entnommen werden."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Klicken Sie auf <gui style=\"button\">Erstellen</gui>."
 
 # Es sind Kacheln, welche alle eingerichteten Verbindungen darstellen
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "Der ferne Rechner wird in der Kachelansicht geöffnet."
 
