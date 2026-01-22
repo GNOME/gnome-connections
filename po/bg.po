@@ -1,7 +1,9 @@
 # Bulgarian translation of GNOME connections po-file.
-# Copyright (C) 2021 Alexander Shopov <ash@kambanaria.org>.
+# Copyright (C) 2021, 2022, 2023, 2026 Alexander Shopov <ash@kambanaria.org>.
+# Copyright (C) 2024 twlvnn kraftwerk <kraft_werk@tutanota.com>.
 # This file is distributed under the same license as the GNOME connections package.
-# Alexander Shopov <ash@kambanaria.org>, 2021.
+# Alexander Shopov <ash@kambanaria.org>, 2021, 2022, 2023, 2026.
+# twlvnn kraftwerk <kraft_werk@tutanota.com>, 2024, 2025.
 #
 msgid ""
 msgstr ""
@@ -9,14 +11,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
 "POT-Creation-Date: 2025-09-12 17:26+0000\n"
-"PO-Revision-Date: 2021-08-26 11:57+0200\n"
-"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"PO-Revision-Date: 2026-01-22 06:55+0100\n"
+"Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
+"Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
@@ -84,6 +87,8 @@ msgid "translator-credits"
 msgstr ""
 "Александър Шопов &lt;<a href='mailto:ash@kambanaria.org'>ash@kambanaria.org</"
 "a>&gt;\n"
+"Twlvnn Kraftwerk &lt;<a "
+"href='mailto:kraft_werk@tutanota.com'>kraft_werk@tutanota.com</a>&gt;\n"
 "\n"
 "\n"
 "Проектът за превод на GNOME има нужда от подкрепа.\n"
@@ -123,10 +128,8 @@ msgid "PATH"
 msgstr "ПЪТ"
 
 #: src/application.vala:238
-#, fuzzy
-#| msgid "Fullscreen"
 msgid "Open in full screen"
-msgstr "Цял екран"
+msgstr "На цял екран"
 
 #: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
@@ -214,10 +217,8 @@ msgid "Enter the network identifier of the remote desktop to connect to:"
 msgstr "Въведете адреса/името на компютъра, към който ще се свържете:"
 
 #: src/ui/assistant.ui:53
-#, fuzzy
-#| msgid "Connections"
 msgid "Connection Type"
-msgstr "Свързване"
+msgstr "Вид връзка"
 
 #: src/ui/assistant.ui:63
 msgid "RDP (standard for connecting to Windows)"
@@ -253,10 +254,8 @@ msgstr "Вписване"
 
 #. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
-#, fuzzy
-#| msgid "Connections"
 msgid "Open Connection"
-msgstr "Свързване"
+msgstr "Отваряне на връзка"
 
 #: src/ui/dialog.ui:37 src/ui/dialog.ui:43
 msgid "Verify"
@@ -305,22 +304,16 @@ msgid "Delete Local Certificate"
 msgstr "Изтриване на локален сертификат"
 
 #: src/ui/dialog.ui:387
-#, fuzzy
-#| msgid "Authentication failed: %s"
 msgid "Authentication Required"
-msgstr "Неуспешна идентификация: %s"
+msgstr "Изисква се идентификация"
 
 #: src/ui/dialog.ui:438
-#, fuzzy
-#| msgid "_Username"
 msgid "Username…"
-msgstr "_Име на потребител"
+msgstr "Име на потребител…"
 
 #: src/ui/dialog.ui:466
-#, fuzzy
-#| msgid "_Password"
 msgid "Password…"
-msgstr "_Парола"
+msgstr "Парола…"
 
 #: src/ui/dialog.ui:516
 msgid "Domain…"
@@ -335,10 +328,8 @@ msgstr ""
 "остане празно."
 
 #: src/ui/dialog.ui:639
-#, fuzzy
-#| msgid "Authentication failed: %s"
 msgid "Authenticate"
-msgstr "Неуспешна идентификация: %s"
+msgstr "Удостоверяване"
 
 #: src/ui/kbd-shortcuts-window.ui:18
 msgctxt "shortcut window"
@@ -346,22 +337,16 @@ msgid "Overview"
 msgstr "Преглед"
 
 #: src/ui/kbd-shortcuts-window.ui:25
-#, fuzzy
-#| msgid "Help"
 msgctxt "shortcut window"
 msgid "Help"
 msgstr "Помощ"
 
 #: src/ui/kbd-shortcuts-window.ui:33
-#, fuzzy
-#| msgid "Search"
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "Търсене"
 
 #: src/ui/kbd-shortcuts-window.ui:41
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgctxt "shortcut window"
 msgid "Keyboard Shortcuts"
 msgstr "Клавишни комбинации"
@@ -372,15 +357,11 @@ msgid "Quit"
 msgstr "Спиране на програмата"
 
 #: src/ui/kbd-shortcuts-window.ui:59
-#, fuzzy
-#| msgid "Connections"
 msgctxt "shortcut window"
 msgid "Connection Display"
-msgstr "Свързване"
+msgstr "Показване на връзката"
 
 #: src/ui/kbd-shortcuts-window.ui:66
-#, fuzzy
-#| msgid "Fullscreen"
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Цял екран"
@@ -395,10 +376,8 @@ msgstr ""
 "Натиснете върху следващия бутон, за да научите за отдалечена работна среда."
 
 #: src/ui/onboarding-dialog.ui:50
-#, fuzzy
-#| msgid "View and use other desktops"
 msgid "Access other desktops"
-msgstr "Достъп и ползване на отдалечени работни среди"
+msgstr "Достъп до отдалечени работни среди"
 
 #: src/ui/onboarding-dialog.ui:51
 msgid ""
@@ -557,10 +536,8 @@ msgid "Fast refresh"
 msgstr "Бързо опресняване"
 
 #: src/ui/window.ui:53
-#, fuzzy
-#| msgid "Just hit the <b>+</b> button to make your first connection."
 msgid "Click the add button to create your first connection"
-msgstr "Натиснете бутона <b>+</b>, за да настроите първата връзка."
+msgstr "Натиснете бутона за добавяне, за да настроите първата връзка"
 
 #: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
@@ -572,63 +549,3 @@ msgstr "Файлът не може да се анализира"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "Ключът „%s“ липсва във файла за VNC"
-
-msgid "Enable remote desktop before connecting"
-msgstr "Преди да се свържете, трябва да включите отдалечения достъп"
-
-msgid ""
-"Computers need to be set up for remote desktop before you can connect to "
-"them."
-msgstr "Компютрите трябва предварително да са настроени за отдалечен достъп."
-
-msgid "More information can be found in the help."
-msgstr "Вижте помощта за повече информация."
-
-#, c-format
-#~ msgid "“%s” requires authentication"
-#~ msgstr "„%s“ изисква идентификация"
-
-#, fuzzy
-#~| msgid "About Connections"
-#~ msgid "Learn about how Connections works."
-#~ msgstr "Относно „Свързване“"
-
-#, fuzzy
-#~| msgid "View and use other desktops"
-#~ msgid "Use other desktops, remotely"
-#~ msgstr "Достъп и ползване на отдалечени работни среди"
-
-#, fuzzy
-#~| msgid "Welcome to Connections"
-#~ msgid "We hope that you enjoy Connections!"
-#~ msgstr "Добре дошли в „Свързване“"
-
-#~ msgid "Learn more."
-#~ msgstr "Повече информация."
-
-#~ msgid "Read our tutorial to learn how."
-#~ msgstr "За да научите повече, прочетете въведението."
-
-#~ msgid "Connect to a Desktop"
-#~ msgstr "Свързване към графична работна среда"
-
-#~ msgid "Addresses start with either vnc:// or rdp://."
-#~ msgstr "Адресите започват с „vnc://“ или „rdp://“."
-
-#~ msgid "Connections makes it easy to use other desktops remotely."
-#~ msgstr "Програмата позволява лесно свързване към отдалечени графични среди."
-
-#~ msgid "Connect to Linux or Windows"
-#~ msgstr "Свързване към Linux или Windows"
-
-#~ msgid "Remotely access a range of desktop operating systems."
-#~ msgstr "Отдалечено свързване към различни операционни системи."
-
-#~ msgid "Configure for Access"
-#~ msgstr "Настройки за достъпа"
-
-#~ msgid "To connect to a desktop, it needs to be setup first."
-#~ msgstr "Преди да се свържете с графична среда, настройте връзката."
-
-#~ msgid "Scaling"
-#~ msgstr "Мащабиране"
