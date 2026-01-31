@@ -1,0 +1,539 @@
+# Cornish translation for gnome-connections.
+# Copyright (C) 2026 gnome-connections's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-connections package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Flynn Peck <cirilla@tuta.io>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-connections master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2025-09-12 17:26+0000\n"
+"PO-Revision-Date: 2026-01-31 13:55+0000\n"
+"Last-Translator: Flynn Peck <cirilla@tuta.io>\n"
+"Language-Team: kw\n"
+"Language: kw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/GNOME/gnome-connections\n"
+"X-DL-Lang: kw\n"
+"X-DL-Module: gnome-connections\n"
+"X-DL-Branch: master\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 49.0\n"
+
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
+msgid "Connections"
+msgstr "Junyansow"
+
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr "vnc;rdp;pell;desktop;windows;skoodhyans;hedhas;gweles"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
+msgid "View and use other desktops"
+msgstr "Gweles ha devnydhya desktops aral"
+
+#: data/org.gnome.Connections.metainfo.xml.in:10
+msgid ""
+"Connections allows you to connect to and use other desktops. This can be a "
+"great way to access content or software on a different desktop operating "
+"system. It can also be used as a way to provide support to users who might "
+"need help."
+msgstr ""
+"Junyansow gasa ty junya dhe ha devnydhya desktops aral. Hemma a yll bos unn "
+"agwedh bryntin rag drehedhes dalgh po medhelweyth war unn system oberyans "
+"desktop dihaval. Yth a yll maga ta bos devnydhys rag provia skoodhyans dhe "
+"usyoryon neb res gweres."
+
+#: data/org.gnome.Connections.metainfo.xml.in:13
+msgid ""
+"A range of different operating systems can be connected to, including Linux "
+"and Windows desktops. You can also connect to virtual machines."
+msgstr ""
+"Unn aray a systemow oberyans dyffrans a yll bos junys dhe, ow komprehendya "
+"desktops Linux ha Windows. Ty a yll maga ta junya dhe amontyellow gowir."
+
+#: data/org.gnome.Connections.metainfo.xml.in:16
+msgid ""
+"Connections uses the widely supported VNC and RDP protocols, and one of "
+"these must be enabled on the desktop that you want to connect to."
+msgstr ""
+"Junyansow devnydhya an protokolys ledan-skoodhys VNC ha RDP, hag unn an "
+"protokols ma res bos byw war'n desktop ty mynnes junya dhe."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Connections.metainfo.xml.in:41
+msgid "The GNOME Project"
+msgstr "An Ragdres GNOME"
+
+#: data/org.gnome.Connections.xml:5
+msgid "Remote Desktop (VNC) file"
+msgstr "Restren Pelldesktop (VNC)"
+
+#: src/actions-popover.vala:44
+msgid "Delete"
+msgstr "Dilea"
+
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
+msgid "Properties"
+msgstr "Teythiennow"
+
+#: src/application.vala:88
+msgid "translator-credits"
+msgstr "Flynn"
+
+#: src/application.vala:89 src/application.vala:246
+msgid "A remote desktop client for the GNOME desktop environment"
+msgstr "Unn kliens pelldesktop rag an kerghynnedh desktop GNOME"
+
+#: src/application.vala:155
+#, c-format
+msgid "Couldn’t open file of unknown mime type %s"
+msgstr "Ny yllir ygeri restren a eghen ankoth %s"
+
+#: src/application.vala:186
+#, c-format
+msgid "Connection to “%s” has been deleted"
+msgstr "Junyans dhe “%s” yw dileys"
+
+#: src/application.vala:189
+msgid "Undo"
+msgstr "Digelmi"
+
+#: src/application.vala:236
+msgid "URL to connect"
+msgstr "Gorgevren rag junya"
+
+#: src/application.vala:237
+msgid "Open .vnc or .rdp file at the given PATH"
+msgstr "Ygeri restren .vnc po .rdp dhe'n TYLLER provys"
+
+#: src/application.vala:237
+msgid "PATH"
+msgstr "TYLLER"
+
+#: src/application.vala:238
+msgid "Open in full screen"
+msgstr "Ygeri yn leun-skrin"
+
+#: src/application.vala:261
+msgid "Too many command-line arguments specified.\n"
+msgstr "Re oberadow arghadow-linen ragnotys.\n"
+
+#. Translators: %s => the timestamp of when the screenshot was taken.
+#: src/connection.vala:70
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Skrin-Imach dhyworth %s"
+
+#: src/connection.vala:85
+msgid "Screenshot taken"
+msgstr "Skrin-Imach kemerys"
+
+#. Translators: Open is a verb
+#: src/connection.vala:88
+msgid "Open"
+msgstr "Ygeri"
+
+#: src/connection.vala:205
+#, c-format
+msgid "Authentication failed: %s"
+msgstr "Omgelmyans fyllis: %s"
+
+#: src/dialogs.vala:167
+#, c-format
+msgid ""
+"Connecting to “%s” for the first time. To be sure you're connecting to the "
+"machine it claims to be, please verify the fingerprints match. This process "
+"is only done once."
+msgstr ""
+"Ow junya dhe “%s” rag an termyn kynsa. Rag surhe os ow junya dhe'n amontyell "
+"yth omwul, mar pleg gwirhe an byspryntys omdhesedha. An argerdh ma yw gwrys "
+"unweyth hepken."
+
+#: src/dialogs.vala:201
+#, c-format
+msgid ""
+"The remote server “%s” certificate doesn't match local copy. It may be "
+"someone's pretending to be the server."
+msgstr ""
+"An servell pell testskrif “%s” na omdhesedha an dasskrif leel. Martesen "
+"nebonen yw omwul bos an servell."
+
+#: src/dialogs.vala:241
+#, c-format
+msgid ""
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
+msgstr ""
+"An servell pell “%s” rekwirya an manylyon omgelmyans a sew rag pesya dhe "
+"junyans:"
+
+#. Translators: Showing size of widget as WIDTH×HEIGHT here.
+#: src/display-view.vala:156
+#, c-format
+msgid "%d×%d"
+msgstr "%d×%d"
+
+#: src/onboarding-dialog.vala:96 src/ui/onboarding-dialog.ui:148
+msgid "_No Thanks"
+msgstr "_Na Garsen, Meur Ras"
+
+#: src/onboarding-dialog.vala:96
+msgid "_Close"
+msgstr "_Degea"
+
+#. Translators: Combo item for resizing remote desktop to window's size
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
+msgid "Resize desktop"
+msgstr "Dasbrashe desktop"
+
+#: src/topbar.vala:58 src/ui/topbar.ui:245
+msgid "Take Screenshot"
+msgstr "Kemeres Skrin-Imach"
+
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
+msgid "Fullscreen"
+msgstr "Leun-Skrin"
+
+#: src/ui/assistant.ui:26
+msgid "Enter the network identifier of the remote desktop to connect to:"
+msgstr "Ynworra an honanieth rosweyth a'n pelldesktop rag junya dhe:"
+
+#: src/ui/assistant.ui:53
+msgid "Connection Type"
+msgstr "Eghen Junyans"
+
+#: src/ui/assistant.ui:63
+msgid "RDP (standard for connecting to Windows)"
+msgstr "RDP (skwir rag ow junya dhe Windows)"
+
+#: src/ui/assistant.ui:72
+msgid "VNC (standard for connecting to Linux)"
+msgstr "VNC (skwir rag ow junya dhe Linux)"
+
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (rag ow junya dhe amontyellow gowir pell)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
+msgid "Help"
+msgstr "Gweres"
+
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+msgid "Connect"
+msgstr "Junya"
+
+#: src/ui/auth-notification.ui:39
+msgid "_Username"
+msgstr "Hanow _Usyer"
+
+#: src/ui/auth-notification.ui:71
+msgid "_Password"
+msgstr "_Ger-Tremena"
+
+#: src/ui/auth-notification.ui:108
+msgid "Sign In"
+msgstr "Omgelmi"
+
+#. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
+#: src/ui/dialog.ui:18
+msgid "Open Connection"
+msgstr "Ygeri Junyans"
+
+#: src/ui/dialog.ui:37 src/ui/dialog.ui:43
+msgid "Verify"
+msgstr "Gwirhe"
+
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+msgid "Cancel"
+msgstr "Hedhi"
+
+#: src/ui/dialog.ui:144
+msgid "Verify Fingerprint"
+msgstr "Gwirhe Bysprynt"
+
+#: src/ui/dialog.ui:211
+msgid ""
+"On Windows run certlm.msc or certmgr.msc\n"
+"and copy the certificate from\n"
+"<b>Remote Desktop>Certificates</b> to a file.\n"
+"Then obtain its fingerprint via\n"
+"\"certutil.exe -hashfile file SHA256\".\n"
+"\n"
+"If GNOME is used on the connected endpoint,\n"
+"the fingerprint can be verified in the <b>Settings>Sharing</b>\n"
+"panel or <b>Settings>System</b> panel under\n"
+"<b>Remote Desktop>Verify Encryption</b>."
+msgstr ""
+"War Windows eksekutya certlm.msc po certmgr.msc\n"
+"ha kopia an testskrif rag\n"
+"<b>Pelldesktop>Testskrifow</b> dhe'n restren.\n"
+"Wosa henna kavos an bysprynt dre\n"
+"\"certutil.exe -hashfile restren SHA256\".\n"
+"\n"
+"Mar GNOME yw devnydhys war'n diwedhva junys,\n"
+"an bysprynt a yll bos gwirhys y'n panel <b>Settyansow>Kevrennans</b>\n"
+"po panel <b>Settyansow>System</b> yn\n"
+"<b>Pelldesktop>Gwirhe Argelyans</b>."
+
+#: src/ui/dialog.ui:292
+msgid "Unexpected Certificate"
+msgstr "Testskrif Angwaytys"
+
+#: src/ui/dialog.ui:334
+msgid "Delete Local Certificate"
+msgstr "Dilea Testskrif Leel"
+
+#: src/ui/dialog.ui:387
+msgid "Authentication Required"
+msgstr "Omgelmyans A Res"
+
+#: src/ui/dialog.ui:438
+msgid "Username…"
+msgstr "Hanow Usyer…"
+
+#: src/ui/dialog.ui:466
+msgid "Password…"
+msgstr "Ger-Tremena…"
+
+#: src/ui/dialog.ui:516
+msgid "Domain…"
+msgstr "Arlotteth…"
+
+#: src/ui/dialog.ui:537
+msgid ""
+"Domain field is commonly optional and can be\n"
+"left empty."
+msgstr ""
+"Arlotteth yw dre dhewis yn kemmyn hag a yll\n"
+"bos gesys gwag."
+
+#: src/ui/dialog.ui:639
+msgid "Authenticate"
+msgstr "Omgelmi"
+
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Gorwolok"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Gweres"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Hwilas"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Kesunyansow Bysowek"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Kwytya"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Displetyans Junyans"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Leun-Skrin"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
+msgid "Welcome to Connections"
+msgstr "Dynnargh dhe Junyansow"
+
+#: src/ui/onboarding-dialog.ui:43
+msgid "Click next to learn about remote desktop."
+msgstr "Klyckya nessa rag dyski a-dro pelldesktop."
+
+#: src/ui/onboarding-dialog.ui:50
+msgid "Access other desktops"
+msgstr "Drehedhes desktops aral"
+
+#: src/ui/onboarding-dialog.ui:51
+msgid ""
+"Connections allows viewing the screens of other desktops. They can also be "
+"controlled using the pointer and keyboard."
+msgstr ""
+"Junyansow gasa ow gweles an skrinyow a desktops aral. I a yll maga ta bos "
+"routys ow devnydhya an logosen ha bysowek."
+
+#: src/ui/onboarding-dialog.ui:58
+msgid "Connect to different operating systems"
+msgstr "Junya dhe systemow oberyans dyffrans"
+
+#: src/ui/onboarding-dialog.ui:59
+msgid "You can access Linux, Mac, and Windows desktops."
+msgstr "Ty a yll drehedhes desktops Linux, Mac, ha Windows."
+
+#: src/ui/onboarding-dialog.ui:66
+msgid "Setup is required"
+msgstr "Selyans a res"
+
+#: src/ui/onboarding-dialog.ui:67
+msgid ""
+"Remote desktop typically needs to be enabled on the computer you want to "
+"connect to."
+msgstr ""
+"Pelldesktop res yn tipek bos gallosegys war'n amontyell ty mynnes junya dhe."
+
+#: src/ui/onboarding-dialog.ui:74
+msgid "Start by creating your first connection"
+msgstr "Dalleth gans ow gul dha junyans kynsa"
+
+#: src/ui/onboarding-dialog.ui:75
+msgid ""
+"To begin, you will need the address of the computer you want to connect to."
+msgstr "Rag dalleth, ty a wra res an trigva a'n amontyell ty mynnes junya dhe."
+
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
+msgid "Connection preferences"
+msgstr "Settyansow junyans"
+
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
+msgid "Address"
+msgstr "Trigva"
+
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
+msgid "Name"
+msgstr "Hanow"
+
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
+msgid "Fit window"
+msgstr "Desedha fenester"
+
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
+msgid "Original size"
+msgstr "Braster gwreydhek"
+
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Gallosegi son"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Fordh desedha"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
+msgid "New"
+msgstr "Nowydh"
+
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
+msgid "Application Menu"
+msgstr "Rol App"
+
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
+msgid "Search"
+msgstr "Hwilas"
+
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
+msgid "Go Back"
+msgstr "Dehweles"
+
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
+msgid "Display Menu"
+msgstr "Rol Displetyans"
+
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
+msgid "Disconnect"
+msgstr "Unjunya"
+
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
+msgid "Keyboard Shortcuts"
+msgstr "Kesunyansow Bysowek"
+
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Kesunyansow bysowek"
+
+#: src/ui/topbar.ui:238
+msgid "About Connections"
+msgstr "A-Dro Junyansow"
+
+#: src/ui/topbar.ui:263
+msgid "Ctrl + Alt + Backspace"
+msgstr "Ctrl + Alt + Backspace"
+
+#: src/ui/topbar.ui:270
+msgid "Ctrl + Alt + Del"
+msgstr "Ctrl + Alt + Del"
+
+#: src/ui/topbar.ui:277
+msgid "Ctrl + Alt + F1"
+msgstr "Ctrl + Alt + F1"
+
+#: src/ui/topbar.ui:284
+msgid "Ctrl + Alt + F2"
+msgstr "Ctrl + Alt + F2"
+
+#: src/ui/topbar.ui:291
+msgid "Ctrl + Alt + F3"
+msgstr "Ctrl + Alt + F3"
+
+#: src/ui/topbar.ui:298
+msgid "Ctrl + Alt + F7"
+msgstr "Ctrl + Alt + F7"
+
+#: src/ui/vnc-preferences.ui:54
+msgid "Display"
+msgstr "Displetyans"
+
+#: src/ui/vnc-preferences.ui:59
+msgid "View only"
+msgstr "Gweles hepken"
+
+#: src/ui/vnc-preferences.ui:66
+msgid "Show local pointer"
+msgstr "Diskwedhes logosen leel"
+
+#: src/ui/vnc-preferences.ui:81
+msgid "Bandwidth"
+msgstr "Lester Rosweyth"
+
+#: src/ui/vnc-preferences.ui:88
+msgid "High quality"
+msgstr "Kwalita da"
+
+#: src/ui/vnc-preferences.ui:89
+msgid "Fast refresh"
+msgstr "Disegha uskis"
+
+#: src/ui/window.ui:53
+msgid "Click the add button to create your first connection"
+msgstr "Klycka an boton addya rag gul dha junyans kynsa"
+
+#: src/vnc-connection.vala:150
+msgid "Couldn’t parse the file"
+msgstr "Ny yllir redya an restren"
+
+#. Translators: %s is a VNC file key
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
+#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#, c-format
+msgid "VNC File is missing key “%s”"
+msgstr "Restren VNC yw fyllel alhwedh “%s”"
