@@ -1,3 +1,25 @@
+50.beta - 31 Jan, 2026
+=====================
+
+Changes since 49.0
+
+  - Update gtk-frdp
+     - Check for initialization of RDP
+
+  - Added/Updated translations:
+     - Brazilian-Portuguese
+     - Bulgarian
+     - Catalan
+     - Cornish
+     - Esperanto
+     - Greek
+     - Indonesian
+     - Kazakh
+     - Occitan
+     - Serbian
+     - Serbian-Latin
+     - Uighur
+
 49.0 - 12 Sep, 2025
 =====================
 
