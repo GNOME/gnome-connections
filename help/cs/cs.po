@@ -7,15 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: connections\n"
-"POT-Creation-Date: 2021-10-15 11:53+0000\n"
-"PO-Revision-Date: 2021-10-15 14:12+0200\n"
-"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"POT-Creation-Date: 2026-02-01 20:12+0000\n"
+"PO-Revision-Date: 2026-02-10 12:26+0100\n"
+"Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.8\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -95,8 +96,13 @@ msgstr ""
 "vnc:// pro připojení ke vzdálenému serveru <app>vino</app> nebo <app>VNC</"
 "app>."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr "spice:// pro připojení ke vzdálenému serveru <app>SPICE</app>."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -105,12 +111,12 @@ msgstr ""
 "vzdáleném stroji."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Klikněte na tlačítko <gui style=\"button\">Vytvořit</gui>."
 
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "Vzdálený stroj se otevře v zobrazení sbírky připojení."
 
