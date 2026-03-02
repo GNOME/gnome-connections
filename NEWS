@@ -1,3 +1,23 @@
+50.rc - 02 Mar, 2026
+====================
+
+Changes since 50.beta
+
+  - Update gtk-frdp
+     - Grab keyboard for FrdpDisplay
+     - Pass Win keys only when keyboard is grabbed
+     - Fix crash when copying clipboard data
+     - Fix flags for CB_FORMAT_LIST message
+
+  - Added/Updated translations:
+     - Chinese-Taiwan
+     - Czech
+     - French
+     - Greek
+     - Italian
+     - Kazakh
+     - Portuguese
+
 50.beta - 31 Jan, 2026
 =====================
 
