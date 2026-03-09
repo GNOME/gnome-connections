@@ -2,12 +2,13 @@
 # Copyright (C) 2020 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
 # scootergrisen, 2020.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"POT-Creation-Date: 2021-11-05 11:20+0000\n"
-"PO-Revision-Date: 2022-01-26 19:04+0100\n"
+"POT-Creation-Date: 2026-03-02 12:28+0000\n"
+"PO-Revision-Date: 2026-03-05 17:05+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -98,8 +99,14 @@ msgstr ""
 "vnc:// for at oprette forbindelse til en <app>vino</app>- eller <app>VNC</"
 "app>-fjernserver."
 
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr ""
+"spice:// for at oprette forbindelse til en <app>SPICE</app>-fjernserver."
+
 #. (itstool) path: note/p
-#: C/connect.page:42
+#: C/connect.page:43
 msgid ""
 "The address and port number should be available from the configuration of "
 "the device or service on the remote machine."
@@ -108,12 +115,12 @@ msgstr ""
 "eller tjenesten på fjernmaskinen."
 
 #. (itstool) path: item/p
-#: C/connect.page:46
+#: C/connect.page:47
 msgid "Click <gui style=\"button\">Create</gui>."
 msgstr "Klik på <gui style=\"button\">Opret</gui>."
 
 #. (itstool) path: page/p
-#: C/connect.page:49
+#: C/connect.page:50
 msgid "The remote machine will open in the collection view."
 msgstr "Fjernmaskinen åbnes i samlingsvisningen."
 
