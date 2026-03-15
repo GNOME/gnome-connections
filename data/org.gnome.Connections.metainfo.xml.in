@@ -20,15 +20,19 @@
   <screenshots>
     <screenshot type="default">
       <image>https://gitlab.gnome.org/GNOME/gnome-connections/-/raw/master/data/screenshots/42/01-create-connection.png</image>
+      <caption>Create a Connection</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.gnome.org/GNOME/gnome-connections/-/raw/master/data/screenshots/42/02-connection-display.png</image>
+      <caption>Connection Display</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.gnome.org/GNOME/gnome-connections/-/raw/master/data/screenshots/42/03-connection-preferences.png</image>
+      <caption>Preferences Window</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.gnome.org/GNOME/gnome-connections/-/raw/master/data/screenshots/42/04-windows.png</image>
+      <caption>A Windows Connection</caption>
     </screenshot>
   </screenshots>
   <branding>
