@@ -2,15 +2,15 @@
 # Copyright (C) 2020 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
 # Florentina Mușat <florentina.musat.28@gmail.com>, 2020.
-# Antonio Marin <gnmer.6qxyg@slmail.me>, 2025.
+# Antonio Marin <gnmer.6qxyg@slmail.me>, 2025-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-08-15 10:53+0000\n"
-"PO-Revision-Date: 2025-08-17 17:01+0200\n"
+"POT-Creation-Date: 2026-03-17 13:54+0000\n"
+"PO-Revision-Date: 2026-03-17 15:24+0100\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Conexiuni"
 
@@ -66,8 +66,24 @@ msgstr ""
 "unul dintre acestea trebuie să fie activat în computerul la care se dorește "
 "conectarea."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Creează o conexiune"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Ecranul conectat"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Fereastra cu preferințe"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Conexiune la Windows"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
 msgid "The GNOME Project"
 msgstr "Proiectul GNOME"
 
@@ -79,17 +95,16 @@ msgstr "Fișier Computer la distanță (VNC)"
 msgid "Delete"
 msgstr "Elimină"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Proprietăți"
 
 #: src/application.vala:88
 msgid "translator-credits"
 msgstr ""
-"Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2021\n"
-"Florentina Mușat <florentina [dot] musat [dot] 28 [at] gmail [dot] com>, "
-"2020-2021, 2023-2024\n"
-"Antonio Marin <gnmer.6qxyg@slmail.me>, 2025"
+"Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Florentina Mușat <florentina [dot] musat [dot] 28 [at] gmail [dot] com>\n"
+"Antonio Marin <gnmer.6qxyg@slmail.me>"
 
 #: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
@@ -98,7 +113,7 @@ msgstr "O aplicație client de conectare la distanță pentru interfața GNOME"
 #: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
-msgstr "Nu s-a putut deschide fișierul cu tip MIME necunoscut %s"
+msgstr "Nu s-a putut deschide fișierul cu tipul MIME necunoscut %s"
 
 #: src/application.vala:186
 #, c-format
@@ -133,7 +148,7 @@ msgstr "Prea multe argumente specificate în linia de comandă.\n"
 #: src/connection.vala:70
 #, c-format
 msgid "Screenshot from %s"
-msgstr "Instantaneu de la %s"
+msgstr "Instantaneu din %s"
 
 #: src/connection.vala:85
 msgid "Screenshot taken"
@@ -149,7 +164,7 @@ msgstr "Deschide"
 msgid "Authentication failed: %s"
 msgstr "Autentificarea a eșuat: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -160,7 +175,7 @@ msgstr ""
 "la computerul corect, verifică dacă amprentele se potrivesc. Această "
 "verificare se face o singură dată."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -169,7 +184,7 @@ msgstr ""
 "Certificatul serverului de la distanță „%s” nu se potrivește cu copia "
 "locală. Poate că cineva se preface a fi serverul."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -198,11 +213,11 @@ msgstr "În_chide"
 msgid "Resize desktop"
 msgstr "Redimensionează"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:237
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
-msgstr "Fă un instantaneu"
+msgstr "Instantaneu de ecran"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:199
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "Pe tot ecranul"
 
@@ -228,7 +243,7 @@ msgstr "VNC (standard pentru conectarea la Linux)"
 msgid "SPICE (for connecting to remote VMs)"
 msgstr "SPICE (pentru conectarea la mașini virtuale la distanță)"
 
-#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Ajutor"
 
@@ -257,7 +272,7 @@ msgstr "Deschide conexiunea"
 msgid "Verify"
 msgstr "Verifică"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Anulează"
 
@@ -302,19 +317,19 @@ msgstr "Șterge certificatul local"
 msgid "Authentication Required"
 msgstr "Autentificarea este necesară"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Nume de utilizator…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Parola…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Domeniu…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -322,7 +337,7 @@ msgstr ""
 "Rubrica domeniului este de obicei facultativă\n"
 "și poate fi lăsată goală."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Autentifică"
 
@@ -361,7 +376,7 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Pe tot ecranul"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Bun venit în Conexiuni"
 
@@ -445,63 +460,63 @@ msgstr "Activează audio"
 msgid "Scale mode"
 msgstr "Redimensionare"
 
-#: src/ui/topbar.ui:21
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Nou"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Opțiuni Aplicație"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Caută"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Înapoi"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Opțiuni Ecran"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Deconectează"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Scurtături"
-
-#: src/ui/topbar.ui:222
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Scurtături"
 
-#: src/ui/topbar.ui:230
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Scurtături"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Despre Conexiuni"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:276
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:283
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:290
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -529,7 +544,7 @@ msgstr "Calitate mare"
 msgid "Fast refresh"
 msgstr "Actualizare rapidă"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Clic pe semnul plus pentru a crea prima conexiune"
 
