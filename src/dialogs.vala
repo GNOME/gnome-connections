@@ -80,6 +80,18 @@ namespace Connections {
         [GtkChild]
         private unowned Hdy.ActionRow domain_row;
 
+        [GtkChild]
+        private unowned Gtk.Button show_password_button;
+
+        [GtkChild]
+        private unowned Gtk.MenuButton help_domain_button;
+
+        [GtkChild]
+        private unowned Gtk.Button cancel_authentication_button;
+
+        [GtkChild]
+        private unowned Gtk.Button authenticate_authentication_button;
+
         private Mutex mutex;
 
         construct {
@@ -106,6 +118,140 @@ namespace Connections {
             Timeout.add (50, check_show_flags);
 
             delete_event.connect (hide_when_delete);
+
+            // Set up proper focus chain: username_entry -> password_entry -> show_password_button ->
+            // domain_entry -> help_domain_button -> authenticate_authentication_button -> cancel_authentication_button
+            username_entry.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                        if (password_row.visible) {
+                            password_entry.grab_focus ();
+                        } else if (domain_row.visible) {
+                            domain_entry.grab_focus ();
+                        } else {
+                            authenticate_authentication_button.grab_focus ();
+                        }
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                        cancel_authentication_button.grab_focus ();
+                        return true;
+                    default:
+                        return false;
+                }
+            });
+
+            password_entry.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                        show_password_button.grab_focus ();
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                        if (username_row.visible) {
+                            username_entry.grab_focus ();
+                        } else {
+                            cancel_authentication_button.grab_focus ();
+                        }
+                        return true;
+                    default:
+                        return false;
+                }
+            });
+
+            show_password_button.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                        if (domain_row.visible) {
+                            domain_entry.grab_focus ();
+                        } else {
+                            authenticate_authentication_button.grab_focus ();
+                        }
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                        password_entry.grab_focus ();
+                        return true;
+                    default:
+                        return false;
+                }
+            });
+
+            domain_entry.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                        help_domain_button.grab_focus ();
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                        if (password_row.visible) {
+                            show_password_button.grab_focus ();
+                        } else if (username_row.visible) {
+                            username_entry.grab_focus ();
+                        } else {
+                            cancel_authentication_button.grab_focus ();
+                        }
+                        return true;
+                    default:
+                        return false;
+                }
+            });
+
+            help_domain_button.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                        authenticate_authentication_button.grab_focus ();
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                        domain_entry.grab_focus ();
+                        return true;
+                    default:
+                        return false;
+                }
+            });
+
+            authenticate_authentication_button.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                    case Gtk.DirectionType.DOWN:
+                        cancel_authentication_button.grab_focus ();
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                    case Gtk.DirectionType.UP:
+                        if (domain_row.visible) {
+                            help_domain_button.grab_focus ();
+                        } else if (password_row.visible) {
+                            show_password_button.grab_focus ();
+                        } else if (username_row.visible) {
+                            username_entry.grab_focus ();
+                        } else {
+                            cancel_authentication_button.grab_focus ();
+                        }
+                        return true;
+                    default:
+                        return false;
+                }
+            });
+
+            cancel_authentication_button.focus.connect ((direction) => {
+                switch (direction) {
+                    case Gtk.DirectionType.TAB_FORWARD:
+                    case Gtk.DirectionType.DOWN:
+                        // Cycle back to the first visible entry
+                        if (username_row.visible) {
+                            username_entry.grab_focus ();
+                        } else if (password_row.visible) {
+                            password_entry.grab_focus ();
+                        } else if (domain_row.visible) {
+                            domain_entry.grab_focus ();
+                        } else {
+                            authenticate_authentication_button.grab_focus ();
+                        }
+                        return true;
+                    case Gtk.DirectionType.TAB_BACKWARD:
+                    case Gtk.DirectionType.UP:
+                        authenticate_authentication_button.grab_focus ();
+                        return true;
+                    default:
+                        return false;
+                }
+            });
         }
 
         bool check_show_flags () {
@@ -246,6 +392,15 @@ namespace Connections {
             content_stack.show ();
             dialog_headerbar.hide ();
             present ();
+
+            // Set focus to the first visible entry field
+            if (need_username) {
+                username_entry.grab_focus ();
+            } else if (need_password) {
+                password_entry.grab_focus ();
+            } else if (need_domain) {
+                domain_entry.grab_focus ();
+            }
         }
 
         /* It is safe to call this from other threads as is usually the case. */
