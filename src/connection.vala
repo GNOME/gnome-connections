@@ -38,15 +38,18 @@ namespace Connections {
 
         public string uri {
             owned get {
-                return @"$protocol://$host:$port";
+                return GLib.Uri.join (UriFlags.NONE, protocol, null, host, port, "", null, null);
             }
 
             set {
-                var address = Xml.URI.parse (value);
-
-                protocol = address.scheme;
-                host = address.server;
-                port = (address.port != 0) ? address.port : port;
+                try {
+                    var address = GLib.Uri.parse (value, UriFlags.NONE);
+                    protocol = address.get_scheme ();
+                    host = address.get_host ();
+                    port = (address.get_port () != -1) ? address.get_port () : port;
+                } catch (UriError e) {
+                    warning ("Failed to parse URI: %s (%s)", value, e.message);
+                }
             }
         }
 
