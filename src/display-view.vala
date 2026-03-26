@@ -75,9 +75,9 @@ namespace Connections {
             draw_id = display.draw.connect (() => {
                 display.disconnect (draw_id);
 
-                /*cursor_id = display.get_window ().notify["cursor"].connect (() => {
-                   event_box.get_window ().set_cursor (display.get_window ().cursor);
-                });*/
+                display.get_window ().notify["cursor"].connect (() => {
+                   event_box.get_window ().set_cursor (display.get_window ().get_cursor ());
+                });
 
                 return false;
             });
