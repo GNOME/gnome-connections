@@ -159,7 +159,7 @@ namespace Connections {
 
         private void on_rdp_certificate_verification_cb (string host,
                                                          uint   port,
-                                                         string common_name,
+                                                         string? common_name,
                                                          string subject,
                                                          string issuer,
                                                          string fingerprint,
