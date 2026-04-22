@@ -157,26 +157,26 @@ namespace Connections {
             handle_auth ();
         }
 
-        private void on_rdp_certificate_verification_cb (string host,
-                                                         uint   port,
+        private void on_rdp_certificate_verification_cb (string  host,
+                                                         uint    port,
                                                          string? common_name,
-                                                         string subject,
-                                                         string issuer,
-                                                         string fingerprint,
-                                                         uint   flags) {
+                                                         string  subject,
+                                                         string  issuer,
+                                                         string  fingerprint,
+                                                         uint    flags) {
             handle_certificate_verification (subject, issuer, fingerprint);
         }
 
-        private void on_rdp_certificate_change_verification_cb (string host,
-                                                                uint   port,
-                                                                string common_name,
-                                                                string new_subject,
-                                                                string new_issuer,
-                                                                string new_fingerprint,
-                                                                string old_subject,
-                                                                string old_issuer,
-                                                                string old_fingerprint,
-                                                                uint   flags) {
+        private void on_rdp_certificate_change_verification_cb (string  host,
+                                                                uint    port,
+                                                                string? common_name,
+                                                                string  new_subject,
+                                                                string  new_issuer,
+                                                                string  new_fingerprint,
+                                                                string  old_subject,
+                                                                string  old_issuer,
+                                                                string  old_fingerprint,
+                                                                uint    flags) {
             handle_certificate_change_verification (new_subject,
                                                     new_issuer,
                                                     new_fingerprint,
