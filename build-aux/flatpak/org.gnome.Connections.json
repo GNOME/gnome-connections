@@ -4,6 +4,14 @@
     "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-connections",
+    "add-extensions": {
+        "org.freedesktop.Platform.openh264": {
+            "directory": "lib/openh264",
+            "version": "2.5.1",
+            "add-ld-path": "extra",
+            "no-autodownload": false
+        }
+    },
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -175,12 +183,33 @@
             ]
         },
         {
+            "name" : "noopenh264",
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.com/freedesktop-sdk/noopenh264.git",
+                    "tag" : "v2.6.0",
+                    "commit" : "039b1c86d47d3eb27706a623f598bde3e5e5b4b6"
+                }
+            ]
+        },
+        {
+            "name" : "openh264-mount-point",
+            "buildsystem" : "simple",
+            "build-commands" : [
+                "mkdir -p /app/lib/openh264"
+            ],
+            "sources" : []
+        },
+        {
             "name" : "freerdp",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                "-DWITH_OPENH264=OFF",
+                "-DWITH_OPENH264=ON",
+                "-DWITH_OPENH264_LOADING=ON",
                 "-DCMAKE_INSTALL_PREFIX=/app",
                 "-DCMAKE_INSTALL_LIBDIR=lib",
                 "-DWITH_WAYLAND:BOOL=ON",
