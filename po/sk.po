@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
 "POT-Creation-Date: 2026-03-13 16:11+0000\n"
-"PO-Revision-Date: 2026-04-16 09:47+0200\n"
+"PO-Revision-Date: 2026-04-29 22:52+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -25,6 +25,7 @@ msgstr ""
 msgid "Connections"
 msgstr "Pripojenia"
 
+# well-spelled: vnc, rdp, windows
 #. Translators: "windows" refers specifically to the Microsoft Windows brand,
 #. not a desktop window or a pane of glass in the side of a building
 #: data/org.gnome.Connections.desktop.in:9
@@ -82,6 +83,7 @@ msgstr "Odstrániť"
 msgid "Properties"
 msgstr "Vlastnosti"
 
+# |, no-check-spell
 #: src/application.vala:88
 msgid "translator-credits"
 msgstr "Dušan Kazik <prescott66@gmail.com>"
@@ -98,7 +100,7 @@ msgstr "Nepodarilo sa otvoriť súbor neznámeho typu MIME %s"
 #: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
-msgstr "Pripojenie k „%s” bolo odstránené"
+msgstr "Pripojenie k „%s“ bolo odstránené"
 
 #: src/application.vala:189
 msgid "Undo"
@@ -108,6 +110,7 @@ msgstr "Vrátiť späť"
 msgid "URL to connect"
 msgstr "URL na pripojenie"
 
+# well-spelled: vnc, rdp
 #: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Otvorí súbor .vnc alebo .rdp na zadanej CESTE"
@@ -486,26 +489,32 @@ msgstr "Klávesové skratky"
 msgid "About Connections"
 msgstr "O aplikácii Pripojenia"
 
+# well-spelled: Ctrl
 #: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
+# well-spelled: Ctrl
 #: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
+# well-spelled: Ctrl
 #: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
+# well-spelled: Ctrl
 #: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
+# well-spelled: Ctrl
 #: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
+# well-spelled: Ctrl
 #: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
@@ -547,11 +556,11 @@ msgstr "Nepodarilo sa analyzovať súbor"
 #: src/vnc-connection.vala:168 src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
-msgstr "Súboru VNC chýba kľúč „%s”"
+msgstr "Súboru VNC chýba kľúč „%s“"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
-#~ msgstr "Pripojenie „%s” vyžaduje overenie totožnosti"
+#~ msgstr "Pripojenie „%s“ vyžaduje overenie totožnosti"
 
 #~ msgid "Learn about how Connections works."
 #~ msgstr "Dozveďte sa ako funguje aplikácia Pripojenia."
