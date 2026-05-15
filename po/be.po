@@ -6,31 +6,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
-"issues\n"
-"POT-Creation-Date: 2025-05-10 15:25+0000\n"
-"PO-Revision-Date: 2025-05-31 03:56+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
+"POT-Creation-Date: 2026-03-13 16:11+0000\n"
+"PO-Revision-Date: 2026-05-15 03:37+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
+"n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.8\n"
 
-#: data/org.gnome.Connections.desktop.in:3
-#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7
+#: src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Connections"
 
-#: data/org.gnome.Connections.desktop.in:8
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr ""
-"vnc;rdp;remote;desktop;windows;support;access;view;аддалены;працоўны;стол;"
-"падтрымка;доступ;прагляд"
+msgstr "vnc;rdp;remote;desktop;windows;support;access;view;аддалены;працоўны;стол;падтрымка;доступ;прагляд"
 
 #: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
@@ -38,32 +36,30 @@ msgstr "Прагляд і выкарыстанне іншых працоўных
 
 #: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
-"Connections allows you to connect to and use other desktops. This can be a "
-"great way to access content or software on a different desktop operating "
-"system. It can also be used as a way to provide support to users who might "
-"need help."
+"Connections allows you to connect to and use other desktops. This can be a great way to access content "
+"or software on a different desktop operating system. It can also be used as a way to provide support to "
+"users who might need help."
 msgstr ""
-"Connections дазваляе падлучацца да іншых працоўных сталоў і выкарыстоўваць "
-"іх. Гэта можа быць выдатным спосабам доступу да змесціва або праграмнага "
-"забеспячэння на камп'ютары з іншай аперацыйнай сістэмай. Таксама можна "
-"выкарыстоўваць для забеспячэння падтрымкі тых карыстальнікаў, якім можа "
-"спатрэбіцца дапамога."
+"Connections дазваляе падлучацца да іншых працоўных сталоў і выкарыстоўваць іх. Гэта можа быць выдатным "
+"спосабам доступу да змесціва або праграмнага забеспячэння на камп'ютары з іншай аперацыйнай сістэмай. "
+"Таксама можна выкарыстоўваць для забеспячэння падтрымкі тых карыстальнікаў, якім можа спатрэбіцца "
+"дапамога."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
-"A range of different operating systems can be connected to, including Linux "
-"and Windows desktops. You can also connect to virtual machines."
+"A range of different operating systems can be connected to, including Linux and Windows desktops. You "
+"can also connect to virtual machines."
 msgstr ""
-"Шэраг аперацыйных сістэм да якіх магчыма падлучыцца, у іх ліку Linux і "
-"Windows. А таксама можна падлучацца да віртуальных машын."
+"Шэраг аперацыйных сістэм да якіх магчыма падлучыцца, у іх ліку Linux і Windows. А таксама можна "
+"падлучацца да віртуальных машын."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these must be enabled on the "
+"desktop that you want to connect to."
 msgstr ""
-"Connections выкарыстоўвае шырока распаўсюджаныя пратаколы VNC і RDP, адзін з "
-"іх павінен быць уключаны на камп'ютары, да якога вы збіраецеся далучыцца."
+"Connections выкарыстоўвае шырока распаўсюджаныя пратаколы VNC і RDP, адзін з іх павінен быць уключаны на "
+"камп'ютары, да якога вы збіраецеся далучыцца."
 
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Connections.metainfo.xml.in:41
@@ -78,7 +74,7 @@ msgstr "Файл (VNC) аддаленага працоўнага стала"
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Уласцівасці"
 
@@ -88,41 +84,41 @@ msgstr ""
 "Ігар Грачышка <ihar.hrachyshka@gmail.com>\n"
 "Юрась Шумовіч <shumovichy@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:242
+#: src/application.vala:89 src/application.vala:246
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Кліент аддаленага працоўнага стала для асяроддзя GNOME"
 
-#: src/application.vala:151
+#: src/application.vala:155
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Не ўдалося адкрыць файл або невядомы MIME-тып %s"
 
-#: src/application.vala:182
+#: src/application.vala:186
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Падлучэнне да «%s» выдалена"
 
-#: src/application.vala:185
+#: src/application.vala:189
 msgid "Undo"
 msgstr "Адрабіць"
 
-#: src/application.vala:232
+#: src/application.vala:236
 msgid "URL to connect"
 msgstr "URL-адрас падлучэння"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Адкрыць файл .vnc або .rdp з указанага шляху"
 
-#: src/application.vala:233
+#: src/application.vala:237
 msgid "PATH"
 msgstr "ШЛЯХ"
 
-#: src/application.vala:234
+#: src/application.vala:238
 msgid "Open in full screen"
 msgstr "Перайсці ў поўнаэкранны рэжым"
 
-#: src/application.vala:257
+#: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
 msgstr "Указана занадта шмат аргументаў загаднага радка.\n"
 
@@ -149,31 +145,25 @@ msgstr "Сапраўднасць не пацверджана: %s"
 #: src/dialogs.vala:167
 #, c-format
 msgid ""
-"Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process "
-"is only done once."
+"Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims to be, "
+"please verify the fingerprints match. This process is only done once."
 msgstr ""
-"Падключэнне да «%s» у першы раз. Каб пераканацца, што вы падключаецеся "
-"менавіта да той машыны, да якой хацелі, праверце супадзенне лічбавых "
-"адбіткаў. Гэта дзеянне выконваецца толькі адзін раз."
+"Падключэнне да «%s» у першы раз. Каб пераканацца, што вы падключаецеся менавіта да той машыны, да якой "
+"хацелі, праверце супадзенне лічбавых адбіткаў. Гэта дзеянне выконваецца толькі адзін раз."
 
 #: src/dialogs.vala:201
 #, c-format
 msgid ""
-"The remote server “%s” certificate doesn't match local copy. It may be "
-"someone's pretending to be the server."
+"The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to be the "
+"server."
 msgstr ""
-"Сертыфікат аддаленага сервера «%s» не супадае з лакальнай копіяй. Гэта можа "
-"азначаць, што нехта іншы выдае сябе за сервер."
+"Сертыфікат аддаленага сервера «%s» не супадае з лакальнай копіяй. Гэта можа азначаць, што нехта іншы "
+"выдае сябе за сервер."
 
 #: src/dialogs.vala:241
 #, c-format
-msgid ""
-"The remote server “%s” requires the following authentication details to "
-"continue to connect:"
-msgstr ""
-"Аддалены сервер «%s» патрабуе імя карыстальніка і пароль, каб працягваць "
-"злучэнне:"
+msgid "The remote server “%s” requires the following authentication details to continue to connect:"
+msgstr "Аддалены сервер «%s» патрабуе імя карыстальніка і пароль, каб працягваць злучэнне:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
 #: src/display-view.vala:156
@@ -190,22 +180,21 @@ msgid "_Close"
 msgstr "_Закрыць"
 
 #. Translators: Combo item for resizing remote desktop to window's size
-#: src/rdp-preferences-window.vala:49 src/ui/vnc-preferences.ui:107
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67 src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
 msgstr "Змяніць памер працоўнага стала"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:237
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Зрабіць здымак экрана"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:199
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "На ўвесь экран"
 
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
-msgstr ""
-"Увядзіце сеткавы ідэнтыфікатар аддаленага працоўнага стала, каб падлучыцца:"
+msgstr "Увядзіце сеткавы ідэнтыфікатар аддаленага працоўнага стала, каб падлучыцца:"
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
@@ -219,11 +208,15 @@ msgstr "RDP (стандартнае падлучэнне для Windows)"
 msgid "VNC (standard for connecting to Linux)"
 msgstr "VNC (стандартнае падлучэнне для Linux)"
 
-#: src/ui/assistant.ui:90 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:81
+msgid "SPICE (for connecting to remote VMs)"
+msgstr "SPICE (для падлучэння да аддаленых ВМ)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Даведка"
 
-#: src/ui/assistant.ui:100 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
 msgstr "Падлучыцца"
 
@@ -318,7 +311,42 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Пацвердзіць"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Агляд"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Даведка"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Пошук"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Спалучэнні клавіш"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Выйсці"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Дысплэй злучэння"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Поўнаэкранны рэжым"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Вітаем у Connections"
 
@@ -332,11 +360,11 @@ msgstr "Доступ да іншых працоўных сталоў"
 
 #: src/ui/onboarding-dialog.ui:51
 msgid ""
-"Connections allows viewing the screens of other desktops. They can also be "
-"controlled using the pointer and keyboard."
+"Connections allows viewing the screens of other desktops. They can also be controlled using the pointer "
+"and keyboard."
 msgstr ""
-"Connections дазваляе бачыць экран іншага камп'ютара. А таксама можа кіраваць "
-"ім з дапамогай мышы і клавіятуры."
+"Connections дазваляе бачыць экран іншага камп'ютара. А таксама можа кіраваць ім з дапамогай мышы і "
+"клавіятуры."
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -351,101 +379,103 @@ msgid "Setup is required"
 msgstr "Патрабуецца наладка"
 
 #: src/ui/onboarding-dialog.ui:67
-msgid ""
-"Remote desktop typically needs to be enabled on the computer you want to "
-"connect to."
+msgid "Remote desktop typically needs to be enabled on the computer you want to connect to."
 msgstr ""
-"Звычайна патрабуецца ўключыць аддалены працоўны стол на камп'ютары, да якога "
-"вам хочацца падлучыцца."
+"Звычайна патрабуецца ўключыць аддалены працоўны стол на камп'ютары, да якога вам хочацца падлучыцца."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"
 msgstr "Пачніце са стварэння першага злучэння"
 
 #: src/ui/onboarding-dialog.ui:75
-msgid ""
-"To begin, you will need the address of the computer you want to connect to."
-msgstr ""
-"Каб пачаць, вам патрабуецца адрас камп'ютара, да якога вам хочацца "
-"падлучыцца."
+msgid "To begin, you will need the address of the computer you want to connect to."
+msgstr "Каб пачаць, вам патрабуецца адрас камп'ютара, да якога вам хочацца падлучыцца."
 
-#: src/ui/rdp-preferences.ui:9 src/ui/vnc-preferences.ui:9
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9 src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
 msgstr "Параметры падлучэння"
 
-#: src/ui/rdp-preferences.ui:22 src/ui/vnc-preferences.ui:22
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22 src/ui/vnc-preferences.ui:22
 msgid "Address"
 msgstr "Адрас"
 
-#: src/ui/rdp-preferences.ui:37 src/ui/vnc-preferences.ui:37
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37 src/ui/vnc-preferences.ui:37
 msgid "Name"
 msgstr "Назва"
 
-#: src/ui/rdp-preferences.ui:53 src/ui/vnc-preferences.ui:108
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68 src/ui/vnc-preferences.ui:108
 msgid "Fit window"
 msgstr "Умясціць у акно"
 
-#: src/ui/rdp-preferences.ui:54 src/ui/vnc-preferences.ui:109
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69 src/ui/vnc-preferences.ui:109
 msgid "Original size"
 msgstr "Зыходны памер"
 
-#: src/ui/topbar.ui:21
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Уключыць гук"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Маштабаванне"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Новы"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Меню праграмы"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Пошук"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Вярнуцца"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Меню дысплэя"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Адлучыцца"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Спалучэнні клавіш"
-
-#: src/ui/topbar.ui:222
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Спалучэнні клавіш"
 
-#: src/ui/topbar.ui:230
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Спалучэнні клавіш"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "Пра Connections"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:276
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:283
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:290
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -461,10 +491,6 @@ msgstr "Толькі прагляд"
 msgid "Show local pointer"
 msgstr "Паказваць лакальны ўказальнік"
 
-#: src/ui/vnc-preferences.ui:73
-msgid "Enable audio"
-msgstr "Уключыць гук"
-
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
 msgstr "Паласа прапускання"
@@ -477,11 +503,7 @@ msgstr "Высокая якасць"
 msgid "Fast refresh"
 msgstr "Хуткае абнаўленне"
 
-#: src/ui/vnc-preferences.ui:100
-msgid "Scale mode"
-msgstr "Маштабаванне"
-
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Націсніце на кнопку «Дадаць», каб стварыць першае падлучэнне"
 
@@ -490,11 +512,25 @@ msgid "Couldn’t parse the file"
 msgstr "Не ўдалося разабраць файл"
 
 #. Translators: %s is a VNC file key
-#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
-#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163 src/vnc-connection.vala:168
+#: src/vnc-connection.vala:173
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "У файле VNC адсутнічае ключ «%s»"
+
+#~ msgid "Create a Connection"
+#~ msgstr "Стварэнне злучэння"
+
+#~ msgid "Connection Display"
+#~ msgstr "Дысплэй злучэння"
+
+#~ msgid "Preferences Window"
+#~ msgstr "Акно параметраў"
+
+#, fuzzy
+#~| msgid "About Connections"
+#~ msgid "A Windows Connection"
+#~ msgstr "Вокны злучэнняў/Злучэнне Windows"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
@@ -509,12 +545,8 @@ msgstr "У файле VNC адсутнічае ключ «%s»"
 #~ msgid "Enable remote desktop before connecting"
 #~ msgstr "Перад падлучэннем уключыце аддалены працоўны стол"
 
-#~ msgid ""
-#~ "Computers need to be set up for remote desktop before you can connect to "
-#~ "them."
-#~ msgstr ""
-#~ "Трэба наладзіць аддалены працоўны стол на камп'ютары, каб падлучыцца да "
-#~ "яго."
+#~ msgid "Computers need to be set up for remote desktop before you can connect to them."
+#~ msgstr "Трэба наладзіць аддалены працоўны стол на камп'ютары, каб падлучыцца да яго."
 
 #~ msgid "We hope that you enjoy Connections!"
 #~ msgstr "Спадзяемся, Connections вас задаволіць!"
