@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2026-04-24 15:16+0000\n"
-"PO-Revision-Date: 2026-05-21 18:20+0100\n"
+"POT-Creation-Date: 2026-05-29 09:16+0000\n"
+"PO-Revision-Date: 2026-05-29 17:58+0100\n"
 "Last-Translator: Flynn Peck <cirilla@tuta.io>\n"
 "Language-Team: kw\n"
 "Language: kw\n"
@@ -50,8 +50,8 @@ msgid ""
 "need help."
 msgstr ""
 "Junyansow a'gas esowgh junya dhe ha devnydhya desktops erel. Hemm a yll bos "
-"agwedh vryntin rag drehedhes synsas po medhelweyth war system oberyans "
-"desktop dihaval. Ynwedh, y a yll bos devnydhys rag provia skoodhyans dhe "
+"agwedh vryntin dhe dhrehedhes synsas po medhelweyth war gevreyth oberyans "
+"desktop aral. Ynwedh, y a yll bos devnydhys rag provia skoodhyans dhe "
 "dhevnydhyoryon mayth yma edhom dhe weres."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
@@ -59,7 +59,7 @@ msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Aray a systemow oberyans dyffrans a yll bos junys dhe, ow synsi desktops "
+"Aray a gevreythyow oberyans dyffrans a yll bos junys dhe, ow synsi desktops "
 "Linux ha Windows. Ynwedh, hwi a yll junya dhe amontyellow gowir."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
@@ -68,7 +68,7 @@ msgid ""
 "these must be enabled on the desktop that you want to connect to."
 msgstr ""
 "Junyansow a dhevnydh an protokolys ledan-skoodhys VNC ha RDP, hag res yw dhe "
-"unn a'n protokols ma bos byw war'n desktop hwi a vynn junya dhe."
+"unn a'n protokols ma bos byw war'n desktop may hwi a vynn junya dhe."
 
 #: data/org.gnome.Connections.metainfo.xml.in:23
 msgid "Create a Connection"
@@ -76,7 +76,7 @@ msgstr "Gwruthyl Junyans"
 
 #: data/org.gnome.Connections.metainfo.xml.in:27
 msgid "Connection Display"
-msgstr "Displetyas Junyans"
+msgstr "Displetyans Junyans"
 
 #: data/org.gnome.Connections.metainfo.xml.in:31
 msgid "Preferences Window"
@@ -143,24 +143,24 @@ msgstr "Ygeri yn leun-skrin"
 
 #: src/application.vala:261
 msgid "Too many command-line arguments specified.\n"
-msgstr "Re oberadow arghadow-linen ragnotys.\n"
+msgstr "Re oberadowyow arghadow-linen ragnotys.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Skrin-Skeusen dhyworth %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Skrin-Skeusen kemerys"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Ygeri"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Omgelmyans re fyllis: %s"
@@ -172,8 +172,8 @@ msgid ""
 "machine it claims to be, please verify the fingerprints match. This process "
 "is only done once."
 msgstr ""
-"Ow junya dhe “%s” rag an prys kynsa. Rag surhe ow junya owgh hwi dhe'n "
-"amontyell yth a omwul, gwirhewgh an vyspryntys a omdhesedh mar pleg. An "
+"Ow junya dhe “%s” rag an kynsa prys. Rag surhe ow junya owgh hwi dhe'n "
+"amontyell yth a omwul, gwirhewgh an byspryntys a omdhesedh mar pleg. An "
 "argerdh ma yw gwrys unweyth hepken."
 
 #: src/dialogs.vala:347
@@ -183,7 +183,7 @@ msgid ""
 "someone's pretending to be the server."
 msgstr ""
 "An servell bell testskrif “%s” ny omdhesedha an dasskrif leel. Martesen "
-"nebonen yw owth omwul an servell."
+"nebonan yw owth omwul an servell."
 
 #: src/dialogs.vala:387
 #, c-format
@@ -357,7 +357,7 @@ msgstr "Hwilas"
 #: src/ui/kbd-shortcuts-window.ui:41
 msgctxt "shortcut window"
 msgid "Keyboard Shortcuts"
-msgstr "Kesunyansow Vysowek"
+msgstr "Kesunyansow Bysowek"
 
 #: src/ui/kbd-shortcuts-window.ui:49
 msgctxt "shortcut window"
@@ -396,7 +396,7 @@ msgstr ""
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
-msgstr "Junya dhe systemow oberyans dyffrans"
+msgstr "Junya dhe gevreythyow oberyans dyffrans"
 
 #: src/ui/onboarding-dialog.ui:59
 msgid "You can access Linux, Mac, and Windows desktops."
@@ -483,11 +483,11 @@ msgstr "Disjunya"
 
 #: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
-msgstr "Kesunyansow Vysowek"
+msgstr "Kesunyansow Bysowek"
 
 #: src/ui/topbar.ui:181
 msgid "Keyboard shortcuts"
-msgstr "Kesunyansow vysowek"
+msgstr "Kesunyansow bysowek"
 
 #: src/ui/topbar.ui:238
 msgid "About Connections"
