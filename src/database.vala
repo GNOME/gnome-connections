@@ -188,6 +188,27 @@ namespace Connections {
             return connection;
         }
 
+        public Connection? find_connection_by_uri (string _uri) {
+            try {
+                var address = GLib.Uri.parse (_uri, UriFlags.NONE);
+                var protocol = address.get_scheme ();
+                var host = address.get_host ();
+                var port = address.get_port ();
+
+                foreach (var connection in get_connections ()) {
+                    if (connection.protocol == protocol &&
+                        connection.host == host &&
+                        (port == -1 || connection.port == port)) {
+                        return connection;
+                    }
+                }
+            } catch (UriError e) {
+                warning ("Failed to parse URI: %s (%s)", _uri, e.message);
+            }
+
+            return null;
+        }
+
         public Connection add_connection (string _uri) {
             Connection? connection = null;
 

@@ -134,6 +134,12 @@ namespace Connections {
         }
 
         public void add_connection (string uri) {
+            var existing = Database.get_default ().find_connection_by_uri (uri);
+            if (existing != null) {
+                open_connection (existing);
+                return;
+            }
+
             var connection = Database.get_default ().add_connection (uri);
             if (connection == null)
                 return;
