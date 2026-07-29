@@ -3,25 +3,27 @@
 # This file is distributed under the same license as the gnome-connections package.
 #
 # Marek Černocký <marek@manet.cz>, 2020, 2021, 2022, 2023.
+# Patrik Sivek <sivekpatrik@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: connections\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2025-08-17 15:12+0000\n"
-"PO-Revision-Date: 2025-08-18 22:46+0200\n"
-"Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2026-07-20 15:14+0000\n"
+"PO-Revision-Date: 2026-07-27 22:00+0200\n"
+"Last-Translator: Patrik Sivek <sivekpatrik@gmail.com>\n"
+"Language-Team: Czech\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Gtranslator 50.0\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Připojení"
 
@@ -39,32 +41,49 @@ msgstr "Zobrazte si a používejte vzdálené plochy"
 msgid ""
 "Connections allows you to connect to and use other desktops. This can be a "
 "great way to access content or software on a different desktop operating "
-"system. It can also be used as a way to provide support to users who might need "
-"help."
+"system. It can also be used as a way to provide support to users who might "
+"need help."
 msgstr ""
-"Aplikace Připojení vám umožní si připojit a používat vzdálené pracovní plochy. "
-"To je skvělý způsob, jak se dostat k obsahu a softwaru na jiných počítačích s "
-"jinými operačními systémy. Touto cestou také můžete poskytovat podporu "
-"uživatelům, kteří potřebují pomoc."
+"Aplikace Připojení vám umožní si připojit a používat vzdálené pracovní "
+"plochy. To je skvělý způsob, jak se dostat k obsahu a softwaru na jiných "
+"počítačích s jinými operačními systémy. Touto cestou také můžete poskytovat "
+"podporu uživatelům, kteří potřebují pomoc."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
-"A range of different operating systems can be connected to, including Linux and "
-"Windows desktops. You can also connect to virtual machines."
+"A range of different operating systems can be connected to, including Linux "
+"and Windows desktops. You can also connect to virtual machines."
 msgstr ""
 "Dá se připojit k řadě různých operačních systémů, včetně Linuxu a Windows. "
 "Připojit se můžete i k virtuálním strojům."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of these "
-"must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of "
+"these must be enabled on the desktop that you want to connect to."
 msgstr ""
 "Přípojení používají široce podporované protokoly VNC a RDP, takže některý z "
 "nich musí být zapnutý i v systému, ke kterému se chcete připojit."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Vytvořit připojení"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Zobrazení připojení"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Okno předvoleb"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Připojení Windows"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
@@ -76,84 +95,86 @@ msgstr "Soubor vzdálené plochy (VNC)"
 msgid "Delete"
 msgstr "Smazat"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "Vlastnosti"
 
 #: src/application.vala:88
 msgid "translator-credits"
-msgstr "Marek Černocký <marek@manet.cz>"
+msgstr ""
+"Marek Černocký <marek@manet.cz>\n"
+"Patrik Sivek <sivekpatrik@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Klient vzdálené pracovní plochy pro uživatelské prostředí GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Nelze otevřít soubor neznámého typu MIME %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Připojení ke stroji „%s“ bylo smazáno"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Zpět"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "Adresa URL, ke které se má připojit"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Otevřít soubor .vnc nebo .rdp v zadané CESTĚ"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "CESTA"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Otevřít na celou obrazovku"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Za příkazem bylo zadáno příliš mnoho argumentů.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Snímek obrazovky z %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Byl pořízen snímek obrazovky"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Otevřít"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Ověření selhalo: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process is "
-"only done once."
+"machine it claims to be, please verify the fingerprints match. This process "
+"is only done once."
 msgstr ""
-"První připojení k „%s“. Chcete-li si být jisti, že se připojujete k počítači, "
-"za který se vydává, ověřte, zda se otisky shodují. Tento proces se provádí "
-"pouze jednou."
+"První připojení k „%s“. Chcete-li si být jisti, že se připojujete k "
+"počítači, za který se vydává, ověřte, zda se otisky shodují. Tento proces se "
+"provádí pouze jednou."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -162,17 +183,17 @@ msgstr ""
 "Certifikát „%s“ vzdáleného serveru neodpovídá místní kopii. Někdo se může za "
 "tento server vydávat."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
 "continue to connect:"
 msgstr ""
-"Vzdálený server „%s“ vyžaduje pro pokračování v připojení následující ověřovací "
-"údaje:"
+"Vzdálený server „%s“ vyžaduje pro pokračování v připojení následující "
+"ověřovací údaje:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d × %d"
@@ -191,36 +212,37 @@ msgstr "_Zavřít"
 msgid "Resize desktop"
 msgstr "Změnit velikost plochy"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:237
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "Pořídit snímek obrazovky"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:199
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
 msgstr ""
-"Zadejte síťový identifikátor vzdáleného stroje, ke kterému se chcete připojit:"
+"Zadejte síťový identifikátor vzdáleného stroje, ke kterému se chcete "
+"připojit:"
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
 msgstr "Typ připojení"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (standard pro připojení k Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (standardní, vysoký výkon)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (standard pro připojení k Linuxu)"
+msgid "VNC (Legacy)"
+msgstr "VNC (zastaralé)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (pro připojení ke vzdáleným VM)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (virtuální stroje)"
 
-#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "Nápověda"
 
@@ -249,7 +271,7 @@ msgstr "Otevřít připojení"
 msgid "Verify"
 msgstr "Ověřit"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -293,19 +315,19 @@ msgstr "Smazat místní certifikát"
 msgid "Authentication Required"
 msgstr "Vyžaduje ověření"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Uživatelské jméno…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Heslo…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Doména…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -313,7 +335,7 @@ msgstr ""
 "Pole domény je běžně volitelné a může být\n"
 "ponecháno prázdné."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Ověřit"
 
@@ -352,7 +374,7 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Vítejte v Připojeních"
 
@@ -378,7 +400,8 @@ msgstr "Připojte se k různým operačním systémům"
 
 #: src/ui/onboarding-dialog.ui:59
 msgid "You can access Linux, Mac, and Windows desktops."
-msgstr "Můžete získat přístup do uživatelských prostředí Linuxu, Macu i Windows."
+msgstr ""
+"Můžete získat přístup do uživatelských prostředí Linuxu, Macu i Windows."
 
 #: src/ui/onboarding-dialog.ui:66
 msgid "Setup is required"
@@ -435,63 +458,63 @@ msgstr "Povolit zvuk"
 msgid "Scale mode"
 msgstr "Režim škálování"
 
-#: src/ui/topbar.ui:21
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "Nové"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "Nabídka aplikace"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "Hledat"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "Vrátit se zpět"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "Nabídka zobrazení"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "Odpojit"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "Klávesové zkratky"
-
-#: src/ui/topbar.ui:222
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "Klávesové zkratky"
 
-#: src/ui/topbar.ui:230
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Klávesové zkratky"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "O aplikaci Připojení"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "Ctrl + Alt + Backspace"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "Ctrl + Alt + Del"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "Ctrl + Alt + F1"
 
-#: src/ui/topbar.ui:276
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "Ctrl + Alt + F2"
 
-#: src/ui/topbar.ui:283
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "Ctrl + Alt + F3"
 
-#: src/ui/topbar.ui:290
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "Ctrl + Alt + F7"
 
@@ -519,7 +542,7 @@ msgstr "vysoká kvalita"
 msgid "Fast refresh"
 msgstr "rychlé reakce"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Pro vytvoření vašeho prvního připojení klikněte na tlačítko Přidat"
 
@@ -534,6 +557,15 @@ msgstr "Nezdařilo se zpracovat soubor"
 msgid "VNC File is missing key “%s”"
 msgstr "V souboru VNC chybí klíč „%s“"
 
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (standard pro připojení k Windows)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (standard pro připojení k Linuxu)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (pro připojení ke vzdáleným VM)"
+
 #~ msgid "Learn about how Connections works."
 #~ msgstr "Průvodce vám vysvětlí, jak Připojení fungují."
 
@@ -547,8 +579,8 @@ msgstr "V souboru VNC chybí klíč „%s“"
 #~ "Computers need to be set up for remote desktop before you can connect to "
 #~ "them."
 #~ msgstr ""
-#~ "Než se k počítači připojíte, je zapotřebí jej pro používání vzdálené plochy "
-#~ "nastavit."
+#~ "Než se k počítači připojíte, je zapotřebí jej pro používání vzdálené "
+#~ "plochy nastavit."
 
 #~ msgid "We hope that you enjoy Connections!"
 #~ msgstr "Ať se vám práce s Připojeními daří"

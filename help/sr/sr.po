@@ -1,0 +1,163 @@
+# Serbian translation for gnome-connections.
+# Copyright (C) 2026 gnome-connections's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-connections package.
+# Марко Костић <marko.m.kostic@gmail.com>,  2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-connections gnome-49\n"
+"POT-Creation-Date: 2026-03-10 16:14+0000\n"
+"PO-Revision-Date: 2026-04-04 13:18+0200\n"
+"Last-Translator: Марко Костић <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <Serbian>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Марко Костић <marko.m.kostic@gmail.com>\n"
+"Превод на српски језик https://гном.срб"
+
+#. (itstool) path: credit/name
+#: C/connect.page:9 C/index.page:13
+msgid "Felipe Borges"
+msgstr "Фелипе Боргес"
+
+#. (itstool) path: credit/years
+#: C/connect.page:11 C/index.page:15
+msgid "2020"
+msgstr "2020"
+
+#. (itstool) path: info/desc
+#: C/connect.page:14
+msgid "Connect to a remote machine over the network."
+msgstr "Повежите се са удаљеним рачунаром преко мреже."
+
+#. (itstool) path: page/title
+#: C/connect.page:20
+msgid "Connect to another computer"
+msgstr "Повежите се са другим рачунаром"
+
+#. (itstool) path: page/p
+#: C/connect.page:22
+msgid "<app>Connections</app> can be used to view and access a remote machine."
+msgstr "<app>Везе</app> се могу користити за преглед и приступ удаљеном рачунару."
+
+#. (itstool) path: note/p
+#: C/connect.page:25
+msgid "The remote machine should already be configured."
+msgstr "Удаљени рачунар би већ требало да буде подешен."
+
+#. (itstool) path: item/p
+#: C/connect.page:29
+msgid ""
+"Click <gui style=\"button\">+</gui> in the top left corner to launch the "
+"remote connection creation assistant."
+msgstr "Кликните на <gui style=\"button\">+</gui> у горњем левом углу да бисте покренули помоћника за стварање удаљене везе."
+
+#. (itstool) path: item/p
+#: C/connect.page:32
+msgid ""
+"Enter a URL containing the protocol, IP address and port number of the "
+"remote device or service. For example:"
+msgstr "Унесите адресу која садржи протокол, ИП адресу и број прикључка удаљеног уређаја или услуге. На пример:"
+
+#. (itstool) path: item/code
+#: C/connect.page:34
+#, no-wrap
+msgid "vnc://192.168.122.1:5900"
+msgstr "vnc://192.168.122.1:5900"
+
+#. (itstool) path: item/p
+#: C/connect.page:35
+msgid "The protocol will be:"
+msgstr "Протокол ће бити:"
+
+#. (itstool) path: item/p
+#: C/connect.page:37
+msgid "rdp:// to connect to a remote <app>RDP</app> server."
+msgstr "rdp:// за повезивање са удаљеним <app>РДП</app> сервером."
+
+#. (itstool) path: item/p
+#: C/connect.page:38
+msgid "vnc:// to connect to a remote <app>vino</app> or <app>VNC</app> server."
+msgstr "vnc:// за повезивање са удаљеним <app>вино</app> или <app>ВНЦ</app> сервером."
+
+#. (itstool) path: item/p
+#: C/connect.page:40
+msgid "spice:// to connect to a remote <app>SPICE</app> server."
+msgstr "spice:// за повезивање са удаљеним <app>СПАЈС</app> сервером."
+
+#. (itstool) path: note/p
+#: C/connect.page:43
+msgid ""
+"The address and port number should be available from the configuration of "
+"the device or service on the remote machine."
+msgstr "Адреса и број прикључка би требало да буду доступни у подешавањима уређаја или услуге на удаљеном рачунару."
+
+#. (itstool) path: item/p
+#: C/connect.page:47
+msgid "Click <gui style=\"button\">Create</gui>."
+msgstr "Кликните на <gui style=\"button\">Направи</gui>."
+
+#. (itstool) path: page/p
+#: C/connect.page:50
+msgid "The remote machine will open in the collection view."
+msgstr "Удаљени рачунар ће се отворити у прегледу збирке."
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Connections"
+msgstr "Везе"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Connections"
+msgstr "Везе"
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "Connections"
+msgstr "Везе"
+
+#. (itstool) path: info/desc
+#: C/index.page:20
+msgid "Learn to connect to remote machines."
+msgstr "Научите како да се повежете са удаљеним рачунарима."
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "<_:media-1/> Connections"
+msgstr "<_:media-1/> Везе"
+
+#. (itstool) path: page/p
+#: C/index.page:28
+msgid ""
+"<app>Connections</app> is a remote desktop client for the GNOME desktop "
+"environment."
+msgstr "<app>Везе</app> су клијент удаљене радне површине за Гномово радно окружење."
+
+#. (itstool) path: section/title
+#: C/index.page:31
+msgid "Getting started"
+msgstr "Започните"
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 Unported License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 Unported License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Овај рад је лиценциран под <_:link-1/>."

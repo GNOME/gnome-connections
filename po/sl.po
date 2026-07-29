@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2026-03-17 13:54+0000\n"
-"PO-Revision-Date: 2026-03-20 10:12+0100\n"
+"POT-Creation-Date: 2026-06-04 13:32+0000\n"
+"PO-Revision-Date: 2026-06-05 00:56+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -140,21 +140,21 @@ msgid "Too many command-line arguments specified.\n"
 msgstr "Navedenih je preveč argumentov ukazne vrstice.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Zaslonska slika %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Zaslonska slika je zajeta"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Odpri"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Overitev je spodletela: %s"
@@ -182,7 +182,7 @@ msgid "The remote server “%s” requires the following authentication details 
 msgstr "Oddaljeni strežnik »%s« za nadaljevanje povezovanja zahteva naslednje podrobnosti overjanja:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -217,16 +217,16 @@ msgid "Connection Type"
 msgstr "Vrsta povezave"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (standard za povezovanje z napravami Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (standard, visoko zmogljivi)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (standard za povezovanje z napravami Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (opuščeno)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (za povezovanje z oddaljenimi navideznimi računalniki)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (virtualni računalniki)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"

@@ -60,7 +60,7 @@
               <child>
                 <object class="GtkRadioButton" id="rdp_radio_button">
                   <property name="visible">True</property>
-                  <property name="label" translatable="yes">RDP (standard for connecting to Windows)</property>
+                  <property name="label" translatable="yes">RDP (Standard, high performance)</property>
                   <signal name="toggled" handler="on_url_entry_changed"/>
                 </object>
               </child>
@@ -69,7 +69,7 @@
                 <object class="GtkRadioButton" id="vnc_radio_button">
                   <property name="visible">True</property>
                   <property name="group">rdp_radio_button</property>
-                  <property name="label" translatable="yes">VNC (standard for connecting to Linux)</property>
+                  <property name="label" translatable="yes">VNC (Legacy)</property>
                   <signal name="toggled" handler="on_url_entry_changed"/>
                 </object>
               </child>
@@ -78,7 +78,7 @@
                 <object class="GtkRadioButton" id="spice_radio_button">
                   <property name="visible">True</property>
                   <property name="group">rdp_radio_button</property>
-                  <property name="label" translatable="yes">SPICE (for connecting to remote VMs)</property>
+                  <property name="label" translatable="yes">SPICE (Virtual machines)</property>
                   <signal name="toggled" handler="on_url_entry_changed"/>
                 </object>
               </child>

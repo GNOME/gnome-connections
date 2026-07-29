@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2026-03-17 13:54+0000\n"
-"PO-Revision-Date: 2026-03-17 15:24+0100\n"
+"POT-Creation-Date: 2026-06-04 13:32+0000\n"
+"PO-Revision-Date: 2026-06-06 17:47+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -31,11 +31,11 @@ msgstr "Conexiuni"
 #. not a desktop window or a pane of glass in the side of a building
 #: data/org.gnome.Connections.desktop.in:9
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr "vnc;rdp;remote;desktop;windows;support;access;view;vezi;computer;distanță;ferestre;suport;acces;vizualizare;"
+msgstr "vnc;rdp;remote;desktop;windows;support;access;view;vezi;computer;calculator;distanță;ferestre;suport;acces;vizualizare;"
 
 #: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
-msgstr "Folosești computere aflate la distanță"
+msgstr "Permite folosirea calculatoarelor aflate la distanță"
 
 #: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
@@ -44,18 +44,18 @@ msgid ""
 "system. It can also be used as a way to provide support to users who might "
 "need help."
 msgstr ""
-"Conexiuni permite conectarea la alte computere și utilizarea lor. Aceasta "
+"Conexiuni permite conectarea la alte calculatoare și utilizarea lor. Aceasta "
 "poate fi o modalitate excelentă de a accesa conținut sau programe din "
-"computere cu sisteme de operare diferite. Poate fi folosit și pentru a oferi "
-"asistență utilizatorilor care au nevoie de ajutor."
+"calculatoare cu sisteme de operare diferite. Aplicația poate fi folosită și "
+"pentru a oferi asistență utilizatorilor care au nevoie de ajutor."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Se poate conecta la o gamă largă de sisteme, inclusiv computere GNU/Linux și "
-"Windows. Este posibilă și conectarea la mașini (aparate) virtuale."
+"Se poate conecta la o gamă largă de sisteme, inclusiv GNU/Linux și Windows. "
+"Este posibilă și conectarea la calculatoare virtuale."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
@@ -63,8 +63,8 @@ msgid ""
 "these must be enabled on the desktop that you want to connect to."
 msgstr ""
 "Conexiuni utilizează protocoalele VNC și RDP acceptate pe scară largă, iar "
-"unul dintre acestea trebuie să fie activat în computerul la care se dorește "
-"conectarea."
+"unul dintre acestea trebuie să fie activat în calculatorul la care se "
+"dorește conectarea."
 
 #: data/org.gnome.Connections.metainfo.xml.in:23
 msgid "Create a Connection"
@@ -89,7 +89,7 @@ msgstr "Proiectul GNOME"
 
 #: data/org.gnome.Connections.xml:5
 msgid "Remote Desktop (VNC) file"
-msgstr "Fișier Computer la distanță (VNC)"
+msgstr "Fișier Calculator la distanță (VNC)"
 
 #: src/actions-popover.vala:44
 msgid "Delete"
@@ -145,21 +145,21 @@ msgid "Too many command-line arguments specified.\n"
 msgstr "Prea multe argumente specificate în linia de comandă.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Instantaneu din %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Instantaneu efectuat"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Deschide"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Autentificarea a eșuat: %s"
@@ -194,7 +194,7 @@ msgstr ""
 "conectarea:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -224,7 +224,7 @@ msgstr "Pe tot ecranul"
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
 msgstr ""
-"Introdu identificatorul de rețea al computerului de la distanță pentru "
+"Introdu identificatorul de rețea al calculatorului de la distanță pentru "
 "conectare:"
 
 #: src/ui/assistant.ui:53
@@ -232,16 +232,16 @@ msgid "Connection Type"
 msgstr "Tip de conexiune"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (standard pentru conectarea la Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (Standard, performanță mare)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (standard pentru conectarea la Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (Vechi)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (pentru conectarea la mașini virtuale la distanță)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Calculator virtual)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -295,15 +295,15 @@ msgid ""
 msgstr ""
 "În Windows dă comanda certlm.msc sau\n"
 "certmgr.msc și copiază certificatul de la\n"
-"<b>Desktop la distanță>Certificate</b> într-un fișier.\n"
+"<b>Calculator la distanță>Certificate</b> într-un fișier.\n"
 "Apoi obține amprenta acestuia prin\n"
 "„certutil.exe -hashfile file SHA256”.\n"
 "\n"
-"Dacă se utilizează GNOME pe computerul de la distanță,\n"
+"Dacă se utilizează GNOME în calculatorul de la distanță,\n"
 "amprenta poate fi verificată în panoul\n"
 "<b>Preferințe>Distribuie</b>\n"
 "sau în panoul <b>Preferințe>Sistem</b> în secțiunea\n"
-"<b>Computer la distanță>Verifică cifrarea</b>."
+"<b>Calculator la distanță>Verifică cifrarea</b>."
 
 #: src/ui/dialog.ui:292
 msgid "Unexpected Certificate"
@@ -382,18 +382,18 @@ msgstr "Bun venit în Conexiuni"
 
 #: src/ui/onboarding-dialog.ui:43
 msgid "Click next to learn about remote desktop."
-msgstr "Clic pe Următorul pentru a învăța despre computerul la distanță."
+msgstr "Continuă pentru a învăța despre calculatorul la distanță."
 
 #: src/ui/onboarding-dialog.ui:50
 msgid "Access other desktops"
-msgstr "Accesează alte computere"
+msgstr "Accesează alte calculatoare"
 
 #: src/ui/onboarding-dialog.ui:51
 msgid ""
 "Connections allows viewing the screens of other desktops. They can also be "
 "controlled using the pointer and keyboard."
 msgstr ""
-"Conexiuni permite vederea ecranele altor computere. Acestea pot fi "
+"Conexiuni permite vederea ecranelor altor calculatoare. Acestea pot fi "
 "controlate utilizând cursorul și tastatura."
 
 #: src/ui/onboarding-dialog.ui:58
@@ -413,8 +413,8 @@ msgid ""
 "Remote desktop typically needs to be enabled on the computer you want to "
 "connect to."
 msgstr ""
-"De obicei, „Computer la distanță” trebuie activat în computerul la care vrei "
-"să te conectezi."
+"De obicei, „Calculator la distanță” trebuie activat în calculatorul la care "
+"vrei să te conectezi."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"

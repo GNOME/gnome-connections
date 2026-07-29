@@ -67,7 +67,6 @@ namespace Connections {
             this.connection = connection;
             var display = connection.widget;
 
-            display.set_events (display.get_events () & ~EventMask.POINTER_MOTION_MASK);
             event_box.add (display);
             event_box.show_all ();
 
