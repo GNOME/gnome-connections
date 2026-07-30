@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gnome-connections\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-08-27 16:48+0000\n"
-"PO-Revision-Date: 2025-08-29 17:55+0300\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-07-30 13:11+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
 "Language: he\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
 "2 : 3);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "חיבורים"
 
@@ -66,8 +66,25 @@ msgstr ""
 "תכנית החיבורים משתמשת בפרוטוקולים הנפוצים VNC ו־RDP ועל אחד מאלה להיות "
 "פעילים בשולחן העבודה אליו ברצונך להתחבר."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "יצירת חיבור"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "תצוגת חיבור"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "חלון העדפות"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "חיבור ל־Windows"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "מיזם GNOME"
 
@@ -90,65 +107,65 @@ msgstr ""
 "\n"
 "<a href=\"https://l10n.gnome.org/teams/he/\">מיזם תרגום GNOME לעברית</a>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "לקוח שולחן עבודה מרוחק עבור סביבת שולחן העבודה GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "לא ניתן לפתוח קובץ כי סוגו אינו ידוע %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "התחברות אל „%s” נמחקה"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "ביטול"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "כתובת להתחברות"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "פתיחת קובץ .vnc או .rdp בנתיב (PATH) שסופק"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "נתיב"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "פתיחה במסך מלא"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "סופקו יותר מדי ארגומנטים דרך שורת הפקודה.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "צילום מסך מ־%s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "המסך צולם"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "פתיחה"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "האימות נכשל: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -158,7 +175,7 @@ msgstr ""
 "מתבצעת התחברות אל „%s” לראשונה. כדי לוודא שהחיבור הזה מתבצע למכונה המיועדת, "
 "נא לוודא שטביעות האצבע תואמות. את התהליך הזה יש לבצע רק פעם אחת."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -167,7 +184,7 @@ msgstr ""
 "אישור השרת המרוחק „%s” לא תואם לעותק המקומי. יכול להיות שמישהו מנסה להתחזות "
 "לשרת."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -175,7 +192,7 @@ msgid ""
 msgstr "השרת המרוחק „%s” דורש שם משתמש וססמה כדי להמשיך בחיבור:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "‫‎%d×%d"
@@ -211,17 +228,16 @@ msgid "Connection Type"
 msgstr "סוג החיבור"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "‫RDP (תקן להתחברות אל Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (רגיל, ביצועים טובים)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "‫VNC (תקן להתחברות אל Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (מיושן)"
 
 #: src/ui/assistant.ui:81
-#| msgid "RDP (standard for connecting to Windows)"
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (להתחברות למכונות וירטואליות מרוחקות)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (מכונות וירטואליות)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -252,7 +268,7 @@ msgstr "פתיחת חיבור"
 msgid "Verify"
 msgstr "אימות"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -296,19 +312,19 @@ msgstr "מחיקת אישור מקומי"
 msgid "Authentication Required"
 msgstr "נדרש אימות"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "שם משתמש…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "ססמה…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "שם תחום…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -316,7 +332,7 @@ msgstr ""
 "שדה שם התחום הוא בדרך כלל רשות ואפשר להשאיר אותו\n"
 "ריק."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "אימות"
 
@@ -355,7 +371,7 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "מסך מלא"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "ברוך בואך לחיבורים"
 
@@ -519,7 +535,7 @@ msgstr "איכות גבוהה"
 msgid "Fast refresh"
 msgstr "רענון מהיר"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "יש ללחוץ על כפתור ההוספה כדי ליצור את החיבור הראשון שלך"
 
@@ -533,6 +549,16 @@ msgstr "לא ניתן לנתח את הקובץ"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "בקובץ ה־VNC חסר המפתח „%s”"
+
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "‫RDP (תקן להתחברות אל Windows)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "‫VNC (תקן להתחברות אל Linux)"
+
+#~| msgid "RDP (standard for connecting to Windows)"
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (להתחברות למכונות וירטואליות מרוחקות)"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
@@ -594,9 +620,6 @@ msgstr "בקובץ ה־VNC חסר המפתח „%s”"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
 #~ msgstr "לקוח שולחן עבודה מרוחק עבור סביבת שולחן העבודה GNOME."
-
-#~ msgid "Create a New Connection"
-#~ msgstr "יצירת התחברות חדשה"
 
 #~ msgid ""
 #~ "Enter a machine address to connect to. Address can begin with rdp:// or "
