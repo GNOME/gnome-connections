@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-12-10 15:50+0000\n"
-"PO-Revision-Date: 2026-01-09 22:54+0500\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-07-30 11:35+0500\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
@@ -60,15 +60,32 @@ msgstr ""
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these "
+"must be enabled on the desktop that you want to connect to."
 msgstr ""
 "Байланыстар қолданбасы көбіне қолдауы бар VNC және RDP хаттамаларын "
-"пайдаланады және қосылғыңыз келетін жұмыс үстелінде олардың бірі іске "
-"қосылуы тиіс."
+"пайдаланады және қосылғыңыз келетін жұмыс үстелінде олардың бірі іске қосылуы "
+"тиіс."
+
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Қосылым жасау"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Қосылымды көрсету"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Баптаулар терезесі"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Windows қосылымы"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "GNOME жобасы"
 
@@ -88,76 +105,76 @@ msgstr "Қасиеттері"
 msgid "translator-credits"
 msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "GNOME жұмыс үстелі ортасына арналған қашықтағы жұмыс үстелі клиенті"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Белгісіз mime %s түрінің файлын ашу мүмкін емес"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "\"%s\" байланысы өшірілген"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Болдырмау"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "Байланысу үшін URL"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Берілген PATH бойынша орналасқан .vnc немесе .rdp файлын ашу"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "ЖОЛ"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Толық экранда ашу"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Тым көп командалық жол аргументтері көрсетілді.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Скриншот, уақыты %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Скриншот түсірілді"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Ашу"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Аутентификация сәтсіз: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
 "machine it claims to be, please verify the fingerprints match. This process "
 "is only done once."
 msgstr ""
-"\"%s\" торабына алғаш рет қосылу. Ол талап ететін машинаға қосылғаныңызға "
-"көз жеткізу үшін саусақ іздерінің сәйкестігін тексеріңіз. Бұл процесс бір "
-"рет қана жүргізіледі."
+"\"%s\" торабына алғаш рет қосылу. Ол талап ететін машинаға қосылғаныңызға көз "
+"жеткізу үшін саусақ іздерінің сәйкестігін тексеріңіз. Бұл процесс бір рет "
+"қана жүргізіледі."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -166,7 +183,7 @@ msgstr ""
 "Қашықтағы сервердің \"%s\" сертификаты жергілікті көшірмеге сәйкес келмейді. "
 "Ол басқа біреудің осы сервер ретінде кейіптеу әрекеті болуы мүмкін."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -176,7 +193,7 @@ msgstr ""
 "аутентификация деректерін талап етеді:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -209,19 +226,19 @@ msgstr "Қосылу үшін қашықтағы жұмыс үстелінің �
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
-msgstr "Байланыс түрі"
+msgstr "Қосылым түрі"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (Windows жүйесіне қосылу стандарты)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (Стандартты, жоғары өнімділік)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (Linux-қа қосылу стандарты)"
+msgid "VNC (Legacy)"
+msgstr "VNC (Ескі)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (қашықтағы виртуалды машиналарға қосылу үшін)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Виртуалды машиналар)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -229,11 +246,11 @@ msgstr "Көмек"
 
 #: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
-msgstr "Байланысу"
+msgstr "Қосылу"
 
 #: src/ui/auth-notification.ui:39
 msgid "_Username"
-msgstr "_Пайдаланушы аты"
+msgstr "Па_йдаланушы аты"
 
 #: src/ui/auth-notification.ui:71
 msgid "_Password"
@@ -243,16 +260,17 @@ msgstr "_Пароль"
 msgid "Sign In"
 msgstr "Кіру"
 
-#. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
+#. Translators: The dialog with this title is shown to the user before opening
+#. the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
 msgid "Open Connection"
-msgstr "Байланысты ашу"
+msgstr "Қосылымды ашу"
 
 #: src/ui/dialog.ui:37 src/ui/dialog.ui:43
 msgid "Verify"
 msgstr "Растау"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Бас тарту"
 
@@ -296,19 +314,19 @@ msgstr "Жергілікті сертификатты өшіру"
 msgid "Authentication Required"
 msgstr "Аутентификация керек"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Пайдаланушы аты…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Пароль…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Домен…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -316,7 +334,7 @@ msgstr ""
 "Домен өрісі әдетте міндетті емес және бос болып\n"
 "қалдырылуы мүмкін."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Аутентификациялау"
 
@@ -392,8 +410,8 @@ msgid ""
 "Remote desktop typically needs to be enabled on the computer you want to "
 "connect to."
 msgstr ""
-"Байланысқыңыз келетін компьютерде қашықтағы жұмыс үстелі әдетте іске "
-"қосылған болуы керек."
+"Байланысқыңыз келетін компьютерде қашықтағы жұмыс үстелі әдетте іске қосылған "
+"болуы керек."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"
@@ -536,6 +554,15 @@ msgstr "Файлды талдау мүмкін емес"
 msgid "VNC File is missing key “%s”"
 msgstr "VNC файлында \"%s\" кілті жоқ"
 
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (Windows жүйесіне қосылу стандарты)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (Linux-қа қосылу стандарты)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (қашықтағы виртуалды машиналарға қосылу үшін)"
+
 #, c-format
 #~ msgid "“%s” requires authentication"
 #~ msgstr "\"%s\" аутентификацияны талап етеді"
@@ -553,8 +580,8 @@ msgstr "VNC файлында \"%s\" кілті жоқ"
 #~ "Computers need to be set up for remote desktop before you can connect to "
 #~ "them."
 #~ msgstr ""
-#~ "Компьютерлерге қосылмас бұрын оларды қашықтағы жұмыс үстелі ретінде "
-#~ "баптау қажет."
+#~ "Компьютерлерге қосылмас бұрын оларды қашықтағы жұмыс үстелі ретінде баптау "
+#~ "қажет."
 
 #~ msgid "We hope that you enjoy Connections!"
 #~ msgstr "Байланыстар қолданбасы сізге ұнайтынына үміттенеміз!"
@@ -569,11 +596,7 @@ msgstr "VNC файлында \"%s\" кілті жоқ"
 #~ msgstr "GNOME байланыстары"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
-#~ msgstr ""
-#~ "GNOME жұмыс үстелі ортасына арналған қашықтағы жұмыс үстелі клиенті."
-
-#~ msgid "Create a New Connection"
-#~ msgstr "Жаңа байланысты жасау"
+#~ msgstr "GNOME жұмыс үстелі ортасына арналған қашықтағы жұмыс үстелі клиенті."
 
 #~ msgid ""
 #~ "Enter a machine address to connect to. Address can begin with rdp:// or "
