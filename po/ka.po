@@ -1,15 +1,15 @@
 # Georgian translation for connections.
 # Copyright (C) 2023 connections's authors.
 # This file is distributed under the same license as the connections package.
-# Ekaterine Papava <papava.e@gtu.ge>, 2023-2025.
+# Ekaterine Papava <papava.e@gtu.ge>, 2023-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: connections\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-09-04 02:51+0000\n"
-"PO-Revision-Date: 2025-09-04 14:07+0200\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-07-31 06:13+0200\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "კავშირები"
 
@@ -64,8 +64,25 @@ msgstr ""
 "Connections ფართოდ გამოყენებულ VNC და RDP პროტოკოლებს იყენებს და სამუშაო "
 "მაგიდაზე, რომელსაც უერთდებით, ერთ-ერთი მათგანი მაინც უნდა იყოს ჩართული."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "კავშირის შექმნა"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "კავშირის ჩვენება"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "მორგების ფანჯარა"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Windows-ის კავშირი"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "პროექტი „GNOME“"
 
@@ -85,65 +102,65 @@ msgstr "პარამეტრები"
 msgid "translator-credits"
 msgstr "თემური დოღონაძე"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "RDP-ის კლიენტი GNOME-ისთვის"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "უცნობი mime-type-ის მქონე ფაილის გახსნა შეუძლებელია: %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "შეერთება %s-სთან წაიშალა"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "დაბრუნება"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "დასაკავშირებელი URL"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr ".vnc ან .rdp ფაილის გახსნა მითითებული ბილიკიდან"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "ბილიკი"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "მთელ ეკრანზე გახსნა"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "მითითებულია მეტისმეტად ბევრი ბრძანების სტრიქონის არგუმენტი.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "ეკრანის ანაბეჭდი %s-დან"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "ეკრანის ანაბეჭდი აღებულია"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "გახსნა"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "ავთენტიკაციის შეცდომა: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -154,7 +171,7 @@ msgstr ""
 "რომლადაც ის თავს ასაღებს, შეადარეთ მათი ანაბეჭდები. ეს პროცესი, მხოლოდ, "
 "ერთხელ სრულდება."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -163,7 +180,7 @@ msgstr ""
 "დაშორებული სერვერის \"%s\" სერტიფიკატი ლოკალურ ასლს არ ემთხვევა. შეიძლება, "
 "სხვას მოაქვს თავი, რომ სერვერია."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -173,7 +190,7 @@ msgstr ""
 "ავთენტიკაციის დეტალებს:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -211,17 +228,16 @@ msgid "Connection Type"
 msgstr "შეერთების ტიპი"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (სტანდარტულად, Windows-სთვის)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (სტანდარტული, მაღალი წარმადობით)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (სტანდარტულად, Linux-სთვის)"
+msgid "VNC (Legacy)"
+msgstr "VNC (მოძველებული)"
 
 #: src/ui/assistant.ui:81
-#| msgid "RDP (standard for connecting to Windows)"
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (დაშორებულ ვმ-ებთან დასაკავშირებლად)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (ვირტუალური მანქანები)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -252,7 +268,7 @@ msgstr "კავშირის გახსნა"
 msgid "Verify"
 msgstr "შემოწმება"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "გაუქმება"
 
@@ -297,19 +313,19 @@ msgstr "ლოკალური სერტიფიკატის წაშ�
 msgid "Authentication Required"
 msgstr "საჭროა ავთენტიკაცია"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "&მომხმარებლის სახელი…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "პაროლი…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "დომენი…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -317,7 +333,7 @@ msgstr ""
 "დომენის სახელი, ჩვეულებრივ, არასავალდებულოა და\n"
 "შეგიძლიათ, ცარიელი დატოვოთ."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "ავთენტიკაცია"
 
@@ -356,7 +372,7 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "სრულ ეკრანზე"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "კეთილი იყოს თქვენი მობრძანება Connections-ში"
 
@@ -524,7 +540,7 @@ msgstr "მაღალი ხარისხი"
 msgid "Fast refresh"
 msgstr "სწრაფი განახლება"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "პირველი შეერთების დასამატებლად დააწექით დამატებით ღილაკს"
 
@@ -538,6 +554,16 @@ msgstr "ფაილის დამუშავების შეცდომ�
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "VNC ფაილს აკლია გასაღები \"%s\""
+
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (სტანდარტულად, Windows-სთვის)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (სტანდარტულად, Linux-სთვის)"
+
+#~| msgid "RDP (standard for connecting to Windows)"
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (დაშორებულ ვმ-ებთან დასაკავშირებლად)"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
