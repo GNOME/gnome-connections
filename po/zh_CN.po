@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the gnome-connections package.
 # Boyuan Yang <073plan@gmail.com>, 2020.
 # Nanling <neithern@outlook.com>, 2023.
-# lumingzh <lumingzh@qq.com>, 2022-2025.
+# lumingzh <lumingzh@qq.com>, 2022-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-09-02 16:59+0000\n"
-"PO-Revision-Date: 2025-09-04 10:49+0800\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-07-31 14:12+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 48.0\n"
+"X-Generator: Gtranslator 50.0\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "连接"
 
@@ -65,8 +65,25 @@ msgstr ""
 "“连接”应用程序使用广泛支持的 VNC 和 RDP 协议，您想要连接的计算机必须预先启用"
 "其中的某个协议。"
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "创建连接"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "连接显示"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "首选项窗口"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Windows 连接"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "GNOME 项目"
 
@@ -86,68 +103,68 @@ msgstr "属性"
 msgid "translator-credits"
 msgstr ""
 "Boyuan Yang <073plan@gmail.com>, 2020\n"
-"lumingzh <lumingzh@qq.com>, 2022-2025\n"
+"lumingzh <lumingzh@qq.com>, 2022-2026\n"
 "Nanling <neithern@outlook.com>, 2023"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "GNOME 桌面环境的远程桌面客户端"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "无法打开未知 mime 类型（%s）的文件"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "到“%s”的连接已删除"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "撤销"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "要连接的 URL"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "在指定路径打开 .vnc 或 .rdp 文件"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "路径"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "以全屏方式打开"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "指定了过多的命令行参数。\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "%s 的屏幕截图"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "已截图"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "打开"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "认证失败：%s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -157,14 +174,14 @@ msgstr ""
 "首次连接到“%s”。为确保您连接到的目标机器不是伪造的，请验证指纹是否匹配。此过"
 "程仅执行一次。"
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
 "someone's pretending to be the server."
 msgstr "远程服务器“%s”的证书与本地副本不匹配。可能是有人伪造了服务器。"
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -172,7 +189,7 @@ msgid ""
 msgstr "远程服务器“%s”需要下列认证详情才能继续连接："
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -208,16 +225,16 @@ msgid "Connection Type"
 msgstr "连接类型"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP（连接到 Windows 的标准协议）"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP（标准，高性能）"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC（连接到 Linux 的标准协议）"
+msgid "VNC (Legacy)"
+msgstr "VNC（过时）"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE（连接到远程虚拟机）"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE（虚拟机）"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -248,7 +265,7 @@ msgstr "打开连接"
 msgid "Verify"
 msgstr "验证"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "取消"
 
@@ -282,7 +299,7 @@ msgstr ""
 
 #: src/ui/dialog.ui:292
 msgid "Unexpected Certificate"
-msgstr "预期外的证书"
+msgstr "意外的证书"
 
 #: src/ui/dialog.ui:334
 msgid "Delete Local Certificate"
@@ -292,19 +309,19 @@ msgstr "删除本地证书"
 msgid "Authentication Required"
 msgstr "需要认证"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "用户名…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "密码…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "域…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -312,7 +329,7 @@ msgstr ""
 "域字段通常是可选的，可以\n"
 "留空。"
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "认证"
 
@@ -351,7 +368,7 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "全屏"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "欢迎使用连接程序"
 
@@ -513,7 +530,7 @@ msgstr "高质量"
 msgid "Fast refresh"
 msgstr "快速刷新"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "点击添加按钮来创建您的第一个连接"
 
@@ -527,6 +544,15 @@ msgstr "无法解析文件"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "VNC 文件缺失键“%s”"
+
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP（连接到 Windows 的标准协议）"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC（连接到 Linux 的标准协议）"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE（连接到远程虚拟机）"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
@@ -560,9 +586,6 @@ msgstr "VNC 文件缺失键“%s”"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
 #~ msgstr "GNOME 桌面环境的远程桌面客户端。"
-
-#~ msgid "Create a New Connection"
-#~ msgstr "创建新连接"
 
 #~ msgid ""
 #~ "Enter a machine address to connect to. Address can begin with rdp:// or "
