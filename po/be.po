@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2026-04-24 15:16+0000\n"
-"PO-Revision-Date: 2026-05-15 03:36+0300\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-08-01 14:06+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
 "n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7
 #: src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
@@ -74,13 +74,11 @@ msgid "Preferences Window"
 msgstr "Акно параметраў"
 
 #: data/org.gnome.Connections.metainfo.xml.in:35
-#, fuzzy
-#| msgid "About Connections"
 msgid "A Windows Connection"
-msgstr "Вокны злучэнняў/Злучэнне Windows"
+msgstr "Злучэнне Windows"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:45 data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "Праект GNOME"
 
@@ -102,60 +100,60 @@ msgstr ""
 "Ігар Грачышка <ihar.hrachyshka@gmail.com>\n"
 "Юрась Шумовіч <shumovichy@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Кліент аддаленага працоўнага стала для асяроддзя GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Не ўдалося адкрыць файл або невядомы MIME-тып %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Падлучэнне да «%s» выдалена"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Адрабіць"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL-адрас падлучэння"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Адкрыць файл .vnc або .rdp з указанага шляху"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "ШЛЯХ"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Перайсці ў поўнаэкранны рэжым"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Указана занадта шмат аргументаў загаднага радка.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Здымак экрана ад %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Здымак экрана атрыманы"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Адкрыць"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Сапраўднасць не пацверджана: %s"
@@ -219,16 +217,16 @@ msgid "Connection Type"
 msgstr "Тып падлучэння"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (стандартнае падлучэнне для Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (стандартны, высокая прадукцыйнасць)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (стандартнае падлучэнне для Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (састарэлы)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (для падлучэння да аддаленых ВМ)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Віртуальныя машыны)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -535,28 +533,3 @@ msgstr "Не ўдалося разабраць файл"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "У файле VNC адсутнічае ключ «%s»"
-
-#, c-format
-#~ msgid "“%s” requires authentication"
-#~ msgstr "«%s» патрабуе праверкі сапраўднасці"
-
-#~ msgid "Learn about how Connections works."
-#~ msgstr "Даведайцеся як працуе Connections."
-
-#~ msgid "Use other desktops, remotely"
-#~ msgstr "Аддаленае карыстанне іншым працоўным сталом"
-
-#~ msgid "Enable remote desktop before connecting"
-#~ msgstr "Перад падлучэннем уключыце аддалены працоўны стол"
-
-#~ msgid "Computers need to be set up for remote desktop before you can connect to them."
-#~ msgstr "Трэба наладзіць аддалены працоўны стол на камп'ютары, каб падлучыцца да яго."
-
-#~ msgid "We hope that you enjoy Connections!"
-#~ msgstr "Спадзяемся, Connections вас задаволіць!"
-
-#~ msgid "More information can be found in the help."
-#~ msgstr "Больш інфармацыі вы можаце знайсці ў даведцы."
-
-#~ msgid "Scaling"
-#~ msgstr "Маштабаванне"
