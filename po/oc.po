@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2025-10-06 17:29+0000\n"
-"PO-Revision-Date: 2025-10-08 08:01+0200\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-08-01 11:36+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan <totenoc@gmail.com>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
@@ -58,8 +58,24 @@ msgstr ""
 "Connexions utiliza los protocòls grandament preses en carga VNC e RDP, e un d’aquestes deu èsser activat sul "
 "burèu que volètz contactar."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Crear una connexion"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Afichatge de las connexions"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Fenèstra de las preferéncias"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Una fenèstra de connexion"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45 data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "Lo projècte GNOME"
 
@@ -79,65 +95,65 @@ msgstr "Proprietats"
 msgid "translator-credits"
 msgstr "Quentin PAGÈS"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Un client de burèu distant per l’environament de burèu GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Impossible de dobrir lo fichièr de tipe mime desconegut %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "La connexion cap a « %s » es estada suprimida"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Desfar"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL de connexion"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Dobrir lo fichièr .vnc o .rdp al camin donat"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "EMPLAÇAMENT"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Dobrir en mòde ecran complèt"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Nombre de paramètres de linha de comanda especificats tròp important.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Captura d'ecran de %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Captura d’ecran efectuada"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Dobrir"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Fracàs d'autentificacion : %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims to be, please "
@@ -146,7 +162,7 @@ msgstr ""
 "Connexion a « %s » pel primièr còp. Per vos assegurar que sètz connectat a la maquina que se presenta coma "
 "tal, verificatz se l’emprenta numerica correspond. Se realiza aquesta processús sonque un còp."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to be the server."
@@ -154,13 +170,13 @@ msgstr ""
 "Lo certificat del servidor alonhat « %s » correspond pas a la còpia locala. Poiriá arribar que siá qualqu’un "
 "mai que se far passar pel servidor."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid "The remote server “%s” requires the following authentication details to continue to connect:"
 msgstr "Lo servidor alonhat « %s » requerís los elements de connexion seguents per contunhar a s’i connectar :"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -195,16 +211,16 @@ msgid "Connection Type"
 msgstr "Tipe de connexion"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (estandard per las connexions a Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (estandard, nauta performança)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (estandard per las connexions a Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (ancian)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (per se connectar a una MV a distància)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (maquinas virtualas)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -235,7 +251,7 @@ msgstr "Connexion dobèrta"
 msgid "Verify"
 msgstr "Verificar"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Anullar"
 
@@ -279,19 +295,19 @@ msgstr "Suprimir lo certificat local"
 msgid "Authentication Required"
 msgstr "Autentificacion requerida"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Nom d’utilizaire…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Senhal…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Domeni…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -299,7 +315,7 @@ msgstr ""
 "Lo camp domeni es sovent opcional e se pòt\n"
 "daissar void."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "S’autentificar"
 
@@ -509,6 +525,15 @@ msgstr "Impossible d’analisar lo fichièr"
 msgid "VNC File is missing key “%s”"
 msgstr "Clau « %s » mancanta pel fichièr VNC"
 
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (estandard per las connexions a Windows)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (estandard per las connexions a Linux)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (per se connectar a una MV a distància)"
+
 #~ msgid "“%s” requires authentication"
 #~ msgstr "« %s » requerís l’autentificacion"
 
@@ -559,9 +584,6 @@ msgstr "Clau « %s » mancanta pel fichièr VNC"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
 #~ msgstr "Un client de burèu distant per l’environament de burèu GNOME."
-
-#~ msgid "Create a New Connection"
-#~ msgstr "Crear una novèla connexion"
 
 #~ msgid "Enter a machine address to connect to. Address can begin with rdp:// or vnc://"
 #~ msgstr "Picatz una adreça de maquina per vos i connectar. L’adreça pòt començar amb rdp:// o vnc://"
