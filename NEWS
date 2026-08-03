@@ -1,3 +1,36 @@
+51.beta - 3 Aug, 2026
+====================
+
+Changes since 50.0
+
+  - Fixed focus chain of authentication dialog
+  - Added captions to app screenshots
+  - Fixed propagation of cursor changes
+  - Enabled h264 in flatpak
+  - Self-build libhandy
+  - Fixed connection to IPv6 URIs
+  - Actualized descriptions of protocols in assistant
+  - Handle NULL Common Name in RdpConnection
+  - Do not remove POINTER_MOTION_MASK
+  - Do not store already stored connections
+  - Updated gtk-frdp
+
+  - Added/Updated translations:
+     - Belarusian
+     - Chinese
+     - Cornish
+     - Czech
+     - Georgian
+     - Hebrew
+     - Kazakh
+     - Norwegian Bokmål
+     - Occitan
+     - Romanian
+     - Serbian
+     - Slovak
+     - Slovenian
+     - Ukrainian
+
 50.0 - 13 Mar, 2026
 ====================
 
