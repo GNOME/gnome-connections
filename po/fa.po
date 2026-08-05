@@ -1,15 +1,15 @@
 # Persian translation for gnome-connections.
 # Copyright (C) 2020 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
-# Danial Behzadi <dani.behzi@ubuntu.com>, 2020-2024.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2020-2026.
 # میر سبحان <me@mirsobhan.ir>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2025-08-17 15:12+0000\n"
-"PO-Revision-Date: 2025-08-19 23:32+0330\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-08-06 00:56+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian\n"
 "Language: fa\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 "X-DL-Lang: fa\n"
 "X-DL-Module: gnome-connections\n"
 "X-DL-Branch: master\n"
@@ -25,7 +25,7 @@ msgstr ""
 "X-DL-State: Translating\n"
 
 #: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7
-#: src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "دوردست‌ها"
 
@@ -66,8 +66,25 @@ msgstr ""
 "دوردست‌ها از قراردادهای VNC و RDP پشتیبانی می‌کند و باید یکی از این‌ها روی میزکاری که "
 "می‌خواهید به آن وصل شوید، به کار افتاده باشد."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "ایجاد ارتباط"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "نمایش ارتباط"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "پنجرهٔ ترجیحات"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "ارتباط ویندوزی"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "پروژهٔ گنوم"
 
@@ -79,7 +96,7 @@ msgstr "پروندهٔ میزکار دوردست (VNC)"
 msgid "Delete"
 msgstr "حذف"
 
-#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:241
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
 msgid "Properties"
 msgstr "ویژگی‌ها"
 
@@ -87,65 +104,65 @@ msgstr "ویژگی‌ها"
 msgid "translator-credits"
 msgstr "دانیال بهزادی <dani.behzi@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "یک کارخواه میزکار دوردست برای محیط میزکار گنوم"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "نمی‌توان پرونده از گونهٔ mime ناشناخته %s را گشود"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "ارتباط با %s حذف شده"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "برگردان"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "نشانی برای ارتباط"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "گشودن پروندهٔ ‪.vnc‬ یا ‪.rdp‬ در مسیر داده‌شده"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "PATH"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "'گشودن در تمام‌صفحه"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "آرگومان‌های خط فرمان بیش از حد مشخّص شده.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "نماگرفت از %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "نماگرفت گرفته شد"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "گشودن"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "تأیید هویت شکست خورد: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the machine it "
@@ -155,7 +172,7 @@ msgstr ""
 "ادّعایش را دارد، تأیید کنید که اثر انگشت‌ها نطابق باشندو این فرایند تنها یک بار انجام "
 "می‌شود."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be someone's "
@@ -164,15 +181,15 @@ msgstr ""
 "گواهی کارساز دوردست «%s»  با رونوشت محلیش مطابق نیست. ممکن است کسی تظاهر به کارساز "
 "بودن کند."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to continue to "
 "connect:"
-msgstr "کارساز دوردست «%s» برای ادامهٔ اتّصال نیازمند جزییات هویت‌سنجی زیر است:"
+msgstr "کارساز دوردست «%s» برای ادامهٔ ارتباط نیازمند جزییات هویت‌سنجی زیر است:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%Id×%Id"
@@ -191,11 +208,11 @@ msgstr "_بستن"
 msgid "Resize desktop"
 msgstr "تغییر اندازهٔ میزکار"
 
-#: src/topbar.vala:58 src/ui/topbar.ui:237
+#: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
 msgstr "نماگرفت"
 
-#: src/topbar.vala:62 src/ui/topbar.ui:199
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
 msgstr "تمام‌صفحه"
 
@@ -205,27 +222,27 @@ msgstr "شناسهٔ شبکه‌ای میزکار دوردست را برای و�
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
-msgstr "گونهٔ اتّصال"
+msgstr "گونهٔ ارتباط"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (استاندارد وصل شدن به ویندوز)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (استاندارد، بازدهی زیاد)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (استاندارد وصل شدن به گنو/لینوکس)"
+msgid "VNC (Legacy)"
+msgstr "VNC (موروثی)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (برای وصل شدن به ماشین‌های محازی دوردست)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (ماشین‌های مجازی)"
 
-#: src/ui/assistant.ui:99 src/ui/topbar.ui:226
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
 msgstr "راهنما"
 
 #: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
 msgid "Connect"
-msgstr "اتّصال"
+msgstr "ارتباط"
 
 #: src/ui/auth-notification.ui:39
 msgid "_Username"
@@ -242,13 +259,13 @@ msgstr "ورود"
 #. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
 msgid "Open Connection"
-msgstr "گشودن اتّصال"
+msgstr "گشودن ارتباط"
 
 #: src/ui/dialog.ui:37 src/ui/dialog.ui:43
 msgid "Verify"
 msgstr "تأیید"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "لغو"
 
@@ -293,19 +310,19 @@ msgstr "حذف گواهی محلی"
 msgid "Authentication Required"
 msgstr "نیازمند هویت‌سنجی"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "نام‌کاربری…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "گذرواژه…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "دامنه…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -313,7 +330,7 @@ msgstr ""
 "زمینهٔ دامنه معمولاً اختیاری بوده و می‌تواند\n"
 "خالی گذاشته شود."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "تأیید هویت"
 
@@ -345,14 +362,14 @@ msgstr "خروج"
 #: src/ui/kbd-shortcuts-window.ui:59
 msgctxt "shortcut window"
 msgid "Connection Display"
-msgstr "نمایش اتّصال"
+msgstr "نمایش ارتباط"
 
 #: src/ui/kbd-shortcuts-window.ui:66
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "تمام‌صفحه"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "به دوردست‌ها خوش آمدید"
 
@@ -400,7 +417,7 @@ msgstr "برای شروع، به نشانی رایانه‌ای که می‌خو
 
 #: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9 src/ui/vnc-preferences.ui:9
 msgid "Connection preferences"
-msgstr "ترجیحات اتّصال"
+msgstr "ترجیحات ارتباط"
 
 #: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
 #: src/ui/vnc-preferences.ui:22
@@ -430,63 +447,63 @@ msgstr "به کار انداختن صدا"
 msgid "Scale mode"
 msgstr "حالت مقیاس"
 
-#: src/ui/topbar.ui:21
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
 msgid "New"
 msgstr "جدید"
 
-#: src/ui/topbar.ui:42
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
 msgstr "فهرست برنامه"
 
-#: src/ui/topbar.ui:70
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
 msgstr "جست‌وجو"
 
-#: src/ui/topbar.ui:104
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
 msgstr "عقب رفتن"
 
-#: src/ui/topbar.ui:125
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
 msgstr "فهرست نمایش"
 
-#: src/ui/topbar.ui:149
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
 msgstr "قطع ارتباط"
 
-#: src/ui/topbar.ui:174
-msgid "Keyboard shortcuts"
-msgstr "میان‌برهای صفحه‌کلید"
-
-#: src/ui/topbar.ui:222
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
 msgstr "میان‌برهای صفحه‌کلید"
 
-#: src/ui/topbar.ui:230
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "میان‌برهای صفحه‌کلید"
+
+#: src/ui/topbar.ui:238
 msgid "About Connections"
 msgstr "دربارهٔ دوردست‌ها"
 
-#: src/ui/topbar.ui:255
+#: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
 msgstr "مهار + دگرساز + پس‌بر"
 
-#: src/ui/topbar.ui:262
+#: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
 msgstr "مهار + دگرساز + حذف"
 
-#: src/ui/topbar.ui:269
+#: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
 msgstr "مهار + دگرساز + F1"
 
-#: src/ui/topbar.ui:276
+#: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
 msgstr "مهار + دگرساز + F2"
 
-#: src/ui/topbar.ui:283
+#: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
 msgstr "مهار + دگرساز + F3"
 
-#: src/ui/topbar.ui:290
+#: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
 msgstr "مهار + دگرساز + F7"
 
@@ -514,7 +531,7 @@ msgstr "کیفیت بالا"
 msgid "Fast refresh"
 msgstr "نوسازی سریع"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "زدن دکمهٔ افزودن برای ایجاد نخستین ارتباطتان"
 
@@ -528,6 +545,15 @@ msgstr "نمی‌توان پرونده را تجزیه کرد"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "پروندهٔ VNC کلید %s را ندارد"
+
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (استاندارد وصل شدن به ویندوز)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (استاندارد وصل شدن به گنو/لینوکس)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (برای وصل شدن به ماشین‌های محازی دوردست)"
 
 #~ msgid "Learn about how Connections works."
 #~ msgstr "دربارهٔ چکونگی کارکرد دوردست‌ها بیاموزید."
@@ -566,9 +592,6 @@ msgstr "پروندهٔ VNC کلید %s را ندارد"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
 #~ msgstr "یک کارخواه میزکار دوردست برای محیط میزکار گنوم."
-
-#~ msgid "Create a New Connection"
-#~ msgstr "ایحاد ارتباطی جدید"
 
 #~ msgid "Enter a machine address to connect to. Address can begin with rdp:// or vnc://"
 #~ msgstr ""
