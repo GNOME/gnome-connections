@@ -1,14 +1,14 @@
 # Dutch translation for gnome-connections.
 # Copyright (C) 2021 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
-# Nathan Follens <nfollens@gnome.org>, 2021-2025.
+# Nathan Follens <nfollens@gnome.org>, 2021-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2025-09-09 14:53+0000\n"
-"PO-Revision-Date: 2025-09-09 19:19+0200\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-08-11 00:51+0200\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
 #: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
@@ -59,8 +59,24 @@ msgstr ""
 "Verbindingen maakt gebruik van de goed ondersteunde VNC- en RDP-protocollen. Eén van deze protocollen moet "
 "ingeschakeld zijn op het bureaublad waarmee u verbinding wilt maken."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Verbinding maken"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Verbindingsweergave"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Voorkeurenvenster"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Een Windows-verbinding"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45 data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "Het GNOME-project"
 
@@ -82,65 +98,65 @@ msgstr ""
 "Nathan Follens <nfollens@gnome.org>\n"
 "Meer info over GNOME-NL https://nl.gnome.org"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Een remote desktop-cliënt voor de GNOME-bureaubladomgeving"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Kon bestand met onbekend MIME-type %s niet openen"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Verbinding met ‘%s’ is verwijderd"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Ongedaan maken"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL om mee te verbinden"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr ".vnc- of .rdp-bestand openen op gegeven PAD"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "PAD"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "In schermvullende modus openen"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Te veel argumenten opgegeven voor de opdracht.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Schermafdruk van %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Schermafdruk gemaakt"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Openen"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Aanmelding mislukt: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims to be, please verify "
@@ -149,20 +165,20 @@ msgstr ""
 "We maken voor de eerste keer verbinding met ‘%s’. Controleer of de vingerafdrukken overeenkomen om zeker te zijn "
 "dat u wel echt verbinding maakt met die machine. Dit is maar één keer nodig."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid "The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to be the server."
 msgstr ""
 "Het certificaat van de externe server ‘%s’ komt niet overeen met de lokale kopie. Mogelijk probeert iemand zich "
 "voor te doen als de server."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid "The remote server “%s” requires the following authentication details to continue to connect:"
 msgstr "De externe server ‘%s’ vereist volgende aanmeldingsgegevens om verbinding te kunnen maken:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -197,17 +213,16 @@ msgid "Connection Type"
 msgstr "Verbindingstype"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (standaard om te verbinden met Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (standaard, hoge prestaties)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (standaard om te verbinden met Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (verouderd)"
 
 #: src/ui/assistant.ui:81
-#| msgid "RDP (standard for connecting to Windows)"
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (om te verbinden met VM’s op afstand)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (virtuele machines)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -238,7 +253,7 @@ msgstr "Verbinding openen"
 msgid "Verify"
 msgstr "Verifiëren"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -283,19 +298,19 @@ msgstr "Lokaal certificaat verwijderen"
 msgid "Authentication Required"
 msgstr "Aanmelden vereist"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Gebruikersnaam…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Wachtwoord…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Domein…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -303,7 +318,7 @@ msgstr ""
 "Het veld ‘Domein’ is meestal niet verplicht en kan\n"
 "leeg gelaten worden."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Aanmelden"
 
@@ -513,6 +528,16 @@ msgstr "Kon bestand niet verwerken"
 msgid "VNC File is missing key “%s”"
 msgstr "Sleutel ‘%s’ ontbreekt in VNC-bestand"
 
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (standaard om te verbinden met Windows)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (standaard om te verbinden met Linux)"
+
+#~| msgid "RDP (standard for connecting to Windows)"
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (om te verbinden met VM’s op afstand)"
+
 #, c-format
 #~ msgid "“%s” requires authentication"
 #~ msgstr "‘%s’ vereist authenticatie"
@@ -544,9 +569,6 @@ msgstr "Sleutel ‘%s’ ontbreekt in VNC-bestand"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
 #~ msgstr "Een externbureaubladcliënt voor de Gnome-bureaubladomgeving."
-
-#~ msgid "Create a New Connection"
-#~ msgstr "Nieuwe verbinding maken"
 
 #~ msgid "Enter a machine address to connect to. Address can begin with rdp:// or vnc://"
 #~ msgstr "Voer het adres in van een machine om mee te verbinden. Het adres kan beginnen met rdp:// of vnc://"
