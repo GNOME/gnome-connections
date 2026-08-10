@@ -7,10 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
-"issues\n"
-"POT-Creation-Date: 2025-08-29 20:29+0000\n"
-"PO-Revision-Date: 2025-08-30 21:10+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-08-10 09:23+0200\n"
 "Last-Translator: Fran Dieguez <fran.dieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -18,16 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.7\n"
-"X-DL-Team: gl\n"
-"X-DL-Module: connections\n"
 "X-DL-Branch: master\n"
 "X-DL-Domain: po\n"
+"X-DL-Module: connections\n"
 "X-DL-State: Translating\n"
+"X-DL-Team: gl\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Conexións"
 
@@ -48,29 +47,46 @@ msgid ""
 "system. It can also be used as a way to provide support to users who might "
 "need help."
 msgstr ""
-"Conexións permítelle conectarse e usar outros escritorios. Isto pode ser "
-"unha forma incríbel para acceder a contidos ou software de distintos "
-"sistemas operativos. Tamén pode usarse como unha forma de fornecer soporte "
-"técnico a quen precise axuda."
+"Conexións permítelle conectarse e usar outros escritorios. Isto pode ser unha "
+"forma incríbel para acceder a contidos ou software de distintos sistemas "
+"operativos. Tamén pode usarse como unha forma de fornecer soporte técnico a "
+"quen precise axuda."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Pode conectarse a distintos sistemas operativos, incluíndo escritorios Linux "
-"e Windows. Tamén pode conectarse a máquinas virtuais."
+"Pode conectarse a distintos sistemas operativos, incluíndo escritorios Linux e "
+"Windows. Tamén pode conectarse a máquinas virtuais."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
 msgid ""
-"Connections uses the widely supported VNC and RDP protocols, and one of "
-"these must be enabled on the desktop that you want to connect to."
+"Connections uses the widely supported VNC and RDP protocols, and one of these "
+"must be enabled on the desktop that you want to connect to."
 msgstr ""
 "Conexións usa os protocolos VNC e RDP, usados en moitos sitios, debe ter un "
 "destes activados no escritorio ao que quere conectarse."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Crear unha conexión"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Conexión da pantalla"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Xanela de preferencias"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Unha conexións de Windows"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "O Proxecto de GNOME"
 
@@ -88,78 +104,78 @@ msgstr "Propiedades"
 
 #: src/application.vala:88
 msgid "translator-credits"
-msgstr "Fran Diéguez <frandieguez@gnome.org>, 2020-2025"
+msgstr "Fran Diéguez <frandieguez@gnome.org>, 2020-2026"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Un cliente de escritorio remoto para o ambiente de escritorio de GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Non foi posíbel abrir o ficheiro de tipo mime descoñecido %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "A conexión a «%s» foi eliminada"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Desfacer"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL á que conectarse"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Abrir ficheiro .vnc ou .rdp no PATH fornecido"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "RUTA"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Abrir a pantalla completa"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Especificou demasiados argumentos de liña de ordes\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Captura de pantalla desde %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Captura de pantalla tomada"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Abrir"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Produciuse un fallo na autenticación: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
-"machine it claims to be, please verify the fingerprints match. This process "
-"is only done once."
+"machine it claims to be, please verify the fingerprints match. This process is "
+"only done once."
 msgstr ""
-"Conectándose a «%s» por primeira vez. Para asegurarse que está conectándose "
-"á máquina que corresponde comprobe que as pegadas dixitais coinciden. Este "
+"Conectándose a «%s» por primeira vez. Para asegurarse que está conectándose á "
+"máquina que corresponde comprobe que as pegadas dixitais coinciden. Este "
 "proceso só se leva a cabo unha vez."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -168,7 +184,7 @@ msgstr ""
 "O certificado do servidor remoto «%s» non coincide coa copia local. Podería "
 "ser alguén finxindo ser o servidor."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -178,7 +194,7 @@ msgstr ""
 "continuar coa conexión:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -207,24 +223,23 @@ msgstr "Pantalla completa"
 
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
-msgstr ""
-"Escriba o identificador de rede do escritorio remoto ao que conectarse:"
+msgstr "Escriba o identificador de rede do escritorio remoto ao que conectarse:"
 
 #: src/ui/assistant.ui:53
 msgid "Connection Type"
 msgstr "Tipo de conexión"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (estándar para conectarse a Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (estándar, alto rendemento)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (estándar para conectarse a Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (herdado)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (para conectarse a MV remotas)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (máquinas virtuais)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -246,7 +261,8 @@ msgstr "_Contrasinal"
 msgid "Sign In"
 msgstr "Iniciar sesión"
 
-#. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
+#. Translators: The dialog with this title is shown to the user before opening
+#. the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
 msgid "Open Connection"
 msgstr "Abrir conexión"
@@ -255,7 +271,7 @@ msgstr "Abrir conexión"
 msgid "Verify"
 msgstr "Verificar"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -300,19 +316,19 @@ msgstr "Eliminar o certificado local"
 msgid "Authentication Required"
 msgstr "Requírese autenticación"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Nome de usuario…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Contrasinal…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Dominio…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -320,7 +336,7 @@ msgstr ""
 "O campo de dominio é un campo comunmente opcional e pode\n"
 "deixarse baleiro."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Autenticar"
 
@@ -359,7 +375,7 @@ msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Benvida a Conexións"
 
@@ -406,8 +422,7 @@ msgstr "Comezar a crear a súa primeira conexión"
 #: src/ui/onboarding-dialog.ui:75
 msgid ""
 "To begin, you will need the address of the computer you want to connect to."
-msgstr ""
-"Para comezar, precisa o enderezo do computador ao que se quere conectar."
+msgstr "Para comezar, precisa o enderezo do computador ao que se quere conectar."
 
 #: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
 #: src/ui/vnc-preferences.ui:9
@@ -526,7 +541,7 @@ msgstr "Alta calidade"
 msgid "Fast refresh"
 msgstr "Recarga rápida"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Prema no botón de engadir para crear a súa primeira conexión"
 
@@ -540,6 +555,15 @@ msgstr "Non foi posíbel analizar o ficheiro"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "No ficheiro VNC falta unha chave «%s»"
+
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (estándar para conectarse a Windows)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (estándar para conectarse a Linux)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (para conectarse a MV remotas)"
 
 #, c-format
 #~ msgid "“%s” requires authentication"
@@ -605,15 +629,12 @@ msgstr "No ficheiro VNC falta unha chave «%s»"
 #~ msgstr ""
 #~ "Un cliente de escritorio remoto para o ambiente de escritorio de GNOME."
 
-#~ msgid "Create a New Connection"
-#~ msgstr "Crear unha nova conexión"
-
 #~ msgid ""
 #~ "Enter a machine address to connect to. Address can begin with rdp:// or "
 #~ "vnc://"
 #~ msgstr ""
-#~ "Escriba o enderezo da máquina á que conectarse. O enderezo pode comezar "
-#~ "con rdp:// ou vnc://"
+#~ "Escriba o enderezo da máquina á que conectarse. O enderezo pode comezar con "
+#~ "rdp:// ou vnc://"
 
 #~ msgid "Server"
 #~ msgstr "Servidor"
