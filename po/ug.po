@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2025-09-10 16:25+0000\n"
-"PO-Revision-Date: 2025-09-19 22:43-0400\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-08-17 19:33-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: \n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Connections.desktop.in:2 data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92 src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
@@ -43,8 +43,24 @@ msgstr "Linux ۋە Windows ئۈستەليۈزىنى ئۆز ئىچىگە ئالغ
 msgid "Connections uses the widely supported VNC and RDP protocols, and one of these must be enabled on the desktop that you want to connect to."
 msgstr "ئۇلىنىش كەڭ قوللايدىغان VNC ۋە RDP كېلىشىمنامىسىنى ئىشلىتىدۇ، سىز ئۇلانماقچى بولغان ئۈستەليۈزىدە بۇلارنىڭ بىرىنى چوقۇم قوزغىتىشىڭىز كېرەك."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "باغلانما قۇر"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "باغلانما كۆرسەت"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "مايىللىق كۆزنىكى"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "كۆزنەك باغلىنىشى"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45 data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "GNOME قۇرۇلۇشى"
 
@@ -63,85 +79,84 @@ msgstr "خاسلىق"
 #: src/application.vala:88
 msgid "translator-credits"
 msgstr ""
-"تەرجىمان تۆھپىسى\n"
-" Gheyret Kenji <gheyret@gmail.com>\n"
+"غەيرەت ت.كەنجى <gheyret@gmail.com>\n"
 "ئابدۇقادىر ئابلىز <sahranbay@gmail.com>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "GNOME ئۈستەل مۇھىتى ئۈچۈن يىراقتىكى ئۈستەليۈزى خېرىدارى"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "يوچۇن mime تۈرى %s دىكى ھۆججەتنى ئاچالمايدۇ"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "«%s» غا باغلىنىش ئۆچۈرۈلدى"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "يېنىۋال"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "باغلىنىدىغان تور ئادرېسى"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "بېرىلگەن يولدا .vnc ياكى .rdp ھۆججەتنى ئاچىدۇ"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "يول"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "پۈتۈن ئېكراندا ئاچ"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "بۇيرۇق قۇرىدا بەلگىلەنگەن پارامېتىر بەك كۆپ.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "%s دىن ئېلىنغان ئېكران كۆرۈنۈشى"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "ئېكران كۆرۈنۈشى تۇتۇلدى"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "ئاچ"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "دەلىللىيەلمىدى: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid "Connecting to “%s” for the first time. To be sure you're connecting to the machine it claims to be, please verify the fingerprints match. This process is only done once."
 msgstr "تۇنجى قېتىم «%s» بىلەن باغلاندى. باغلانغان ماشىنىنىڭ ساختا ئەمەسلىكىنى جەزملەش ئۈچۈن، بارماق ئىزىنى دەلىللەڭ.بۇ جەريان پەقەت بىرلا قېتىم تاماملىنىدۇ."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid "The remote server “%s” certificate doesn't match local copy. It may be someone's pretending to be the server."
 msgstr "يىراقتىكى مۇلازىمېتىر «%s» گۇۋاھنامىسى يەرلىك كۆپەيتىلگەن نۇسخىسى بىلەن ماس كەلمىدى. بەزىلەر ساختا مۇلازىمېتىر قىياپىتىگە كىرىۋالغان بولۇشى مۇمكىن."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid "The remote server “%s” requires the following authentication details to continue to connect:"
 msgstr "يىراقتىكى «%s» مۇلازىمېتىر باغلىنىشنى داۋاملاشتۇرۇش ئۈچۈن تۆۋەندىكى دەلىللەش تەپسىلاتىغا ئېھتىياجلىق:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -176,16 +191,16 @@ msgid "Connection Type"
 msgstr "باغلىنىش تۈرى"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (Windows قا باغلىنىدىغان ئۆلچەملىك كېلىشىم)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (ئۆلچەملىك، يۇقىرى ئىقتىدار)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (Linux قا باغلىنىدىغان ئۆلچەملىك كېلىشىم)"
+msgid "VNC (Legacy)"
+msgstr "VNC (كونا)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (يىراقتىكى مەۋھۇم كومپيۇتېرغا باغلىنىدۇ)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (مەۋھۇم ماشىنا)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -216,7 +231,7 @@ msgstr "باغلىنىشنى ئاچ"
 msgid "Verify"
 msgstr "دەلىللە"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "ۋاز كەچ"
 
@@ -257,25 +272,25 @@ msgstr "يەرلىك گۇۋاھنامىنى ئۆچۈر"
 msgid "Authentication Required"
 msgstr "كىملىك دەلىللەش زۆرۈر"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "ئىشلەتكۈچى ئاتى…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "ئىم…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "دائىرە…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
 msgstr "دائىرە ئادەتتە تاللاشچان بولۇپ بوش قالدۇرۇشقا بولىدۇ."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "كىملىك دەلىللەش"
 
@@ -428,19 +443,19 @@ msgstr "Ctrl + Alt + Del"
 
 #: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
-msgstr "Ctrl + Alt + F1"
+msgstr "‪Ctrl + Alt + F1"
 
 #: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
-msgstr "Ctrl + Alt + F2"
+msgstr "‪Ctrl + Alt + F2"
 
 #: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
-msgstr "Ctrl + Alt + F3"
+msgstr "‪Ctrl + Alt + F3"
 
 #: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
-msgstr "Ctrl + Alt + F7"
+msgstr "‪Ctrl + Alt + F7"
 
 #: src/ui/vnc-preferences.ui:54
 msgid "Display"
@@ -479,3 +494,12 @@ msgstr "ھۆججەتنى تەھلىل قىلالمىدى"
 #, c-format
 msgid "VNC File is missing key “%s”"
 msgstr "VNC ھۆججەتنىڭ ئاچقۇچى «%s» كەم"
+
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (Windows قا باغلىنىدىغان ئۆلچەملىك كېلىشىم)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (Linux قا باغلىنىدىغان ئۆلچەملىك كېلىشىم)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (يىراقتىكى مەۋھۇم كومپيۇتېرغا باغلىنىدۇ)"
