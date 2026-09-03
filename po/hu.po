@@ -1,16 +1,16 @@
 # Hungarian translation for gnome-connections.
-# Copyright (C) 2020, 2021, 2023, 2024, 2025 Free Software Foundation, Inc.
+# Copyright (C) 2020, 2021, 2023, 2024, 2025, 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-connections package.
 #
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2020, 2024.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2020, 2021, 2023, 2024, 2025.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2020, 2021, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues"
 "\n"
-"POT-Creation-Date: 2025-08-22 21:14+0000\n"
-"PO-Revision-Date: 2025-08-26 08:15+0200\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-09-03 11:54+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <openscope at fsf dot hu>\n"
 "Language: hu\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Kapcsolatok"
 
@@ -65,8 +65,29 @@ msgstr ""
 "és legalább az egyiknek elérhetőnek kell lennie azon a gépen, amelyhez "
 "kapcsolódni szeretne."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+#| msgid "Open Connection"
+msgid "Create a Connection"
+msgstr "Kapcsolat létrehozása"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+#| msgctxt "shortcut window"
+#| msgid "Connection Display"
+msgid "Connection Display"
+msgstr "Kapcsolat megjelenítése"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Beállítások ablak"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+#| msgid "About Connections"
+msgid "A Windows Connection"
+msgstr "Egy Windows-kapcsolat"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "A GNOME projekt"
 
@@ -86,65 +107,65 @@ msgstr "Tulajdonságok"
 msgid "translator-credits"
 msgstr "Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Egy távoli asztali kliens a GNOME asztali környezethez"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Nem sikerült megnyitni az ismeretlen %s MIME-típusú fájlt"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "A(z) „%s” kapcsolat törölve lett"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL a kapcsolódáshoz"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Egy .vnc vagy .rdp fájl megnyitása a megadott ÚTVONALON"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "ÚTVONAL"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Megnyitás teljes képernyős módban"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Túl sok parancssori argumentum lett megadva.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Képernyőkép ekkor: %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "A képernyőkép elkészült"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Megnyitás"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Hitelesítés sikertelen: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -156,7 +177,7 @@ msgstr ""
 "Ellenőrizze, hogy az ujjlenyomatok egyeznek-e. Ez a folyamat csak egyszer "
 "megy végbe."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -165,20 +186,17 @@ msgstr ""
 "A(z) „%s” távoli kiszolgáló tanúsítványa nem egyezik a helyi másolatéval. "
 "Lehet, hogy valaki a kiszolgálójának tetteti magát."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
-#| msgid ""
-#| "The remote server “%s” requires a username and password to continue to "
-#| "connect."
 msgid ""
 "The remote server “%s” requires the following authentication details to "
 "continue to connect:"
 msgstr ""
-"A(z) „%s” távoli kiszolgáló a következő hitelesítési részleteket követeli meg "
-"a kapcsolódás folytatásához:"
+"A(z) „%s” távoli kiszolgáló a következő hitelesítési részleteket követeli "
+"meg a kapcsolódás folytatásához:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -215,17 +233,16 @@ msgid "Connection Type"
 msgstr "Kapcsolat típusa"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (Windowshoz kapcsolódás esetén megszokott)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (szabványos, nagy teljesítmény)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (Linuxhoz kapcsolódás esetén megszokott)"
+msgid "VNC (Legacy)"
+msgstr "VNC (örökölt)"
 
 #: src/ui/assistant.ui:81
-#| msgid "RDP (standard for connecting to Windows)"
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (távoli virtuális gépekhez való kapcsolódáshoz)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (virtuális gépek)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -256,7 +273,7 @@ msgstr "Kapcsolat megnyitása"
 msgid "Verify"
 msgstr "Ellenőrzés"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -300,19 +317,19 @@ msgstr "Helyi tanúsítvány törlése"
 msgid "Authentication Required"
 msgstr "Hitelesítés szükséges"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Felhasználónév…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Jelszó…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Tartomány…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -320,7 +337,7 @@ msgstr ""
 "A tartomány mező általában nem kötelező, és\n"
 "üresen hagyható."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Hitelesítés"
 
@@ -330,19 +347,16 @@ msgid "Overview"
 msgstr "Áttekintés"
 
 #: src/ui/kbd-shortcuts-window.ui:25
-#| msgid "Help"
 msgctxt "shortcut window"
 msgid "Help"
 msgstr "Súgó"
 
 #: src/ui/kbd-shortcuts-window.ui:33
-#| msgid "Search"
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "Keresés"
 
 #: src/ui/kbd-shortcuts-window.ui:41
-#| msgid "Keyboard Shortcuts"
 msgctxt "shortcut window"
 msgid "Keyboard Shortcuts"
 msgstr "Gyorsbillentyűk"
@@ -353,18 +367,16 @@ msgid "Quit"
 msgstr "Kilépés"
 
 #: src/ui/kbd-shortcuts-window.ui:59
-#| msgid "Connections"
 msgctxt "shortcut window"
 msgid "Connection Display"
 msgstr "Kapcsolat megjelenítése"
 
 #: src/ui/kbd-shortcuts-window.ui:66
-#| msgid "Fullscreen"
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Teljes képernyő"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
 msgstr "Üdvözöljük a Kapcsolatokban"
 
@@ -532,7 +544,7 @@ msgstr "Magas minőség"
 msgid "Fast refresh"
 msgstr "Gyors frissítés"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
 msgstr "Kattintson a hozzáadás gombra az első kapcsolata létrehozásához"
 
