@@ -2,24 +2,23 @@
 # Copyright (C) 2020 gnome-connections's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-connections package.
 # FULL NAME <EMAIL@ADDRESS>, 2020.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2023-2024.
-# Daniel Mustieles García <daniel.mustieles@gmail.com>, 2024-2025.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2024-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections gnome-3-38\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-09-04 18:14+0000\n"
-"PO-Revision-Date: 2025-09-08 08:46+0200\n"
-"Last-Translator: Daniel Mustieles García <daniel.mustieles@gmail.com>\n"
-"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
-"Language: es_ES\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-09-03 16:53+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Spanish <l10n-es@gnome.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 48.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 50.0\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
@@ -65,8 +64,25 @@ msgstr ""
 "Conexiones usa los protocolos VNC y RDP, ampliamente soportados, y al menos "
 "uno de ellos debe estar activado en el escritorio al que quiera conectarse."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Crear una conexión"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Pantalla de conexión"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Ventana de preferencias"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Una conexión de Windows"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "El Proyecto GNOME"
 
@@ -86,65 +102,65 @@ msgstr "Propiedades"
 msgid "translator-credits"
 msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2021 - 2023"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Un cliente de escritorio remoto para GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "No se pudo abrir el archivo %s o tipo MIME desconocido"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Se ha eliminado la conexión a «%s»"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Deshacer"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL al que conectar"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Abrir archivo .vnc .o .rdp en la RUTA dada"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "RUTA"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Abrir en pantalla completa"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Demasiados argumentos en la línea de comandos.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Captura de las %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Captura realizada"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Abrir"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Falló la autenticación: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -155,7 +171,7 @@ msgstr ""
 "máquina que dice ser, verifique que la huella coincide. Este proceso sólo se "
 "hace una vez."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -164,7 +180,7 @@ msgstr ""
 "El certificado del servidor remoto «%s» no coincide con la copia local. "
 "Puede ser alguien intentando conectarse al servidor."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -174,7 +190,7 @@ msgstr ""
 "para conectarse:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -211,16 +227,16 @@ msgid "Connection Type"
 msgstr "Tipo de conexión"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (estándar para conectarse a Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (Estándar, alto rendimiento)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (estándar para conectarse a Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (heredado)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (estándar para conectarse a máquinas virtuales remotas)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Máquinas virtuales)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -242,7 +258,8 @@ msgstr "_Contraseña"
 msgid "Sign In"
 msgstr "Registrarse"
 
-#. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
+#. Translators: The dialog with this title is shown to the user before opening
+#. the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
 msgid "Open Connection"
 msgstr "Abrir conexión"
@@ -251,7 +268,7 @@ msgstr "Abrir conexión"
 msgid "Verify"
 msgstr "Comprobar"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -296,19 +313,19 @@ msgstr "Eliminar el certificado local"
 msgid "Authentication Required"
 msgstr "Se requiere autenticación"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Nombre de usuario…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Contraseña…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Dominio…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -316,7 +333,7 @@ msgstr ""
 "El campo del dominio normalmente es opcional y se puede\n"
 "dejar vacío"
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Autenticar"
 
@@ -537,6 +554,15 @@ msgstr "No se pudo analizar el archivo"
 msgid "VNC File is missing key “%s”"
 msgstr "El archivo VNC no tiene la clave «%s»"
 
+#~ msgid "RDP (standard for connecting to Windows)"
+#~ msgstr "RDP (estándar para conectarse a Windows)"
+
+#~ msgid "VNC (standard for connecting to Linux)"
+#~ msgstr "VNC (estándar para conectarse a Linux)"
+
+#~ msgid "SPICE (for connecting to remote VMs)"
+#~ msgstr "SPICE (estándar para conectarse a máquinas virtuales remotas)"
+
 #, c-format
 #~ msgid "“%s” requires authentication"
 #~ msgstr "«%s» requiere autenticación"
@@ -593,15 +619,11 @@ msgstr "El archivo VNC no tiene la clave «%s»"
 #~ msgid "To connect to a desktop, it needs to be setup first."
 #~ msgstr "Para conectar a un escritorio se be configurar primero."
 
-#~| msgid "Connections"
 #~ msgid "GNOME Connections"
 #~ msgstr "Conexiones de GNOME"
 
 #~ msgid "A remote desktop client for the GNOME desktop environment."
 #~ msgstr "Un cliente de escritorio remoto para GNOME."
-
-#~ msgid "Create a New Connection"
-#~ msgstr "Crear una conexión nueva"
 
 #~ msgid ""
 #~ "Enter a machine address to connect to. Address can begin with rdp:// or "
