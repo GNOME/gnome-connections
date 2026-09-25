@@ -1,0 +1,547 @@
+# Norwegian nynorsk translation for gnome-connections
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Roy-Magne Mo <rmo@sunnmore.net>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-connections master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-09-13 11:10+0200\n"
+"Last-Translator: Roy-Magne Mo <rmo@sunnmore.net>\n"
+"Language-Team: Norwegian Nynorsk <nn@li.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
+msgid "Connections"
+msgstr "Tilkoplingar"
+
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"vnc;rdp;fjern;skrivebord;windows;støtte;tilgang;vis;remote;desktop;support;access;view"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
+msgid "View and use other desktops"
+msgstr "Vis og bruk andre skrivebord"
+
+#: data/org.gnome.Connections.metainfo.xml.in:10
+msgid ""
+"Connections allows you to connect to and use other desktops. This can be a "
+"great way to access content or software on a different desktop operating "
+"system. It can also be used as a way to provide support to users who might "
+"need help."
+msgstr ""
+"Med Tilkoplingar kan du kople deg til og bruke andre skrivebord. Det er ein "
+"god måte å nå innhald eller programvare på eit anna operativsystem, og du "
+"kan bruke det til å hjelpe andre brukarar."
+
+#: data/org.gnome.Connections.metainfo.xml.in:13
+msgid ""
+"A range of different operating systems can be connected to, including Linux "
+"and Windows desktops. You can also connect to virtual machines."
+msgstr ""
+"Du kan kople deg til mange ulike operativsystem, mellom anna Linux- og "
+"Windows-skrivebord. Virtuelle maskiner går òg."
+
+#: data/org.gnome.Connections.metainfo.xml.in:16
+msgid ""
+"Connections uses the widely supported VNC and RDP protocols, and one of "
+"these must be enabled on the desktop that you want to connect to."
+msgstr ""
+"Tilkoplingar brukar VNC- og RDP-protokollane, som er breitt støtta. Éin av "
+"dei må vere slått på på skrivebordet du vil kople deg til."
+
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Lag ei tilkopling"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Tilkoplingsvising"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Innstillingsvindauge"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Ei Windows-tilkopling"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
+msgid "The GNOME Project"
+msgstr "GNOME-prosjektet"
+
+#: data/org.gnome.Connections.xml:5
+msgid "Remote Desktop (VNC) file"
+msgstr "Fjernskrivebordsfil (VNC)"
+
+#: src/actions-popover.vala:44
+msgid "Delete"
+msgstr "Slett"
+
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
+msgid "Properties"
+msgstr "Eigenskapar"
+
+#: src/application.vala:88
+msgid "translator-credits"
+msgstr "Roy-Magne Mo <rmo@sunnmore.net>"
+
+#: src/application.vala:89 src/application.vala:252
+msgid "A remote desktop client for the GNOME desktop environment"
+msgstr "Ein fjernskrivebordsklient for GNOME-skrivebordsmiljøet"
+
+#: src/application.vala:161
+#, c-format
+msgid "Couldn’t open file of unknown mime type %s"
+msgstr "Klarte ikkje opne fil av ukjend mime-type %s"
+
+#: src/application.vala:192
+#, c-format
+msgid "Connection to “%s” has been deleted"
+msgstr "Tilkoplinga til «%s» er sletta"
+
+#: src/application.vala:195
+msgid "Undo"
+msgstr "Angre"
+
+#: src/application.vala:242
+msgid "URL to connect"
+msgstr "URL å kople til"
+
+#: src/application.vala:243
+msgid "Open .vnc or .rdp file at the given PATH"
+msgstr "Opne .vnc- eller .rdp-fila på STIEN"
+
+#: src/application.vala:243
+msgid "PATH"
+msgstr "STI"
+
+#: src/application.vala:244
+msgid "Open in full screen"
+msgstr "Opne i fullskjerm"
+
+#: src/application.vala:267
+msgid "Too many command-line arguments specified.\n"
+msgstr "For mange kommandolinjeargument.\n"
+
+#. Translators: %s => the timestamp of when the screenshot was taken.
+#: src/connection.vala:73
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Screenshot frå %s"
+
+#: src/connection.vala:88
+msgid "Screenshot taken"
+msgstr "Skjermbilete teke"
+
+#. Translators: Open is a verb
+#: src/connection.vala:91
+msgid "Open"
+msgstr "Opne"
+
+#: src/connection.vala:208
+#, c-format
+msgid "Authentication failed: %s"
+msgstr "Autentisering mislukkast: %s"
+
+#: src/dialogs.vala:313
+#, c-format
+msgid ""
+"Connecting to “%s” for the first time. To be sure you're connecting to the "
+"machine it claims to be, please verify the fingerprints match. This process "
+"is only done once."
+msgstr ""
+"Koplar til «%s» for første gong. Kontroller at fingeravtrykka samsvarar, så "
+"du er sikker på at maskina er den ho gjev seg ut for. Dette skjer berre éin "
+"gong."
+
+#: src/dialogs.vala:347
+#, c-format
+msgid ""
+"The remote server “%s” certificate doesn't match local copy. It may be "
+"someone's pretending to be the server."
+msgstr ""
+"Sertifikatet til fjerntenaren «%s» stemmer ikkje med den lokale kopien. Det "
+"kan hende nokon gjev seg ut for å vere tenaren."
+
+#: src/dialogs.vala:387
+#, c-format
+msgid ""
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
+msgstr ""
+"Fjerntenaren «%s» krev desse autentiseringsopplysningane for å halde fram:"
+
+#. Translators: Showing size of widget as WIDTH×HEIGHT here.
+#: src/display-view.vala:155
+#, c-format
+msgid "%d×%d"
+msgstr "%d×%d"
+
+#: src/onboarding-dialog.vala:96 src/ui/onboarding-dialog.ui:148
+msgid "_No Thanks"
+msgstr "_Nei takk"
+
+#: src/onboarding-dialog.vala:96
+msgid "_Close"
+msgstr "_Lukk"
+
+#. Translators: Combo item for resizing remote desktop to window's size
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
+msgid "Resize desktop"
+msgstr "Endre storleik på skrivebordet"
+
+#: src/topbar.vala:58 src/ui/topbar.ui:245
+msgid "Take Screenshot"
+msgstr "Ta skjermbilete"
+
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
+msgid "Fullscreen"
+msgstr "Fullskjerm"
+
+#: src/ui/assistant.ui:26
+msgid "Enter the network identifier of the remote desktop to connect to:"
+msgstr ""
+"Skriv inn nettverksidentifikatoren til fjernskrivebordet du skal kople til:"
+
+#: src/ui/assistant.ui:53
+msgid "Connection Type"
+msgstr "Tilkoplingstype"
+
+#: src/ui/assistant.ui:63
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (standard, høg yting)"
+
+#: src/ui/assistant.ui:72
+msgid "VNC (Legacy)"
+msgstr "VNC (eldre)"
+
+#: src/ui/assistant.ui:81
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Virtuelle maskiner)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
+msgid "Help"
+msgstr "Hjelp"
+
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+msgid "Connect"
+msgstr "Kople til"
+
+#: src/ui/auth-notification.ui:39
+msgid "_Username"
+msgstr "_Brukarnamn"
+
+#: src/ui/auth-notification.ui:71
+msgid "_Password"
+msgstr "_Passord"
+
+#: src/ui/auth-notification.ui:108
+msgid "Sign In"
+msgstr "Logg inn"
+
+#. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
+#: src/ui/dialog.ui:18
+msgid "Open Connection"
+msgstr "Opne tilkopling"
+
+#: src/ui/dialog.ui:37 src/ui/dialog.ui:43
+msgid "Verify"
+msgstr "Stadfest"
+
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/ui/dialog.ui:144
+msgid "Verify Fingerprint"
+msgstr "Stadfest fingeravtrykk"
+
+#: src/ui/dialog.ui:211
+msgid ""
+"On Windows run certlm.msc or certmgr.msc\n"
+"and copy the certificate from\n"
+"<b>Remote Desktop>Certificates</b> to a file.\n"
+"Then obtain its fingerprint via\n"
+"\"certutil.exe -hashfile file SHA256\".\n"
+"\n"
+"If GNOME is used on the connected endpoint,\n"
+"the fingerprint can be verified in the <b>Settings>Sharing</b>\n"
+"panel or <b>Settings>System</b> panel under\n"
+"<b>Remote Desktop>Verify Encryption</b>."
+msgstr ""
+"På Windows: køyr certlm.msc eller certmgr.msc\n"
+"og kopier sertifikatet frå\n"
+"<b>Fjernskrivebord>Sertifikat</b> til ei fil.\n"
+"Hent så fingeravtrykket med\n"
+"«certutil.exe -hashfile fil SHA256».\n"
+"\n"
+"Vert GNOME brukt på endepunktet du koplar til,\n"
+"kan fingeravtrykket kontrollerast i panelet\n"
+"<b>Innstillingar>Deling</b> eller <b>Innstillingar>System</b>\n"
+"under <b>Fjernskrivebord>Kontroller kryptering</b>."
+
+#: src/ui/dialog.ui:292
+msgid "Unexpected Certificate"
+msgstr "Uventa sertifikat"
+
+#: src/ui/dialog.ui:334
+msgid "Delete Local Certificate"
+msgstr "Slett lokalt sertifikat"
+
+#: src/ui/dialog.ui:387
+msgid "Authentication Required"
+msgstr "Autentisering krevst"
+
+#: src/ui/dialog.ui:439
+msgid "Username…"
+msgstr "Brukarnamn …"
+
+#: src/ui/dialog.ui:468
+msgid "Password…"
+msgstr "Passord …"
+
+#: src/ui/dialog.ui:519
+msgid "Domain…"
+msgstr "Domene …"
+
+#: src/ui/dialog.ui:540
+msgid ""
+"Domain field is commonly optional and can be\n"
+"left empty."
+msgstr ""
+"Domenefeltet er som regel valfritt og kan\n"
+"stå tomt."
+
+#: src/ui/dialog.ui:642
+msgid "Authenticate"
+msgstr "Autentiser"
+
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Oversikt"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Hjelp"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Søk"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Tastatursnarvegar"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avslutt"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Tilkoplingsvising"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Fullskjerm"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
+msgid "Welcome to Connections"
+msgstr "Velkommen til Tilkoplingar"
+
+#: src/ui/onboarding-dialog.ui:43
+msgid "Click next to learn about remote desktop."
+msgstr "Klikk neste for å lære om fjernskrivebord."
+
+#: src/ui/onboarding-dialog.ui:50
+msgid "Access other desktops"
+msgstr "Tilgang til andre skrivebord"
+
+#: src/ui/onboarding-dialog.ui:51
+msgid ""
+"Connections allows viewing the screens of other desktops. They can also be "
+"controlled using the pointer and keyboard."
+msgstr ""
+"Med Tilkoplingar kan du sjå skjermane til andre skrivebord, og styre dei med"
+" peikar og tastatur."
+
+#: src/ui/onboarding-dialog.ui:58
+msgid "Connect to different operating systems"
+msgstr "Kople til ulike operativsystem"
+
+#: src/ui/onboarding-dialog.ui:59
+msgid "You can access Linux, Mac, and Windows desktops."
+msgstr "Du kan få tilgang til Linux-, Mac- og Windows-skrivebord."
+
+#: src/ui/onboarding-dialog.ui:66
+msgid "Setup is required"
+msgstr "Oppsett er nødvendig"
+
+#: src/ui/onboarding-dialog.ui:67
+msgid ""
+"Remote desktop typically needs to be enabled on the computer you want to "
+"connect to."
+msgstr ""
+"Fjernskrivebord må som regel slåast på på datamaskina du vil kople deg til."
+
+#: src/ui/onboarding-dialog.ui:74
+msgid "Start by creating your first connection"
+msgstr "Byrj med å lage den første tilkoplinga di"
+
+#: src/ui/onboarding-dialog.ui:75
+msgid ""
+"To begin, you will need the address of the computer you want to connect to."
+msgstr "Først treng du adressa til datamaskina du vil kople deg til."
+
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
+msgid "Connection preferences"
+msgstr "Tilkoplingsinnstillingar"
+
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
+msgid "Address"
+msgstr "Adresse"
+
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
+msgid "Name"
+msgstr "Namn"
+
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
+msgid "Fit window"
+msgstr "Tilpass vindauge"
+
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
+msgid "Original size"
+msgstr "Opphavleg storleik"
+
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Slå på lyd"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Skaleringsmodus"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
+msgid "New"
+msgstr "Ny"
+
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
+msgid "Application Menu"
+msgstr "Appmeny"
+
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
+msgid "Search"
+msgstr "Søk"
+
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
+msgid "Go Back"
+msgstr "Gå tilbake"
+
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
+msgid "Display Menu"
+msgstr "Skjermmeny"
+
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
+msgid "Disconnect"
+msgstr "Kople frå"
+
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
+msgid "Keyboard Shortcuts"
+msgstr "Tastatursnarvegar"
+
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Tastatursnarvegar"
+
+#: src/ui/topbar.ui:238
+msgid "About Connections"
+msgstr "Om Tilkoplingar"
+
+#: src/ui/topbar.ui:263
+msgid "Ctrl + Alt + Backspace"
+msgstr "Ctrl + Alt + Backspace"
+
+#: src/ui/topbar.ui:270
+msgid "Ctrl + Alt + Del"
+msgstr "Ctrl + Alt + Del"
+
+#: src/ui/topbar.ui:277
+msgid "Ctrl + Alt + F1"
+msgstr "Ctrl + Alt + F1"
+
+#: src/ui/topbar.ui:284
+msgid "Ctrl + Alt + F2"
+msgstr "Ctrl + Alt + F2"
+
+#: src/ui/topbar.ui:291
+msgid "Ctrl + Alt + F3"
+msgstr "Ctrl + Alt + F3"
+
+#: src/ui/topbar.ui:298
+msgid "Ctrl + Alt + F7"
+msgstr "Ctrl + Alt + F7"
+
+#: src/ui/vnc-preferences.ui:54
+msgid "Display"
+msgstr "Skjerm"
+
+#: src/ui/vnc-preferences.ui:59
+msgid "View only"
+msgstr "Berre vising"
+
+#: src/ui/vnc-preferences.ui:66
+msgid "Show local pointer"
+msgstr "Vis lokal peikar"
+
+#: src/ui/vnc-preferences.ui:81
+msgid "Bandwidth"
+msgstr "Bandbreidd"
+
+#: src/ui/vnc-preferences.ui:88
+msgid "High quality"
+msgstr "Høg kvalitet"
+
+#: src/ui/vnc-preferences.ui:89
+msgid "Fast refresh"
+msgstr "Rask oppdatering"
+
+#: src/ui/window.ui:53
+msgid "Click the add button to create your first connection"
+msgstr "Klikk på legg til-knappen for å lage den første tilkoplinga di"
+
+#: src/vnc-connection.vala:150
+msgid "Couldn’t parse the file"
+msgstr "Klarte ikkje tolke fila"
+
+#. Translators: %s is a VNC file key
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
+#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#, c-format
+msgid "VNC File is missing key “%s”"
+msgstr "VNC-fil manglar nøkkelen «%s»"
