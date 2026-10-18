@@ -4,21 +4,22 @@
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 # João Carvalhinho <joao.carvalhinho@gmail.com>, 2024.
 #
+# SPDX-FileCopyrightText: 2026 Cátia Silva <catias89@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
-"issues\n"
-"POT-Creation-Date: 2026-09-14 15:17+0000\n"
-"PO-Revision-Date: 2026-09-26 14:41+0100\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese <https://l10n.gnome.org/teams/pt/>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues"
+"\n"
+"POT-Creation-Date: 2026-10-07 07:25+0000\n"
+"PO-Revision-Date: 2026-10-18 19:03+0100\n"
+"Last-Translator: Cátia Silva <catias89@gmail.com>\n"
+"Language-Team: Portuguese <li@pt.corg>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
@@ -34,7 +35,7 @@ msgstr "vnc;rdp;remoto;desktop;janelas;suporte;acesso;visualização"
 
 #: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
-msgstr "Visualize e use outras áreas de trabalho"
+msgstr "Visualize e utilize outras áreas de trabalho"
 
 #: data/org.gnome.Connections.metainfo.xml.in:10
 msgid ""
@@ -43,9 +44,10 @@ msgid ""
 "system. It can also be used as a way to provide support to users who might "
 "need help."
 msgstr ""
-"O Ligações permitem que se ligue e use outras áreas de trabalho. Esta pode "
+"O Ligações permite que se ligue e utilize outras áreas de trabalho. Esta pode "
 "ser uma ótima maneira de aceder a conteúdo ou software num sistema operativo "
-"de ambiente de trabalho diferente. Também pode ser usado como uma maneira de "
+"de ambiente de trabalho diferente. Também pode ser utilizado como uma forma"
+" de "
 "fornecer suporte aos utilizadores que podem precisar de ajuda."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
@@ -53,7 +55,7 @@ msgid ""
 "A range of different operating systems can be connected to, including Linux "
 "and Windows desktops. You can also connect to virtual machines."
 msgstr ""
-"Uma gama de diferentes sistemas operativos podem ser ligados, incluindo "
+"É possível ligar-se a uma variedade de sistemas operativos, incluindo "
 "áreas de trabalho Linux e Windows. Também se pode ligar a máquinas virtuais."
 
 #: data/org.gnome.Connections.metainfo.xml.in:16
@@ -61,7 +63,7 @@ msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
 msgstr ""
-"O Ligações usa os protocolos VNC e RDP amplamente suportados, e um deles "
+"O Ligações utiliza os protocolos amplamente suportados VNC e RDP, e um deles "
 "deve ser ativado na área de trabalho a que se pretende ligar."
 
 #: data/org.gnome.Connections.metainfo.xml.in:23
@@ -103,12 +105,12 @@ msgid "translator-credits"
 msgstr ""
 "José Vieira <jvieira33@sapo.pt>\n"
 "Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"João Carvalhinho <joao.carvalhinho@gmail.com>"
+"João Carvalhinho <joao.carvalhinho@gmail.com>\n"
+"Cátia Silva <catias89@gmail.com>"
 
 #: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
-msgstr ""
-"Um cliente de área de trabalho remota para o ambiente de trabalho GNOME"
+msgstr "Um cliente de área de trabalho remota para o ambiente gráfico GNOME"
 
 #: src/application.vala:161
 #, c-format
@@ -118,7 +120,7 @@ msgstr "Não foi possível abrir um ficheiro de tipo mime desconhecido %s"
 #: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
-msgstr "A ligação com “%s” foi eliminada"
+msgstr "A ligação a “%s” foi eliminada"
 
 #: src/application.vala:195
 msgid "Undo"
@@ -142,7 +144,7 @@ msgstr "Abrir em ecrã inteiro"
 
 #: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
-msgstr "Muitos argumentos de linha de comando especificados.\n"
+msgstr "Especificados demasiados argumentos na linha de comando.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
 #: src/connection.vala:73
@@ -171,7 +173,8 @@ msgid ""
 "machine it claims to be, please verify the fingerprints match. This process "
 "is only done once."
 msgstr ""
-"A ligar-se a “%s” pela primeira vez. Para ter a certeza que se está a ligar "
+"A ligar-se a “%s” pela primeira vez. Para se certificar de que se está a"
+" ligar "
 "à máquina correta, por favor verifique se as impressões digitais coincidem. "
 "Este processo só ocorre uma vez."
 
@@ -181,8 +184,9 @@ msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
 "someone's pretending to be the server."
 msgstr ""
-"O certificado do servidor remoto “%s” não corresponde à cópia local. Poderá "
-"dar-se o caso de outra máquina estar a fazer-se passar pelo mesmo."
+"O certificado do servidor remoto “%s” não corresponde à cópia local. É"
+" possível "
+"que alguém se esteja a fazer passar pelo mesmo."
 
 #: src/dialogs.vala:387
 #, c-format
@@ -200,7 +204,7 @@ msgstr "%d×%d"
 
 #: src/onboarding-dialog.vala:96 src/ui/onboarding-dialog.ui:148
 msgid "_No Thanks"
-msgstr "_Dispensar"
+msgstr "_Não, obrigado"
 
 #: src/onboarding-dialog.vala:96
 msgid "_Close"
@@ -214,7 +218,7 @@ msgstr "Redimensionar área de trabalho"
 
 #: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
-msgstr "Capturar ecrã"
+msgstr "Tirar uma captura do ecrã"
 
 #: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
 msgid "Fullscreen"
@@ -223,7 +227,7 @@ msgstr "Ecrã inteiro"
 #: src/ui/assistant.ui:26
 msgid "Enter the network identifier of the remote desktop to connect to:"
 msgstr ""
-"Introduza o identificador de rede da área de trabalho remota ao qual se deve "
+"Introduza o identificador de rede da área de trabalho remota à qual se deve "
 "ligar:"
 
 #: src/ui/assistant.ui:53
@@ -260,7 +264,7 @@ msgstr "_Palavra-passe"
 
 #: src/ui/auth-notification.ui:108
 msgid "Sign In"
-msgstr "Entrar"
+msgstr "Iniciar sessão"
 
 #. Translators: The dialog with this title is shown to the user before opening the connection if needed (e.g. certificate confirmation).
 #: src/ui/dialog.ui:18
@@ -318,7 +322,7 @@ msgstr "É necessário autenticação"
 
 #: src/ui/dialog.ui:439
 msgid "Username…"
-msgstr "Utilizador…"
+msgstr "Nome de utilizador…"
 
 #: src/ui/dialog.ui:468
 msgid "Password…"
@@ -334,7 +338,7 @@ msgid ""
 "left empty."
 msgstr ""
 "O campo de domínio é normalmente opcional e pode\n"
-"Ser deixado em branco."
+"ser deixado em branco."
 
 #: src/ui/dialog.ui:642
 msgid "Authenticate"
@@ -353,12 +357,12 @@ msgstr "Ajuda"
 #: src/ui/kbd-shortcuts-window.ui:33
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Procurar"
 
 #: src/ui/kbd-shortcuts-window.ui:41
 msgctxt "shortcut window"
 msgid "Keyboard Shortcuts"
-msgstr "Teclas de atalho"
+msgstr "Atalhos de teclado"
 
 #: src/ui/kbd-shortcuts-window.ui:49
 msgctxt "shortcut window"
@@ -368,7 +372,7 @@ msgstr "Sair"
 #: src/ui/kbd-shortcuts-window.ui:59
 msgctxt "shortcut window"
 msgid "Connection Display"
-msgstr "Exibir Ligações"
+msgstr "Apresentar Ligações"
 
 #: src/ui/kbd-shortcuts-window.ui:66
 msgctxt "shortcut window"
@@ -381,7 +385,7 @@ msgstr "Bem-vindo ao Ligações"
 
 #: src/ui/onboarding-dialog.ui:43
 msgid "Click next to learn about remote desktop."
-msgstr "Clique em seguinte para aprender mais sobre acesso remoto."
+msgstr "Clique em seguinte para aprender mais sobre o acesso remoto."
 
 #: src/ui/onboarding-dialog.ui:50
 msgid "Access other desktops"
@@ -392,8 +396,9 @@ msgid ""
 "Connections allows viewing the screens of other desktops. They can also be "
 "controlled using the pointer and keyboard."
 msgstr ""
-"Utilize o Ligações para ver o ecrã de outros computadores. Pode controlá-los "
-"usando o cursor do rato e o teclado, também."
+"Utilize o Ligações para ver o ecrã de outros computadores. Também os pode"
+" controlar "
+"através do cursor do rato e do teclado."
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -412,8 +417,8 @@ msgid ""
 "Remote desktop typically needs to be enabled on the computer you want to "
 "connect to."
 msgstr ""
-"O acesso remoto tipicamente necessita de ser activado na máquina a que se "
-"deseja ligar."
+"O acesso remoto necessita tipicamente de ser ativado na máquina a que se "
+"pretende ligar."
 
 #: src/ui/onboarding-dialog.ui:74
 msgid "Start by creating your first connection"
@@ -468,7 +473,7 @@ msgstr "Menu de aplicações"
 
 #: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Procurar"
 
 #: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
@@ -476,7 +481,7 @@ msgstr "Voltar"
 
 #: src/ui/topbar.ui:126 src/ui/topbar.ui:130
 msgid "Display Menu"
-msgstr "Mostrar menu"
+msgstr "Apresentar menu"
 
 #: src/ui/topbar.ui:150 src/ui/topbar.ui:155
 msgid "Disconnect"
@@ -484,11 +489,11 @@ msgstr "Desligar"
 
 #: src/ui/topbar.ui:177 src/ui/topbar.ui:230
 msgid "Keyboard Shortcuts"
-msgstr "Teclas de atalho"
+msgstr "Atalhos de teclado"
 
 #: src/ui/topbar.ui:181
 msgid "Keyboard shortcuts"
-msgstr "Teclas de atalho"
+msgstr "Atalhos de teclado"
 
 #: src/ui/topbar.ui:238
 msgid "About Connections"
@@ -532,11 +537,11 @@ msgstr "Mostrar cursor local"
 
 #: src/ui/vnc-preferences.ui:81
 msgid "Bandwidth"
-msgstr "Banda larga"
+msgstr "Largura de banda"
 
 #: src/ui/vnc-preferences.ui:88
 msgid "High quality"
-msgstr "Elevada qualidade"
+msgstr "Alta qualidade"
 
 #: src/ui/vnc-preferences.ui:89
 msgid "Fast refresh"
@@ -645,3 +650,4 @@ msgstr "Ficheiro VNC sem chave “%s”"
 
 #~ msgid "org.gnome.Connections"
 #~ msgstr "org.gnome.Connections"
+
