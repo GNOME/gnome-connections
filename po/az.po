@@ -1,0 +1,549 @@
+# Azerbaijani translation for gnome-connections.
+# Copyright (C) 2026 gnome-connections's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-connections package.
+# Ramal Rahimov <jhoaluman@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-connections\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 07:25+0000\n"
+"PO-Revision-Date: 2026-10-19 02:29+0300\n"
+"Last-Translator: Ramal Rəhimov <jhoaluman@gmail.com>\n"
+"Language-Team: Azerbaijani <contact@azelinux.com>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/org.gnome.Connections.desktop.in:2
+#: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
+msgid "Connections"
+msgstr "Bağlantılar"
+
+#. Translators: "windows" refers specifically to the Microsoft Windows brand,
+#. not a desktop window or a pane of glass in the side of a building
+#: data/org.gnome.Connections.desktop.in:9
+msgid "vnc;rdp;remote;desktop;windows;support;access;view"
+msgstr ""
+"vnc;rdp;remote;desktop;windows;support;access;view;uzaq;masaüstü;dəstək;çıxış;baxış;"
+
+#: data/org.gnome.Connections.metainfo.xml.in:8
+msgid "View and use other desktops"
+msgstr "Digər masaüstlərinə baxın və onlardan istifadə edin"
+
+#: data/org.gnome.Connections.metainfo.xml.in:10
+msgid ""
+"Connections allows you to connect to and use other desktops. This can be a "
+"great way to access content or software on a different desktop operating "
+"system. It can also be used as a way to provide support to users who might "
+"need help."
+msgstr ""
+"Bağlantılar digər masaüstlərinə qoşulmağa və onlardan istifadə etməyə imkan "
+"verir. Bu, fərqli masaüstü əməliyyat sistemindəki məzmuna və ya proqram "
+"təminatına çıxış əldə etmək üçün əla üsul ola bilər. Həmçinin köməyə ehtiyacı"
+" olan istifadəçilərə dəstək göstərmək üçün də istifadə edilə bilər."
+
+#: data/org.gnome.Connections.metainfo.xml.in:13
+msgid ""
+"A range of different operating systems can be connected to, including Linux "
+"and Windows desktops. You can also connect to virtual machines."
+msgstr ""
+"Linux və Windows masaüstləri daxil olmaqla müxtəlif əməliyyat sistemlərinə "
+"qoşulmaq mümkündür. Həmçinin virtual maşınlara da qoşula bilərsiniz."
+
+#: data/org.gnome.Connections.metainfo.xml.in:16
+msgid ""
+"Connections uses the widely supported VNC and RDP protocols, and one of these"
+" must be enabled on the desktop that you want to connect to."
+msgstr ""
+"Bağlantılar geniş dəstəklənən VNC və RDP protokollarından istifadə edir və "
+"qoşulmaq istədiyiniz masaüstündə onlardan biri aktiv olmalıdır."
+
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Bağlantı yaradın"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Bağlantı ekranı"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Tənzimləmələr pəncərəsi"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Windows bağlantısı"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
+msgid "The GNOME Project"
+msgstr "GNOME Layihəsi"
+
+#: data/org.gnome.Connections.xml:5
+msgid "Remote Desktop (VNC) file"
+msgstr "Uzaq masaüstü (VNC) faylı"
+
+#: src/actions-popover.vala:44
+msgid "Delete"
+msgstr "Sil"
+
+#: src/actions-popover.vala:48 src/topbar.vala:66 src/ui/topbar.ui:249
+msgid "Properties"
+msgstr "Xüsusiyyətlər"
+
+#: src/application.vala:88
+msgid "translator-credits"
+msgstr "Ramal Rəhimov <jhoaluman@gmail.com>"
+
+#: src/application.vala:89 src/application.vala:252
+msgid "A remote desktop client for the GNOME desktop environment"
+msgstr "GNOME masaüstü mühiti üçün uzaq masaüstü müştərisi"
+
+#: src/application.vala:161
+#, c-format
+msgid "Couldn’t open file of unknown mime type %s"
+msgstr "Naməlum MIME növlü %s faylını açmaq mümkün olmadı"
+
+#: src/application.vala:192
+#, c-format
+msgid "Connection to “%s” has been deleted"
+msgstr "“%s” bağlantısı silindi"
+
+#: src/application.vala:195
+msgid "Undo"
+msgstr "Qaytar"
+
+#: src/application.vala:242
+msgid "URL to connect"
+msgstr "Qoşulmaq üçün URL"
+
+#: src/application.vala:243
+msgid "Open .vnc or .rdp file at the given PATH"
+msgstr "Göstərilən YOL üzrə .vnc və ya .rdp faylını aç"
+
+#: src/application.vala:243
+msgid "PATH"
+msgstr "YOL"
+
+#: src/application.vala:244
+msgid "Open in full screen"
+msgstr "Tam ekranda aç"
+
+#: src/application.vala:267
+msgid "Too many command-line arguments specified.\n"
+msgstr "Həddindən çox əmr sətri arqumenti göstərilib.\n"
+
+#. Translators: %s => the timestamp of when the screenshot was taken.
+#: src/connection.vala:73
+#, c-format
+msgid "Screenshot from %s"
+msgstr "%s tarixli ekran şəkli"
+
+#: src/connection.vala:88
+msgid "Screenshot taken"
+msgstr "Ekran şəkli çəkildi"
+
+#. Translators: Open is a verb
+#: src/connection.vala:91
+msgid "Open"
+msgstr "Aç"
+
+#: src/connection.vala:208
+#, c-format
+msgid "Authentication failed: %s"
+msgstr "Autentifikasiya uğursuz oldu: %s"
+
+#: src/dialogs.vala:313
+#, c-format
+msgid ""
+"Connecting to “%s” for the first time. To be sure you're connecting to the "
+"machine it claims to be, please verify the fingerprints match. This process "
+"is only done once."
+msgstr ""
+"“%s” qurğusuna ilk dəfə qoşulursunuz. Doğru maşına qoşulduğunuzdan əmin olmaq"
+" üçün lütfən, barmaq izlərinin uyğun gəldiyini yoxlayın. Bu proses yalnız bir"
+" dəfə edilir."
+
+#: src/dialogs.vala:347
+#, c-format
+msgid ""
+"The remote server “%s” certificate doesn't match local copy. It may be "
+"someone's pretending to be the server."
+msgstr ""
+"“%s” uzaq serverinin sertifikatı yerli nüsxə ilə uyğun gəlmir. Kimsə özünü "
+"server kimi təqdim edə bilər."
+
+#: src/dialogs.vala:387
+#, c-format
+msgid ""
+"The remote server “%s” requires the following authentication details to "
+"continue to connect:"
+msgstr ""
+"“%s” uzaq serveri qoşulmağa davam etmək üçün aşağıdakı autentifikasiya "
+"təfərrüatlarını tələb edir:"
+
+#. Translators: Showing size of widget as WIDTH×HEIGHT here.
+#: src/display-view.vala:155
+#, c-format
+msgid "%d×%d"
+msgstr "%d×%d"
+
+#: src/onboarding-dialog.vala:96 src/ui/onboarding-dialog.ui:148
+msgid "_No Thanks"
+msgstr "_Xeyr, sağ olun"
+
+#: src/onboarding-dialog.vala:96
+msgid "_Close"
+msgstr "_Bağla"
+
+#. Translators: Combo item for resizing remote desktop to window's size
+#: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
+#: src/ui/vnc-preferences.ui:107
+msgid "Resize desktop"
+msgstr "Masaüstünün ölçüsünü dəyiş"
+
+#: src/topbar.vala:58 src/ui/topbar.ui:245
+msgid "Take Screenshot"
+msgstr "Ekran şəkli çək"
+
+#: src/topbar.vala:62 src/ui/topbar.ui:203 src/ui/topbar.ui:207
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: src/ui/assistant.ui:26
+msgid "Enter the network identifier of the remote desktop to connect to:"
+msgstr "Qoşulmaq üçün uzaq masaüstünün şəbəkə identifikatorunu daxil edin:"
+
+#: src/ui/assistant.ui:53
+msgid "Connection Type"
+msgstr "Bağlantı növü"
+
+#: src/ui/assistant.ui:63
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (Standart, yüksək performans)"
+
+#: src/ui/assistant.ui:72
+msgid "VNC (Legacy)"
+msgstr "VNC (Köhnə)"
+
+#: src/ui/assistant.ui:81
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Virtual maşınlar)"
+
+#: src/ui/assistant.ui:99 src/ui/topbar.ui:234
+msgid "Help"
+msgstr "Kömək"
+
+#: src/ui/assistant.ui:109 src/ui/dialog.ui:68 src/ui/dialog.ui:74
+msgid "Connect"
+msgstr "Qoşul"
+
+#: src/ui/auth-notification.ui:39
+msgid "_Username"
+msgstr "_İstifadəçi adı"
+
+#: src/ui/auth-notification.ui:71
+msgid "_Password"
+msgstr "_Şifrə"
+
+#: src/ui/auth-notification.ui:108
+msgid "Sign In"
+msgstr "Daxil ol"
+
+#. Translators: The dialog with this title is shown to the user before opening
+#. the connection if needed (e.g. certificate confirmation).
+#: src/ui/dialog.ui:18
+msgid "Open Connection"
+msgstr "Bağlantını aç"
+
+#: src/ui/dialog.ui:37 src/ui/dialog.ui:43
+msgid "Verify"
+msgstr "Yoxla"
+
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
+msgid "Cancel"
+msgstr "Ləğv et"
+
+#: src/ui/dialog.ui:144
+msgid "Verify Fingerprint"
+msgstr "Barmaq izini yoxla"
+
+#: src/ui/dialog.ui:211
+msgid ""
+"On Windows run certlm.msc or certmgr.msc\n"
+"and copy the certificate from\n"
+"<b>Remote Desktop>Certificates</b> to a file.\n"
+"Then obtain its fingerprint via\n"
+"\"certutil.exe -hashfile file SHA256\".\n"
+"\n"
+"If GNOME is used on the connected endpoint,\n"
+"the fingerprint can be verified in the <b>Settings>Sharing</b>\n"
+"panel or <b>Settings>System</b> panel under\n"
+"<b>Remote Desktop>Verify Encryption</b>."
+msgstr ""
+"Windows-da certlm.msc və ya certmgr.msc işə salın\n"
+"və sertifikatı\n"
+"<b>Remote Desktop>Certificates</b> bölməsindən fayla kopyalayın.\n"
+"Sonra onun barmaq izini\n"
+"\"certutil.exe -hashfile fayl SHA256\" ilə əldə edin.\n"
+"\n"
+"Qoşulan tərəfdə GNOME istifadə olunursa,\n"
+"barmaq izi <b>Tənzimləmələr>Paylaşım</b>\n"
+"panelində və ya <b>Tənzimləmələr>Sistem</b> panelində\n"
+"<b>Uzaq masaüstü>Şifrələməni yoxla</b> bölməsində yoxlanıla bilər."
+
+#: src/ui/dialog.ui:292
+msgid "Unexpected Certificate"
+msgstr "Gözlənilməz sertifikat"
+
+#: src/ui/dialog.ui:334
+msgid "Delete Local Certificate"
+msgstr "Yerli sertifikatı sil"
+
+#: src/ui/dialog.ui:387
+msgid "Authentication Required"
+msgstr "Autentifikasiya tələb olunur"
+
+#: src/ui/dialog.ui:439
+msgid "Username…"
+msgstr "İstifadəçi adı…"
+
+#: src/ui/dialog.ui:468
+msgid "Password…"
+msgstr "Şifrə…"
+
+#: src/ui/dialog.ui:519
+msgid "Domain…"
+msgstr "Domen…"
+
+#: src/ui/dialog.ui:540
+msgid ""
+"Domain field is commonly optional and can be\n"
+"left empty."
+msgstr ""
+"Domen sahəsi adətən ixtiyaridir və\n"
+"boş saxlanıla bilər."
+
+#: src/ui/dialog.ui:642
+msgid "Authenticate"
+msgstr "Autentifikasiya et"
+
+#: src/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "İcmal"
+
+#: src/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Kömək"
+
+#: src/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Axtar"
+
+#: src/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Klaviatura qısayolları"
+
+#: src/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çıx"
+
+#: src/ui/kbd-shortcuts-window.ui:59
+msgctxt "shortcut window"
+msgid "Connection Display"
+msgstr "Bağlantı ekranı"
+
+#: src/ui/kbd-shortcuts-window.ui:66
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
+msgid "Welcome to Connections"
+msgstr "Bağlantılara xoş gəlmisiniz"
+
+#: src/ui/onboarding-dialog.ui:43
+msgid "Click next to learn about remote desktop."
+msgstr "Uzaq masaüstü haqqında öyrənmək üçün “Növbəti” düyməsinə klikləyin."
+
+#: src/ui/onboarding-dialog.ui:50
+msgid "Access other desktops"
+msgstr "Digər masaüstlərinə çıxış"
+
+#: src/ui/onboarding-dialog.ui:51
+msgid ""
+"Connections allows viewing the screens of other desktops. They can also be "
+"controlled using the pointer and keyboard."
+msgstr ""
+"Bağlantılar digər masaüstlərinin ekranlarına baxmağa imkan verir. Onlar "
+"həmçinin göstərici və klaviatura ilə idarə edilə bilər."
+
+#: src/ui/onboarding-dialog.ui:58
+msgid "Connect to different operating systems"
+msgstr "Müxtəlif əməliyyat sistemlərinə qoşulun"
+
+#: src/ui/onboarding-dialog.ui:59
+msgid "You can access Linux, Mac, and Windows desktops."
+msgstr "Linux, Mac və Windows masaüstlərinə çıxış əldə edə bilərsiniz."
+
+#: src/ui/onboarding-dialog.ui:66
+msgid "Setup is required"
+msgstr "Quraşdırma tələb olunur"
+
+#: src/ui/onboarding-dialog.ui:67
+msgid ""
+"Remote desktop typically needs to be enabled on the computer you want to "
+"connect to."
+msgstr ""
+"Uzaq masaüstü adətən qoşulmaq istədiyiniz kompüterdə aktivləşdirilməlidir."
+
+#: src/ui/onboarding-dialog.ui:74
+msgid "Start by creating your first connection"
+msgstr "İlk bağlantınızı yaradaraq başlayın"
+
+#: src/ui/onboarding-dialog.ui:75
+msgid ""
+"To begin, you will need the address of the computer you want to connect to."
+msgstr "Başlamaq üçün qoşulmaq istədiyiniz kompüterin ünvanı lazım olacaq."
+
+#: src/ui/rdp-preferences.ui:9 src/ui/spice-preferences.ui:9
+#: src/ui/vnc-preferences.ui:9
+msgid "Connection preferences"
+msgstr "Bağlantı tənzimləmələri"
+
+#: src/ui/rdp-preferences.ui:22 src/ui/spice-preferences.ui:22
+#: src/ui/vnc-preferences.ui:22
+msgid "Address"
+msgstr "Ünvan"
+
+#: src/ui/rdp-preferences.ui:37 src/ui/spice-preferences.ui:37
+#: src/ui/vnc-preferences.ui:37
+msgid "Name"
+msgstr "Ad"
+
+#: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
+#: src/ui/vnc-preferences.ui:108
+msgid "Fit window"
+msgstr "Pəncərəyə sığdır"
+
+#: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
+#: src/ui/vnc-preferences.ui:109
+msgid "Original size"
+msgstr "Orijinal ölçü"
+
+#: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
+msgid "Enable audio"
+msgstr "Səsi aktivləşdir"
+
+#: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
+msgid "Scale mode"
+msgstr "Miqyas rejimi"
+
+#: src/ui/topbar.ui:18 src/ui/topbar.ui:22
+msgid "New"
+msgstr "Yeni"
+
+#: src/ui/topbar.ui:40 src/ui/topbar.ui:44
+msgid "Application Menu"
+msgstr "Tətbiq menyusu"
+
+#: src/ui/topbar.ui:66 src/ui/topbar.ui:73
+msgid "Search"
+msgstr "Axtar"
+
+#: src/ui/topbar.ui:103 src/ui/topbar.ui:108
+msgid "Go Back"
+msgstr "Geri qayıt"
+
+#: src/ui/topbar.ui:126 src/ui/topbar.ui:130
+msgid "Display Menu"
+msgstr "Ekran menyusu"
+
+#: src/ui/topbar.ui:150 src/ui/topbar.ui:155
+msgid "Disconnect"
+msgstr "Bağlantını kəs"
+
+#: src/ui/topbar.ui:177 src/ui/topbar.ui:230
+msgid "Keyboard Shortcuts"
+msgstr "Klaviatura qısayolları"
+
+#: src/ui/topbar.ui:181
+msgid "Keyboard shortcuts"
+msgstr "Klaviatura qısayolları"
+
+#: src/ui/topbar.ui:238
+msgid "About Connections"
+msgstr "Bağlantılar haqqında"
+
+#: src/ui/topbar.ui:263
+msgid "Ctrl + Alt + Backspace"
+msgstr "Ctrl + Alt + Backspace"
+
+#: src/ui/topbar.ui:270
+msgid "Ctrl + Alt + Del"
+msgstr "Ctrl + Alt + Del"
+
+#: src/ui/topbar.ui:277
+msgid "Ctrl + Alt + F1"
+msgstr "Ctrl + Alt + F1"
+
+#: src/ui/topbar.ui:284
+msgid "Ctrl + Alt + F2"
+msgstr "Ctrl + Alt + F2"
+
+#: src/ui/topbar.ui:291
+msgid "Ctrl + Alt + F3"
+msgstr "Ctrl + Alt + F3"
+
+#: src/ui/topbar.ui:298
+msgid "Ctrl + Alt + F7"
+msgstr "Ctrl + Alt + F7"
+
+#: src/ui/vnc-preferences.ui:54
+msgid "Display"
+msgstr "Ekran"
+
+#: src/ui/vnc-preferences.ui:59
+msgid "View only"
+msgstr "Yalnız baxış"
+
+#: src/ui/vnc-preferences.ui:66
+msgid "Show local pointer"
+msgstr "Yerli göstəricini göstər"
+
+#: src/ui/vnc-preferences.ui:81
+msgid "Bandwidth"
+msgstr "Ötürmə zolağı"
+
+#: src/ui/vnc-preferences.ui:88
+msgid "High quality"
+msgstr "Yüksək keyfiyyət"
+
+#: src/ui/vnc-preferences.ui:89
+msgid "Fast refresh"
+msgstr "Sürətli yeniləmə"
+
+#: src/ui/window.ui:53
+msgid "Click the add button to create your first connection"
+msgstr "İlk bağlantınızı yaratmaq üçün əlavə et düyməsinə klikləyin"
+
+#: src/vnc-connection.vala:150
+msgid "Couldn’t parse the file"
+msgstr "Faylı təhlil etmək mümkün olmadı"
+
+#. Translators: %s is a VNC file key
+#: src/vnc-connection.vala:158 src/vnc-connection.vala:163
+#: src/vnc-connection.vala:168 src/vnc-connection.vala:173
+#, c-format
+msgid "VNC File is missing key “%s”"
+msgstr "VNC faylında “%s” açarı yoxdur"
