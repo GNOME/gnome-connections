@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the gnome-connections package.
 # Zander Brown <zbrown@gnome.org>, 2021.
 # Andi Chandler <andi@gowling.com>, 2024.
-# Bruce Cowan <bruce@bcowan.me.uk>, 2020-2025.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2020-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections gnome-3-38\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-09-04 16:13+0000\n"
-"PO-Revision-Date: 2025-09-09 13:00+0100\n"
+"POT-Creation-Date: 2026-10-07 07:25+0000\n"
+"PO-Revision-Date: 2026-11-07 10:14+0000\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
@@ -19,7 +19,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 48.0\n"
+"X-Generator: Gtranslator 51.0\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/GNOME/gnome-connections\n"
+"X-DL-Lang: en_GB\n"
+"X-DL-Module: gnome-connections\n"
+"X-DL-Branch: master\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
@@ -65,8 +71,25 @@ msgstr ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
 
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Create a Connection"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Connection Display"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Preferences Window"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "A Windows Connection"
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "The GNOME Project"
 
@@ -90,65 +113,65 @@ msgstr ""
 "Zander Brown <zbrown@gnome.org>\n"
 "Andi Chandler <andi@gowling.com>"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "A remote desktop client for the GNOME desktop environment"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Couldn’t open file of unknown mime type %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Connection to “%s” has been deleted"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Undo"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "URL to connect"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Open .vnc or .rdp file at the given PATH"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "PATH"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
 msgstr "Open in full screen"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Too many command-line arguments specified.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Screenshot from %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Screenshot taken"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Open"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Authentication failed: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -159,7 +182,7 @@ msgstr ""
 "machine it claims to be, please verify the fingerprints match. This process "
 "is only done once."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -168,7 +191,7 @@ msgstr ""
 "The remote server “%s” certificate doesn't match the local copy. It may be "
 "someone pretending to be the server."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -178,7 +201,7 @@ msgstr ""
 "continue to connect:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -214,16 +237,16 @@ msgid "Connection Type"
 msgstr "Connection Type"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (standard for connecting to Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (Standard, high performance)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (standard for connecting to Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (Legacy)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (for connecting to remote VMs)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Virtual machines)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -254,7 +277,7 @@ msgstr "Open Connection"
 msgid "Verify"
 msgstr "Verify"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -298,19 +321,19 @@ msgstr "Delete Local Certificate"
 msgid "Authentication Required"
 msgstr "Authentication Required"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Username…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Password…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Domain…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -318,7 +341,7 @@ msgstr ""
 "Domain field is commonly optional and can be\n"
 "left empty."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Authenticate"
 
