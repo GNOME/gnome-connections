@@ -3,26 +3,28 @@
 # This file is distributed under the same license as the gnome-connections package.
 # Piotr Drąg <piotrdrag@gmail.com>, 2020-2025.
 # Aviary.pl <community-poland@mozilla.org>, 2020-2025.
+# Marcel Mrówka <micro.mail88@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
 "issues\n"
-"POT-Creation-Date: 2025-08-26 06:17+0000\n"
-"PO-Revision-Date: 2025-08-27 12:28+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <community-poland@mozilla.org>\n"
+"POT-Creation-Date: 2026-07-29 15:01+0000\n"
+"PO-Revision-Date: 2026-11-15 12:27+0100\n"
+"Last-Translator: Marcel Mrówka <micro.mail88@gmail.com>\n"
+"Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 51.0\n"
 
 #: data/org.gnome.Connections.desktop.in:2
 #: data/org.gnome.Connections.metainfo.xml.in:7 src/application.vala:92
-#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:115
+#: src/ui/topbar.ui:9 src/ui/window.ui:5 src/window.vala:123
 msgid "Connections"
 msgstr "Połączenia"
 
@@ -43,9 +45,9 @@ msgid ""
 "system. It can also be used as a way to provide support to users who might "
 "need help."
 msgstr ""
-"Menedżer połączeń umożliwia łączenie się i używanie innych komputerów. To "
+"Połączenia umożliwiają łączenie się z innymi komputerami i używanie ich. To "
 "świetny sposób na korzystanie z treści lub oprogramowania na innym systemie "
-"operacyjnym. Może też być używany do udzielania pomocy innym użytkownikom."
+"operacyjnym. Mogą też być używane do udzielania pomocy innym użytkownikom."
 
 #: data/org.gnome.Connections.metainfo.xml.in:13
 msgid ""
@@ -60,11 +62,28 @@ msgid ""
 "Connections uses the widely supported VNC and RDP protocols, and one of "
 "these must be enabled on the desktop that you want to connect to."
 msgstr ""
-"Menedżer połączeń używa szeroko obsługiwanych protokołów VNC i RDP, i jeden "
-"z nich musi być włączony na pulpicie, z którym nastąpi połączenie."
+"Połączenia używają szeroko obsługiwanych protokołów VNC i RDP, jeden z nich "
+"musi być włączony na komputerze, z którym nastąpi połączenie."
+
+#: data/org.gnome.Connections.metainfo.xml.in:23
+msgid "Create a Connection"
+msgstr "Tworzenie połączenia"
+
+#: data/org.gnome.Connections.metainfo.xml.in:27
+msgid "Connection Display"
+msgstr "Wyświetlanie połączenia"
+
+#: data/org.gnome.Connections.metainfo.xml.in:31
+msgid "Preferences Window"
+msgstr "Okno preferencji"
+
+#: data/org.gnome.Connections.metainfo.xml.in:35
+msgid "A Windows Connection"
+msgstr "Połączenie z systemem Windows"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Connections.metainfo.xml.in:41
+#: data/org.gnome.Connections.metainfo.xml.in:45
+#: data/org.gnome.Connections.metainfo.xml.in:47
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
@@ -84,67 +103,68 @@ msgstr "Właściwości"
 msgid "translator-credits"
 msgstr ""
 "Piotr Drąg <piotrdrag@gmail.com>, 2020-2025\n"
-"Aviary.pl <community-poland@mozilla.org>, 2020-2025"
+"Aviary.pl <community-poland@mozilla.org>, 2020-2025\n"
+"Marcel Mrówka <micro.mail88@gmail.com>, 2026"
 
-#: src/application.vala:89 src/application.vala:246
+#: src/application.vala:89 src/application.vala:252
 msgid "A remote desktop client for the GNOME desktop environment"
 msgstr "Klient zdalnego pulpitu dla środowiska GNOME"
 
-#: src/application.vala:155
+#: src/application.vala:161
 #, c-format
 msgid "Couldn’t open file of unknown mime type %s"
 msgstr "Nie można otworzyć pliku o nieznanym typie MIME %s"
 
-#: src/application.vala:186
+#: src/application.vala:192
 #, c-format
 msgid "Connection to “%s” has been deleted"
 msgstr "Usunięto połączenie z „%s”"
 
-#: src/application.vala:189
+#: src/application.vala:195
 msgid "Undo"
 msgstr "Cofnij"
 
-#: src/application.vala:236
+#: src/application.vala:242
 msgid "URL to connect"
 msgstr "Adres URL do połączenia"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "Open .vnc or .rdp file at the given PATH"
 msgstr "Otwiera plik .vnc lub .rdp w podanej ŚCIEŻCE"
 
-#: src/application.vala:237
+#: src/application.vala:243
 msgid "PATH"
 msgstr "ŚCIEŻKA"
 
-#: src/application.vala:238
+#: src/application.vala:244
 msgid "Open in full screen"
-msgstr "Otwiera na pełnym ekranie"
+msgstr "Otwiera w trybie pełnoekranowym"
 
-#: src/application.vala:261
+#: src/application.vala:267
 msgid "Too many command-line arguments specified.\n"
 msgstr "Podano za dużo parametrów wiersza poleceń.\n"
 
 #. Translators: %s => the timestamp of when the screenshot was taken.
-#: src/connection.vala:70
+#: src/connection.vala:73
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Zrzut ekranu z %s"
 
-#: src/connection.vala:85
+#: src/connection.vala:88
 msgid "Screenshot taken"
 msgstr "Wykonano zrzut ekranu"
 
 #. Translators: Open is a verb
-#: src/connection.vala:88
+#: src/connection.vala:91
 msgid "Open"
 msgstr "Otwórz"
 
-#: src/connection.vala:205
+#: src/connection.vala:208
 #, c-format
 msgid "Authentication failed: %s"
 msgstr "Uwierzytelnienie się nie powiodło: %s"
 
-#: src/dialogs.vala:167
+#: src/dialogs.vala:313
 #, c-format
 msgid ""
 "Connecting to “%s” for the first time. To be sure you're connecting to the "
@@ -155,7 +175,7 @@ msgstr ""
 "który się podaje, należy zweryfikować, czy odciski się zgadzają. Ten proces "
 "jest wykonywany tylko raz."
 
-#: src/dialogs.vala:201
+#: src/dialogs.vala:347
 #, c-format
 msgid ""
 "The remote server “%s” certificate doesn't match local copy. It may be "
@@ -164,7 +184,7 @@ msgstr ""
 "Certyfikat zdalnego serwera „%s” nie zgadza się z lokalną kopią. Ktoś może "
 "się pod niego podszywać."
 
-#: src/dialogs.vala:241
+#: src/dialogs.vala:387
 #, c-format
 msgid ""
 "The remote server “%s” requires the following authentication details to "
@@ -174,7 +194,7 @@ msgstr ""
 "kontynuować łączenie:"
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-view.vala:156
+#: src/display-view.vala:155
 #, c-format
 msgid "%d×%d"
 msgstr "%d×%d"
@@ -191,7 +211,7 @@ msgstr "_Zamknij"
 #: src/rdp-preferences-window.vala:49 src/ui/spice-preferences.ui:67
 #: src/ui/vnc-preferences.ui:107
 msgid "Resize desktop"
-msgstr "Zmiana rozmiaru pulpitu"
+msgstr "Zmieniaj rozmiar pulpitu"
 
 #: src/topbar.vala:58 src/ui/topbar.ui:245
 msgid "Take Screenshot"
@@ -210,16 +230,16 @@ msgid "Connection Type"
 msgstr "Typ połączenia"
 
 #: src/ui/assistant.ui:63
-msgid "RDP (standard for connecting to Windows)"
-msgstr "RDP (standard do łączenia się z system Windows)"
+msgid "RDP (Standard, high performance)"
+msgstr "RDP (Standardowe, wysoka wydajność)"
 
 #: src/ui/assistant.ui:72
-msgid "VNC (standard for connecting to Linux)"
-msgstr "VNC (standard do łączenia się z system Linux)"
+msgid "VNC (Legacy)"
+msgstr "VNC (Przestarzałe)"
 
 #: src/ui/assistant.ui:81
-msgid "SPICE (for connecting to remote VMs)"
-msgstr "SPICE (do łączenia się ze zdalnymi maszynami wirtualnymi)"
+msgid "SPICE (Virtual machines)"
+msgstr "SPICE (Maszyny wirtualne)"
 
 #: src/ui/assistant.ui:99 src/ui/topbar.ui:234
 msgid "Help"
@@ -231,7 +251,7 @@ msgstr "Połącz"
 
 #: src/ui/auth-notification.ui:39
 msgid "_Username"
-msgstr "_Nazwa użytkownika"
+msgstr "Nazwa _użytkownika"
 
 #: src/ui/auth-notification.ui:71
 msgid "_Password"
@@ -250,13 +270,13 @@ msgstr "Otwarcie połączenia"
 msgid "Verify"
 msgstr "Zweryfikuj"
 
-#: src/ui/dialog.ui:105 src/ui/dialog.ui:613
+#: src/ui/dialog.ui:105 src/ui/dialog.ui:616
 msgid "Cancel"
 msgstr "Anuluj"
 
 #: src/ui/dialog.ui:144
 msgid "Verify Fingerprint"
-msgstr "Weryfikacja odcisku"
+msgstr "Zweryfikuj odcisk"
 
 #: src/ui/dialog.ui:211
 msgid ""
@@ -289,25 +309,25 @@ msgstr "Nieoczekiwany certyfikat"
 
 #: src/ui/dialog.ui:334
 msgid "Delete Local Certificate"
-msgstr "Usunięcie lokalnego certyfikatu"
+msgstr "Usuń lokalny certyfikat"
 
 #: src/ui/dialog.ui:387
 msgid "Authentication Required"
 msgstr "Wymagane jest uwierzytelnienie"
 
-#: src/ui/dialog.ui:438
+#: src/ui/dialog.ui:439
 msgid "Username…"
 msgstr "Nazwa użytkownika…"
 
-#: src/ui/dialog.ui:466
+#: src/ui/dialog.ui:468
 msgid "Password…"
 msgstr "Hasło…"
 
-#: src/ui/dialog.ui:516
+#: src/ui/dialog.ui:519
 msgid "Domain…"
 msgstr "Domena…"
 
-#: src/ui/dialog.ui:537
+#: src/ui/dialog.ui:540
 msgid ""
 "Domain field is commonly optional and can be\n"
 "left empty."
@@ -315,7 +335,7 @@ msgstr ""
 "Pole domeny jest często opcjonalne i może zostać\n"
 "pozostawione puste."
 
-#: src/ui/dialog.ui:639
+#: src/ui/dialog.ui:642
 msgid "Authenticate"
 msgstr "Uwierzytelnij"
 
@@ -347,20 +367,20 @@ msgstr "Zakończenie działania"
 #: src/ui/kbd-shortcuts-window.ui:59
 msgctxt "shortcut window"
 msgid "Connection Display"
-msgstr "Wyświetlanie połączenia"
+msgstr "Wyświetlenie połączenia"
 
 #: src/ui/kbd-shortcuts-window.ui:66
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Pełny ekran"
 
-#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:51
+#: src/ui/onboarding-dialog.ui:42 src/ui/window.ui:52
 msgid "Welcome to Connections"
-msgstr "Witamy w menedżerze połączeń"
+msgstr "Witamy w Połączeniach"
 
 #: src/ui/onboarding-dialog.ui:43
 msgid "Click next to learn about remote desktop."
-msgstr "Kliknięcie „Dalej” wyświetli informacje o funkcji zdalnego pulpitu."
+msgstr "Kliknij „Dalej”, aby dowiedzieć się więcej o pulpitach zdalnych."
 
 #: src/ui/onboarding-dialog.ui:50
 msgid "Access other desktops"
@@ -371,8 +391,8 @@ msgid ""
 "Connections allows viewing the screens of other desktops. They can also be "
 "controlled using the pointer and keyboard."
 msgstr ""
-"Menedżer połączeń umożliwia wyświetlanie ekranów innych komputerów. Można "
-"także sterować nimi za pomocą myszy i klawiatury."
+"Połączenia umożliwiają wyświetlanie ekranów innych komputerów. Można także "
+"sterować nimi za pomocą myszy i klawiatury."
 
 #: src/ui/onboarding-dialog.ui:58
 msgid "Connect to different operating systems"
@@ -421,7 +441,7 @@ msgstr "Nazwa"
 #: src/ui/rdp-preferences.ui:53 src/ui/spice-preferences.ui:68
 #: src/ui/vnc-preferences.ui:108
 msgid "Fit window"
-msgstr "Dopasowanie do okna"
+msgstr "Dopasuj do okna"
 
 #: src/ui/rdp-preferences.ui:54 src/ui/spice-preferences.ui:69
 #: src/ui/vnc-preferences.ui:109
@@ -430,7 +450,7 @@ msgstr "Oryginalny rozmiar"
 
 #: src/ui/spice-preferences.ui:52 src/ui/vnc-preferences.ui:73
 msgid "Enable audio"
-msgstr "Dźwięk"
+msgstr "Włącz dźwięk"
 
 #: src/ui/spice-preferences.ui:60 src/ui/vnc-preferences.ui:100
 msgid "Scale mode"
@@ -442,11 +462,11 @@ msgstr "Nowe"
 
 #: src/ui/topbar.ui:40 src/ui/topbar.ui:44
 msgid "Application Menu"
-msgstr "Menu programu"
+msgstr "Menu aplikacji"
 
 #: src/ui/topbar.ui:66 src/ui/topbar.ui:73
 msgid "Search"
-msgstr "Wyszukiwanie"
+msgstr "Wyszukaj"
 
 #: src/ui/topbar.ui:103 src/ui/topbar.ui:108
 msgid "Go Back"
@@ -470,31 +490,31 @@ msgstr "Skróty klawiszowe"
 
 #: src/ui/topbar.ui:238
 msgid "About Connections"
-msgstr "O programie"
+msgstr "O aplikacji"
 
 #: src/ui/topbar.ui:263
 msgid "Ctrl + Alt + Backspace"
-msgstr "Ctrl+Alt+Backspace"
+msgstr "Ctrl + Alt + Backspace"
 
 #: src/ui/topbar.ui:270
 msgid "Ctrl + Alt + Del"
-msgstr "Ctrl+Alt+Delete"
+msgstr "Ctrl + Alt + Delete"
 
 #: src/ui/topbar.ui:277
 msgid "Ctrl + Alt + F1"
-msgstr "Ctrl+Alt+F1"
+msgstr "Ctrl + Alt + F1"
 
 #: src/ui/topbar.ui:284
 msgid "Ctrl + Alt + F2"
-msgstr "Ctrl+Alt+F2"
+msgstr "Ctrl + Alt + F2"
 
 #: src/ui/topbar.ui:291
 msgid "Ctrl + Alt + F3"
-msgstr "Ctrl+Alt+F3"
+msgstr "Ctrl + Alt + F3"
 
 #: src/ui/topbar.ui:298
 msgid "Ctrl + Alt + F7"
-msgstr "Ctrl+Alt+F7"
+msgstr "Ctrl + Alt + F7"
 
 #: src/ui/vnc-preferences.ui:54
 msgid "Display"
@@ -520,9 +540,9 @@ msgstr "Wysoka jakość"
 msgid "Fast refresh"
 msgstr "Szybkie odświeżanie"
 
-#: src/ui/window.ui:52
+#: src/ui/window.ui:53
 msgid "Click the add button to create your first connection"
-msgstr "Kliknięcie przycisku „Dodaj” umożliwi utworzenie pierwszego połączenia"
+msgstr "Kliknij przycisk „Dodaj”, aby utworzyć pierwsze połączenie"
 
 #: src/vnc-connection.vala:150
 msgid "Couldn’t parse the file"
