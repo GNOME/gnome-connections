@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-connections master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/issues\n"
-"POT-Creation-Date: 2026-07-29 15:01+0000\n"
-"PO-Revision-Date: 2026-09-08 00:05+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-connections/"
+"issues\n"
+"POT-Creation-Date: 2026-10-07 07:25+0000\n"
+"PO-Revision-Date: 2026-11-19 00:43+0100\n"
 "Last-Translator: Ask Hjorth Larsen <askhl@proton.me>\n"
 "Language-Team: Danish <danskgruppen@groups.io>\n"
 "Language: da\n"
@@ -27,7 +28,7 @@ msgstr "Forbindelser"
 #. not a desktop window or a pane of glass in the side of a building
 #: data/org.gnome.Connections.desktop.in:9
 msgid "vnc;rdp;remote;desktop;windows;support;access;view"
-msgstr "vnc;rdp;fjern;remote;desktop;;skrivebord;windows;support;hjælp;adgang;tilgang;tilgå;vis"
+msgstr "vnc;rdp;fjern;remote;desktop;skrivebord;windows;support;hjælp;adgang;tilgang;tilgå;vis"
 
 #: data/org.gnome.Connections.metainfo.xml.in:8
 msgid "View and use other desktops"
